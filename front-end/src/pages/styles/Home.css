@@ -1,0 +1,348 @@
+@media (min-width: 768px) {
+.carousel-title{
+      will-change: transform;
+    transition: transform 450ms ease-in-out;
+    transform: translateY(100px);
+    opacity: 0;
+    animation: slideTop 1.2s ease-in-out forwards alternate;
+    overflow: hidden;
+}
+}
+@media (min-width: 768px) {
+.caroussel-1
+
+{
+    transition: transform 250ms ease-out, opacity 250ms;
+    transform: translateX(0px);
+    opacity: 1;
+    overflow: hidden;
+  }
+  @keyframes  slideTop  {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 1; /* L'élément disparaît pour recommencer */
+      transform: translateY(0px);
+    }
+  }
+}
+.caroussel-2{
+      will-change: transform;
+    transition: transform 450ms ease-in-out;
+    transform: translateX(100px);
+    opacity: 0;
+    animation: slideLeft 7s ease-in-out forwards alternate;
+    overflow: hidden;
+}
+.caroussel-3 {
+     transition: transform 450ms ease-out, opacity 250ms;
+    transform: translateX(0px);
+    opacity: 1;
+    overflow: hidden;
+  
+  @keyframes  slideLeft  {
+    0% {
+      opacity: 0;
+      transform: translateX(0px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 1; /* L'élément disparaît pour recommencer */
+      transform: translateX(0px);
+    }
+  } 
+}
+.caroussel-button {
+  opacity: 0;
+  animation: slideUp 1.2s ease-in-out forwards;
+  animation-delay: 3s; /* ⏱ modifie si tu veux le faire apparaître plus tard */
+}
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px); /* Départ en bas */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Arrive à sa position */
+  }
+}
+
+.rec-background {
+     background-image: url('../images/background-rec.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: #ffff;
+  width: 1440px;
+  height: 1019px;
+ padding-bottom: 50px;
+ }
+.rectangle-3 {
+  position: absolute;
+ }
+.rectangle-4 {
+  position: absolute;
+  bottom:850px;
+right: 0;
+}
+.img-home1 {
+  margin-top: -2rem;
+}
+.img-home2 {
+position: absolute;
+top: 20%;
+right: 60%;
+z-index: 0;
+
+}
+.img-tampon {
+  top:1%;
+right: 45%;
+z-index: 1;
+}
+
+.img-homes {
+  margin-left: -4%;
+}
+.img-home3 {
+  top: 15%;
+  left: 43%;
+}
+.img-home4 {
+  top: 60%;
+  left: 43%;
+}
+.img-radius {
+   background-image: url('../images/rectangle-radius.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 364px;
+  width: 343px;
+  
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #A8A2A5;
+  border-radius: 50%;
+ 
+}
+
+.bg-red {
+  background-color: #AD2E43;
+}
+@media (min-width: 768px) {
+.bg-home {
+     background-image: url('../assets/bg-home.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 321px;
+  width: 1525px; /* ⚠️ remplace la largeur fixe */
+ 
+  margin-left: -120px;
+  background-color: #262525;
+}
+}
+/*button drop*/
+.custom-button {
+  border-radius: 20px;
+  padding: 10px 20px;
+  z-index: 1000;
+  position: relative;
+  background-color: #AD2E43;
+  color: #fff;
+  padding: 6px 20px 5px 15px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Poppins;
+}
+.custom-button2 {
+  border-radius: 20px;
+  padding: 10px 20px;
+  z-index: 1000;
+  position: relative;
+  background-color: #AD2E43;
+  color: #fff;
+  padding: 6px 20px 5px 15px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Poppins;
+}
+.custom-button:hover {
+  background-color: #fff;
+  color: #AD2E43;
+}
+.custom-button2:hover {
+  background-color: #fff;
+  color: #AD2E43;
+}
+
+
+.arrow-icon {
+  margin-left: 0px;
+  margin-top: 5px;
+ padding-top: 10px;
+  font-weight: 600;
+  font-size: 25px;
+
+}
+.arrow-icon2 {
+  margin-left: 0px;
+  margin-top: 5px;
+ padding-top: 10px;
+  font-weight: 600;
+  font-size: 25px;
+
+}
+.slide-panel {
+  display: none;
+}
+.slide-panel2 {
+  display: none;
+}
+.slide-panel.open {
+  display: block;
+}
+.slide-panel2.open2 {
+  display: block;
+}
+@media (min-width: 768px) {
+.slide-panel {
+  position: absolute;
+ bottom: -1980px;/* ajuste si besoin */
+  left: -300px;
+  width: 300px;
+  font-size: 15px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  transition: left 0.3s ease;
+  z-index: 999;
+}
+}
+@media (min-width: 768px) {
+.slide-panel2 {
+  position: absolute;
+ bottom: -150px;/* ajuste si besoin */
+  left: 155px;
+  width: 300px;
+  font-size: 15px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  transition: left 0.3s ease;
+  z-index: 1;
+}
+}
+@media (min-width: 768px) {
+.slide-panel.open {
+  left: 880px;
+}
+}
+@media (min-width: 768px) {
+.slide-panel.open2 {
+  left: 880px;
+}
+}
+/*testimonial*/
+.img-testimonial {
+   background-image: url('../assets//rec-testimonial.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 364px;
+  width: 343px;
+}
+.img-test {
+ position: absolute;
+ left: 150px;
+top: -20px;
+}
+/*bg-number*/
+@media (min-width: 768px) {
+.bg-number {
+     background-image: url('../images//back-number.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 321px;
+  width: 1525px; /* ⚠️ remplace la largeur fixe */
+ 
+  margin-left: -120px;
+  background-color: #262525;
+}
+}
+.student-container {
+    background-color: #cccccc;
+  width: 1510px;
+  height: 811px;
+  max-width: 1510px;
+  min-height: 1000px;
+margin-left: -100px;
+  box-sizing: border-box;
+  
+}
+/*hover button*/
+.web-development {
+  
+  max-width: 400px;
+  color: #fff;
+ 
+ 
+}
+.web-development:hover {
+  background-color: #fff;
+  margin-bottom: 50px;
+  transition: all 0.5s;
+  }
+.web-development:hover img {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+.web-development button {
+  visibility: hidden;
+  will-change: transform;
+  transition: transform 450ms;
+  transform: translateY(50px);
+}
+.web-development:hover button {
+  visibility: visible;
+  transition: transform 250ms;
+  transform: translateY(-10px);
+}
+/*hover button*/
+.back-video {
+  background-image: url('../images//bg6.jpg');
+  }
+.card-video {
+  background-color: #ffff;
+  width: 400px;
+  height: 340px;
+  text-align: center;
+  border-radius: 25px;
+}
+.btn-video {
+  width:100%;
+}
+
+.border-video:hover {
+color: #000 !important
+}

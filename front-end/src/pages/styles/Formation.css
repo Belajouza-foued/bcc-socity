@@ -1,0 +1,84 @@
+
+
+   @media (min-width: 768px) {
+  .formation3 {
+font-weight:500;
+font-size:18px;
+color:#393738;
+font-family:Poppins
+  }
+}
+  @media (min-width: 768px) {
+.formation2 {
+  letter-spacing:1.5px;
+  line-height: 0.5;
+}
+  }
+
+.accordion-button::after {
+  color: white !important; /* Définir la couleur de la flèche en blanc */
+  font-size: 1.25rem; /* Vous pouvez ajuster la taille de l'icône de la flèche */
+}
+.accordion-button::after {
+  filter: invert(1);
+  mix-blend-mode: difference;
+}
+.accordion-button:hover {
+  background-color: white !important;
+
+ border-radius: 20px;
+  
+}
+.accordion {
+    width: 25%;
+   }
+
+.accordion-button {
+  background: #5B99D3 !important;
+  color: black !important; /* Texte noir */
+ 
+}
+
+.back-img2 {
+  background-image: url('../images/second-back.png');
+  height: 450px;
+  width: 420px;
+  background-color: white;
+  border-radius: 20px;
+   
+}
+
+.content-overlay {
+    padding: 8px;
+    background-color: #fff;
+    border-radius:0px 0px 20px 20px;
+    width: 100%;
+}
+.borderhome2 {
+    text-align: start;
+}
+.content-overlay:hover {
+    padding: 8px;
+    background-color: #5B99D3;
+    border-radius:0px 0px 20px 20px;
+}
+button.button-250:hover {
+background-color: black;
+}
+.button-250 {
+  font-size: 14px;
+  font-family: "Poppins";
+  background-color:#AD2E43;
+  border-radius: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.formation-container {
+  padding-bottom: 200px;
+}
+
+ 
+    

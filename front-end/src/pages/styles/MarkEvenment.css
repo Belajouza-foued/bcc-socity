@@ -1,0 +1,61 @@
+.digital-container {
+padding-bottom: 350px;
+}
+.calendar-position {
+    max-width: 600px;
+}
+.icon-position  {
+    max-width: 1000px;
+}
+.btn-markEvenmnt {
+    background-color: #AD2E43;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.button-mark {
+    font-size: 20px;
+    background-color: #AD2E43;
+    border-radius: 50px;
+}
+
+.baffle-container {
+     background-image: url('../images/Rejoignez-nous.png');
+  background-size: cover;
+  position: relative;
+  height: 380px;
+  width: 1000px;
+  }
+  .title-baffle {
+    position: absolute;
+   bottom: 370px;
+   left: 185px;
+  
+
+  }
+  .img-baffle {
+    width: 500px;
+    height: 560px;
+    position: absolute;
+    z-index: 2;
+    left: 25px;
+    
+  }
+  .image-baffle {
+    object-fit: cover;
+    display: block;
+position: absolute;
+bottom: 100%;
+
+  }
+  .logo-map {
+    position: absolute;
+   top: 270px;
+   left: 300px;
+   
+  }
+  @media (min-width: 768px) {
+  .card-position1 {
+    max-width: 1250px;
+    margin-left: 50px;
+  }
+}

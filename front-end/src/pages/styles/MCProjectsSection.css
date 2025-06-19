@@ -1,0 +1,41 @@
+.back-img {
+  background-image: url('../images/back-img.png');
+  height:450px;
+  width: 420px;
+  background-color: white;
+  border-radius: 20px;
+   
+}
+
+.back-img2 {
+  background-image: url('../images/second-back.png');
+  height: 450px;
+  width: 420px;
+  background-color: white;
+  border-radius: 20px;
+   
+}
+.content-overlay {
+    padding: 8px;
+    background-color: #fff;
+    border-radius:0px 0px 20px 20px;
+}
+.borderhome2 {
+    text-align: start;
+}
+.content-overlay:hover {
+    padding: 8px;
+    background-color: #5B99D3;;
+    border-radius:0px 0px 20px 20px;
+}
+button.button-250:hover {
+background-color: black;
+}
+.formation-container {
+  padding-bottom: 200px;
+}
+.button-250 {
+  font-size: 14px;
+  font-family: "Poppins";
+  background-color:#AD2E43;
+}

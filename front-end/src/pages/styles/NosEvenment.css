@@ -1,0 +1,64 @@
+.back-img6 {
+  background-image: url('../images/mask-2.png');
+  height:500px;
+  width: 550px;
+  background-color: white;
+  border-radius: 20px;
+   }
+   .content-overlay1 {
+    padding: 6px;
+    height: 120px;
+    background-color: #fff;
+    border-radius:0px 0px 20px 20px;
+}
+.title-container {
+    padding: 6px;
+    background-color: #5D96CF ;
+    height: px;
+    border-radius: 15px;
+}
+
+.text-marketing {
+    text-align: justify;
+   font-family: Poppins;
+   letter-spacing: 1.5px;
+   max-width: 580px;
+   font-size: 13px;
+   font-weight: 500;
+}
+.date-container {
+    padding: 2px;
+    background-color: #5D96CF;
+   font-size: 10px;
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
+   }
+   /*accordion button*/
+
+.accordion-button1:hover {
+  background-color: white !important;
+color: #AD2E43 !important;
+ border-radius: 20px;
+ 
+}
+   .accordion1  {
+    width: 174px;
+    
+ 
+}
+
+.accordion-button1 {
+    width: 174px;
+    height: 48px;
+  background: #AD2E43 !important;
+  color: #fff !important; /* Texte noir */
+   font-size: 20px !important; /* ou 14px si tu veux plus petit */
+  padding: 10px 15px;
+  font-weight: 700;
+ border: none;
+
+}
+.nosEvenment-container {
+  padding-bottom: 200px;
+}

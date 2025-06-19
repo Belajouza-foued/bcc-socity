@@ -1,0 +1,22 @@
+.text-blog {
+    text-align: justify;
+  font-weight: Poppins;
+   letter-spacing: 1px;
+   max-width: 580px;
+   font-size: 16px;
+   font-weight: 400;
+   padding-left: 25px;
+  
+   
+ 
+   color: #393738;
+}
+.btn-class {
+    font-size: 15px;
+    border-radius: 25px;
+       background-color: #5b99d3;
+}
+.blog-container {
+  padding-bottom: 200px;
+
+}

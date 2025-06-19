@@ -1,0 +1,41 @@
+
+.logo-connect {
+    position: absolute;
+    top: 135px;
+    left: 193px;
+}
+.custom-connect {
+    height: 230px;
+}
+.btn-connect {
+    background-color: #AD2E43;
+}
+.text-service {
+    position: absolute;
+    z-index: 1;
+    bottom: 380px;
+    left: 465px;
+}
+.image-service{
+  background-image: url('../images/img-service.png');
+text-align: center;
+  width: 861px;
+  height: 400px;
+   background-size: cover;
+  position: relative;
+   
+}
+.digital-service {
+    padding-bottom: 320px;
+}
+@media (min-width: 768px) {
+.img-mega {
+    right: 165px;
+    position: absolute;
+    text-align: center;
+    top: 140px;
+}
+}
+.connect-container {
+    margin-top: 80px;
+}
