@@ -1,0 +1,12 @@
+# dépendances
+node_modules/
+
+# fichiers de config sensibles
+.env
+
+# fichiers temporaires ou système
+*.log
+.DS_Store
+
+# fichiers uploadés localement
+uploads/
