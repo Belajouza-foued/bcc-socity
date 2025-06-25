@@ -27,6 +27,7 @@ import imgHr from './assets/icon-hr.png'
 import YouTube from 'react-youtube';
 import { Link } from 'react-router-dom';
 import image5 from './images/clock.png'
+import logoVideo from '../pages/images/Logo.png'
 const Home  = () => {
   const [open,setOpen] = useState(false)
    const [open2,setOpen2] = useState(false)
@@ -42,7 +43,7 @@ const Home  = () => {
   const opts = {
     height: '400',
     width: '600',
-    playerVars: {
+     playerVars: {
       autoplay: 1,
       mute: 1,
       controls: 1,
@@ -67,8 +68,8 @@ const Home  = () => {
       <img src={image8} className="d-block w-100" alt=""/>
       <div className="text-start h-75 carousel-caption d-md-block">
         <div className='carousel-title text-start'>
-        <h1 className='caroussel-1' style={{fontSize:"55px",fontWeight:"600",fontFamily:"Poppins"}}>Best Challenge Center</h1>
-        <p className='caroussel-1' style={{fontWeight:'500',fontSize:'30px',fontFamily:"Poppins"}}>Formations & Consulting</p>
+        <h1 className='caroussel-1' style={{fontSize:"40px",fontWeight:"600",fontFamily:"Poppins"}}>Best Challenge Center</h1>
+        <p className='caroussel-1' style={{fontWeight:'500',fontSize:'20px',fontFamily:"Poppins"}}>Formations & Consulting</p>
         </div>
         <div className='caroussel-2'>
               <p className='caroussel-3' style={{fontWeight:'200',fontSize:'17px',fontFamily:"Poppins"}}>Cabinet de formation professionnelle,de consulting, et de<br/>développements informatiques Etudes,Conseil,Formation<br></br>et Audit </p>
@@ -121,7 +122,7 @@ const Home  = () => {
   </div>
   
     {/*image button hover*/}
-    <div className='col-lg-6 col-sm-12'style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center'}} >
+    <div className='col-lg-6 col-sm-12'style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}} >
     <div className='container position-home ps-5 me-2'style={{lineHeight:"1.4",maxWidth:"600px",letterSpacing:"1.5px"}}>
     <h1 className='pt-2' style={{color:"#A6354D",fontSize:"20px",fontWeight:"500"}}>Why chose</h1>
     <h2 className='pt-2' style={{fontFamily:'Poppins',color:"#2B2B2B",fontSize:"38px",fontWeight:"600"}}>Assisting individuals in locating the appropriate real estate.</h2>
@@ -132,21 +133,22 @@ const Home  = () => {
        </div>
       </div>
       </div>
-      <div className='col-lg-6 col-sm-12 position-relative'>
-        <div className='position-image'>
-        <div className='image-tampon text-center'style={{zIndex:""}}>
-          <img className='img-tampon img-fluid position-absolute'  src={imgTampon} alt=''/>
-          <img className='img-home2 img-fluid position-absolute' src={imgHome2} style={{zIndex:""}} alt=''/>
-         <img className='img-home3 img-fluid position-absolute' src={imgHome3} style={{zIndex:""}} alt=''/>
-        <img className='img-home4 img-fluid position-absolute' src={imgHome4} style={{zIndex:""}} alt=''/>
+      <div className='col-lg-6 col-sm-12'>
+        <div className='position-image pt-5'>
+        <div className='image-tampon text-center position-relative'style={{zIndex:""}}>
+          <img className='img-tampon img-fluid position-relative'  src={imgTampon} alt=''/>
+          <img className='img-home2 img-fluid position-relative' src={imgHome2} alt=''/>
+         <img className='img-home3 img-fluid position-relative' src={imgHome3} alt=''/>
+        <img className='img-home4 img-fluid position-relative' src={imgHome4} alt=''/>
         </div>
         </div>
               </div>
-                <div className='container-fluid back-video mt-5'>
+                <div className='container-fluid back-video'>
     <div className='row'>
-<div className='col-lg-6 col-sm-12 pt-5 rounded-5 p-5'>
-    <div className='card-video mx-auto' style={{ textAlign: 'center', padding: '100px',alignItems:'center'}}>
-      <p className='pt-5' style={{ fontSize: '30px',color:'#ffffff',fontWeight:"400",fontFamily:"Poppins" }}>Lire la vidéo</p>
+<div className='col-lg-6 col-sm-12 rounded-5'>
+      <div className='card-video pb-5 mx-auto' style={{ textAlign: 'center', padding: '50px',alignItems:'center'}}>
+         <img src={logoVideo} alt="" className="image-video mx-auto"/>
+      <p className='' style={{ fontSize: '20px',color:'#fff',fontWeight:"400",fontFamily:"Poppins" }}>Lire la vidéo au dessus</p>
       
       {!showVideo ? (
         <button className='btn-video form-control' onClick={handleClick} style={{
@@ -161,7 +163,7 @@ const Home  = () => {
           Lire la vidéo
         </button>
       ) : (
-       <YouTube videoId="Maqe7xTQmRs" opts={opts} onEnd={onVideoEnd} />
+       <YouTube videoId="Maqe7xTQmRs" opts={opts} onEnd={onVideoEnd} className='my-video'/>
       )}
     </div>
     </div>
@@ -289,7 +291,7 @@ const Home  = () => {
     </div>
   </div>
 </div>
- <div className='text-center mt-5'>
+ <div className='col-lg-12 col-sm-12 text-center mt-5'>
                      <h1 className='pt-2' style={{color:"#A6354D",fontSize:"20px",fontWeight:"500",letterSpacing:"2px"}}>TESTIMONIAL</h1>
                    <h2 className='pt-2' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Ce que disent nos étudiants</h2>
                   </div>
@@ -370,7 +372,7 @@ const Home  = () => {
 </section>
 
                  </div>
-                      <div className='text-center mt-5 pt-5'>
+                      <div className='col-lg-12 col-sm-12 text-center mt-5 pt-5'>
                      <h1 className='pt-2' style={{color:"#A6354D",fontSize:"20px",fontWeight:"500",letterSpacing:"1.5px"}}>NOS PARTENAIRES</h1>
                    <h2 className='pt-2' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Ce que disent nos étudiants</h2>
                   </div>
@@ -410,13 +412,14 @@ const Home  = () => {
                   
 </div>
 </div>
-<div className='container-fluid student-container pt-1'>
-  <div className='text-center mt-5 pt-4'>
+<div className='student-container-wrapper vw-100'>
+<div className='container-fluid student-container px-0 pt-3 pb-3 '>
+  <div className='row gx-0'>
+  <div className='col-lg-12 col-sm-12 text-center mt-5 pt-4'>
                      <h1 className='pt-5' style={{color:"#A6354D",fontSize:"20px",fontWeight:"500",letterSpacing:"1.5px"}}>NOS CONTACTES</h1>
-                   <h2 className='pt-2' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Ce que disent nos étudiants</h2>
+ <h2 className='pt-2' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Ce que disent nos étudiants</h2>
                   </div>
-                  <div className='row pt-5 mt-5'>
-                    <div className='col-lg-4 col-sm-12'>
+                                      <div className='col-lg-4 col-sm-12 pt-5'>
                     <div className='text-justify ps-5 ms-5 mt-2 pt-5'>
                       <h1 style={{fontFamily:'Inter',fontSize:"56px",fontWeight:"700",  background: 'linear-gradient(to right, #a6354d, #4369cb)',
     WebkitBackgroundClip: 'text',
@@ -432,7 +435,7 @@ const Home  = () => {
     WebkitTextFillColor: 'transparent'}}>assist you</h1>
                     </div>
                     </div>
-                    <div className='col-lg-4 col-sm-12'>
+                    <div className='col-lg-4 col-sm-12 pt-5'>
                       <div className='pt-5 ps-5 ms-5 pt-5 mt-3'>
                           <h2 className='pt-1' style={{fontFamily:'Poppins',color:"#000000",fontSize:"25px",fontWeight:"600"}}>Email Adress</h2>
 <img className='pt-2' src={imgHr} alt=''/>
@@ -443,20 +446,20 @@ Monday - Friday 6 am to 8 pm EST</p>
 
                   </div>
                      </div>
-                      <div className='col-lg-4 col-sm-12'>
+                      <div className='col-lg-4 col-sm-12 pt-5'>
                       <div className='pt-5 ps-5 ms-5 mt-4'>
                           <h2 className='pt-1' style={{fontFamily:'Poppins',color:"#000000",fontSize:"25px",fontWeight:"600"}}>Number</h2>
 <img className='pt-2' src={imgHr} alt=''/>
                           <h2 className='pt-4' style={{fontFamily:'Inter',color:"#000000",fontSize:"25px",fontWeight:"600"}}>+216 56 450 450</h2>
 <p className="pt-3" style={{fontFamily:'Inter',color:"#000000",fontSize:"18px",fontWeight:"400",maxWidth:"220px"}}>Assistance hours: 
 Monday - Friday 6 am to 8 pm EST</p>
-
                   </div>
                      </div>
                                       
                     
-                  </div>
-</div>
+ </div>
+ </div>
+ </div>
                   </div>
                   </div>
                   </div>

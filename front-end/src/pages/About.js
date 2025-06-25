@@ -22,14 +22,15 @@ const About  = () => {
                   <h1 className="title2-about">Digital</h1>
                            <div className="lines-container text-center mt-3">
                        <div className="blue-about mt-2"></div>
-    <hr className='text-center mb-5' style={{width:"400px"}}></hr> <span className='mt-2 pt-3 ps-3' style={{
+    <hr className='text-center mb-5' style={{width:"375px"}}></hr> <span className='mt-2 pt-3 ps-3' style={{
         position: "absolute",
     top: "",
     right: "0",
     width: "10px",
     height: "10px",
     backgroundColor: "#6C6B6B",
-    borderRadius: "50%"
+    borderRadius: "50%",
+    zIndex:"0"
   }}></span> 
     </div>
                   <p className='text-justify text-about ms-3' >Une formation intensive pour maîtriser les techniques de marketing digital et lancer votre nouvelle carrière.</p>
@@ -66,7 +67,7 @@ const About  = () => {
                     </div>
                 </div>
                 <div className="container pt-5 mt-5 ">
-  <div className="row text-center pt-3 mx-auto" style={{maxWidth:'1020px'}}>
+  <div className="row text-center pt-3 mx-auto" style={{maxWidth:'1100px'}}>
     <div className="col-6 col-md-3 mb-4">
       <img src={imgMeta} className="img-fluid" alt=""/>
     </div>
@@ -147,19 +148,18 @@ const About  = () => {
     <h1 style={{fontFamily:"Poppins" ,fontWeight:"700", fontSize:"40px"}}>PLAIRE</h1>
   </div>
   <div className='card-position1 text-center mx-auto'>
-    <div className='row  text-center mt-5 pt-5'>
-      <div className="col-lg-4 col-md-6 mb-4
-      ">
-      <div className="card" style={{ width:"370px", height:"370px", borderRadius:"15px 15px"}}>
+    <div className='row text-center mt-5 pt-5'>
+      <div className="col-lg-4 col-md-6 mb-4">
+      <div className="card" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
         <div className='card-img-top1'></div>
         
         <div className="card-body text-center">
           <div className='row'>
-            <div className='col-3' style={{lineHeight:"0.9"}}>
+            <div className='col-lg-3 col-sm-12' style={{lineHeight:"0.9"}}>
           <span className="pt-2 ps-1"style={{color:'#c32942', fontWeight:"700",fontSize:"15px"}}>Janvier</span>
           <p style={{color:"#5b99d3",fontSize:"40px",fontWeight:"700"}} className="">19</p>
           </div>
-     <div className='col-9'>
+     <div className='col-lg-9 col-sm-12'>
  <p className="card-text"style={{lineHeight:"0.8",position:"relative",left:'-30px'}}>
    <h5 className='pe-5 me-3' style={{fontWeight:"600",fontSize:"17px"}}>Design graphique</h5>
    <p  style={{fontWeight:"400",fontSize:"17px"}}>2025 16 au 19 janvier 2025</p>
@@ -170,16 +170,16 @@ const About  = () => {
         </div>
       </div>
     </div>
-     <div className="col-lg-4 col-md-6 mb-4">
-      <div className="card " style={{ width:"370px", height:"370px", borderRadius:"15px 15px"}}>
+     <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div className="card " style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
        <div className='card-img-top1'></div>
         <div className="card-body text-center">
           <div className='row'>
-            <div className='col-3' style={{lineHeight:"0.9"}}>
+            <div className='col-lg-3 col-sm-12' style={{lineHeight:"0.9"}}>
           <span className="pt-2 ps-1"style={{color:'#c32942', fontWeight:"700",fontSize:"15px"}}>Janvier</span>
           <p style={{color:"#5b99d3",fontSize:"40px",fontWeight:"700"}} className="">20</p>
           </div>
-    <div className='col-9'>
+    <div className='col-lg-9 col-sm-12'>
  <p className="card-text"style={{lineHeight:"0.8",position:"relative",left:'-30px'}}>
    <h5 className='pe-5 me-3' style={{fontWeight:"600",fontSize:"17px"}}>Design graphique</h5>
    <p  style={{fontWeight:"400",fontSize:"17px"}}>2025 16 au 19 janvier 2025</p>
@@ -190,8 +190,8 @@ const About  = () => {
         </div>
       </div>
     </div>
-     <div className="col-lg-4 col-md-6 mb-4">
-      <div className="card" style={{ width:"370px", height:"370px", borderRadius:"15px 15px"}}>
+     <div className="col-lg-4 col-md-6 mb-4 col-sm-12">
+      <div className="card" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
                 <div className='card-img-top1'></div>
         <div className="card-body text-center">
           <div className='row'>
@@ -199,7 +199,7 @@ const About  = () => {
           <span className="pt-2 ps-1"style={{color:'#c32942', fontWeight:"700",fontSize:"15px"}}>Janvier</span>
           <p style={{color:"#5b99d3",fontSize:"40px",fontWeight:"700"}} className="">21</p>
           </div>
-     <div className='col-9'>
+     <div className='col-lg-9 col-sm-12'>
  <p className="card-text"style={{lineHeight:"0.8",position:"relative",left:'-30px'}}>
    <h5 className='pe-5 me-3' style={{fontWeight:"600",fontSize:"17px"}}>Design graphique</h5>
    <p  style={{fontWeight:"400",fontSize:"17px"}}>2025 16 au 19 janvier 2025</p>

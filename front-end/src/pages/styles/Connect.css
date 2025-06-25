@@ -10,32 +10,76 @@
 .btn-connect {
     background-color: #AD2E43;
 }
-.text-service {
-    position: absolute;
-    z-index: 1;
-    bottom: 380px;
-    left: 465px;
+.justify-contact {
+  color: #393738;
+  font-weight: 700;
+  font-size: 45px;
+  position: relative; /* Nécessaire pour que 'left' fonctionne */
+  left: 1px; /* Attention : "1" tout seul n'est pas valide, on suppose ici 1px */
 }
-.image-service{
+
+.span-justify {
+  color: #5b99d3;
+  font-weight: 700;
+  font-size: 45px;
+   font-size: clamp(24px, 5vw, 45px);
+}
+.text-service {
+  position: absolute;
+  z-index: 2;
+  color: #393738;
+  font-size: 27px;
+  font-weight: 500;
+  opacity: 0.7;
+  text-align: center;
+  width: 100%;
+  /* ✅ valeur relative, pas "bottom: 380px" */
+  left: 0;
+  top: -30px;
+}
+
+.image-service {
   background-image: url('../images/img-service.png');
-text-align: center;
-  width: 861px;
-  height: 400px;
-   background-size: cover;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 861px;
+  height: auto;
+  aspect-ratio: 2 / 1; /* ✅ garde le ratio même en responsive */
+  margin: 0 auto;
   position: relative;
-   
+  top: 10px;
+    aspect-ratio: 2/1;
+}
+
+.img-mega {
+    max-width: 600px;
+  height: auto;
+  position: absolute;
+  display: block;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+/* ✅ espace avant le footer */
+}
+
+/* Responsive ajusté */
+@media (max-width: 768px) {
+  .text-service {
+    font-size: 20px;
+    top: -50px;
+    z-index: 1;
+  }
+
+  .img-mega {
+    width: 90%;
+    max-width: 300px;
+    top: 40%;
+  }
 }
 .digital-service {
-    padding-bottom: 320px;
+
+padding-bottom: 200px;
+
 }
-@media (min-width: 768px) {
-.img-mega {
-    right: 165px;
-    position: absolute;
-    text-align: center;
-    top: 140px;
-}
-}
-.connect-container {
-    margin-top: 80px;
-}
+

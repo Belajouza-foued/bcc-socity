@@ -17,26 +17,26 @@ const Evenment  = () => {
     <div className='row pt-5'>
     
         <div className='col-lg-6 col-sm-12 pt-5 mt-5'>
-           <div className='text-center title-position1 text-1 ps-3' style={{ fontFamily: 'Poppins',  }}>
-  <h1 className='me-5 pe-5' style={{ fontSize: '133px',fontWeight: '400', color: '#393738',lineHeight: '0.8',fontFamily:"Poppins" }}>Qui</h1>
-  <h1 className='title-sommes' style={{ fontSize: '133px',fontFamily:"Poppins"  ,fontWeight: '400', lineHeight: '0.8',color: '#393738'  }}>sommes</h1>
-  <h1 className='ps-2' style={{ fontSize: '133px', fontWeight: '400', lineHeight: '0.7',color: '#393738',fontFamily:"Poppins"   }}>nous</h1>
+           <div className='text-center title-position1' style={{ fontFamily: 'Poppins',  }}>
+  <h1 className='qui' style={{ fontSize: '120px',fontWeight: '400', color: '#393738',lineHeight: '0.8',fontFamily:"Poppins" }}>Qui</h1>
+  <h1 className='d-flex pe-2 title-sommes justify-content-end'>sommes</h1>
+  <h1 className='pe-5 me-2' style={{ fontSize: '120px', fontWeight: '400', lineHeight: '0.7',color: '#393738',fontFamily:"Poppins"   }}>nous</h1>
 </div>
 
                     
                   
                     <div className="lines-container text-center pt-5">
                        <div className="blue-line mt-3 pt-2" style={{width:"250px"}}></div>
-    <hr className='text-center mb-5' style={{width:"520px"}}></hr> 
+    <hr className='hr-event mb-5'></hr> 
     </div> 
-    <div className='text-paragraph  pt-5 mx-auto'>
-  <p className=''>Best Challenge Center est un cabinet de conseil et de formation continue . Il a pour mission d’accompagner les entreprises en leur apportant une réponse efficace
+    <div className='text-paragraph mx-auto'>
+  <p className='ps-5' style={{letterSpacing:"1.5px"}} >Best Challenge Center est un cabinet de conseil et de formation continue . Il a pour mission d’accompagner les entreprises en leur apportant une réponse efficace
      à leurs besoins en matière de formation et de développement des compétences.</p>
-     <p className='' style={{letterSpacing:"1.3px"}}>nous vous invitons a assisster à nos formations, participer à des workshops, à des évenements, consulter nos séminaires , quelque soit votre domaine d'étude,
+     <p className='ps-5' style={{letterSpacing:"1.5px"}}>nous vous invitons a assisster à nos formations, participer à des workshops, à des évenements, consulter nos séminaires , quelque soit votre domaine d'étude,
          nous sommes à votre disposition pour vous diriger vers les meilleurs choix</p>
   </div>
                                 <div className="lines-container3 text-center ps-5" style={{ transform: 'rotate(90deg)',
-         transformOrigin: 'left bottom' , top:"0",marginLeft:"43%", paddingTop:"560px",marginTop:"" }}>
+         transformOrigin: 'left bottom' , top:"0",marginLeft:"40%", paddingTop:"560px",marginTop:"" }}>
                        <div className=" position-relative">
     <hr className='ms-3 ps-4 pt-2 pb-3 ' style={{width:"280px", marginTop:'', paddingRight:"",color:"#9B9B9B",opacity:"100%"}}></hr> <span className='circle' style={{
      position: "absolute",
@@ -62,32 +62,33 @@ const Evenment  = () => {
     <hr className='text-center hr-img'></hr> 
       </div>
 </div>
-         <div className='col-lg-12 pt-5 mt-5'>
-  <div className='title-1'>
-    <h1 className="mt-5 ps-5 ms-2 pt-5"style={{ fontWeight: '400', fontFamily:'Poppins',fontSize: '183px',color:"#393738"}}>Notre</h1>
-    <h1 className=' pt-3 ps-5 ms-3' style={{ fontWeight: '400', fontSize: '183px', lineHeight:'0.3',color:"#393738", fontFamily:'Poppins' }}>vision</h1>
-  </div>
+         <div className='col-lg-12 col-sm-12 pt-5 mt-5'>
+  <div className="title-1">
+  <h1 className="title-word">Notre</h1>
+  <h1 className="title-word vision-word">vision</h1>
+</div>
+
 
   <div className='row red-position'>
-    <div className='col-lg-7 col-sm-12 mb-5'>
+    <div className='col-lg-6 col-sm-12 mb-5'>
       <div className='text-center '>
         <div className='img-rectangle2 position-relative'>
           <div className='red-overlay'></div>
-          <img src={imgRectangle2} alt='' className='img-reg2 ps-5 img-fluid' />
+          <img src={imgRectangle2} alt='' className='img-reg2 img-fluid' />
       
         </div>
       </div>
     </div>
 
-    <div className='col-lg-5'>
+    <div className='col-lg-6'>
                    <div className="lines-container2 pe-3">
                        <div className=" red-line mt-2" style={{width:'230px'}}></div>
     <hr className='text-center hr-red mb-5'  style={{width:"300px"}}></hr> 
     </div> 
-      <div className='text-paragraph2'>
+      <div className='text-paragraph2 d-flex justify-content-start'>
         <p>Since 1990, Al-Hamoudi established an integrated media system for providing integrated advertising services whether companies, institutions, or individuals, in the Kingdom of Saudi Arabia market. Additionally, it works by an integrated team who armed with perfect knowledge, and the newest technological technical, 
           especially for our services provided at the highest models of quality, accuracy, and creativity.</p>
-      </div>
+      </div> 
     </div>
   </div>
 </div>
@@ -115,9 +116,8 @@ const Evenment  = () => {
     </div>
      
     <div className='col-lg-6 col-sm-12 mx-auto'>
-      <div className='whrite align-items-center justify-content-center mx-auto '>
-        <div className='second-overlay mt-1 ps-2'></div>
-        <img src={imgWright} className='img-whrite align-items-center justify-content-center pb-5 mb-5 img-fluid' alt='' />
+      <div className='whrite position-relative '>
+               <img src={imgWright} className='img-whrite img-fluid' alt='' />
       </div>
     </div>
   </div>
@@ -128,20 +128,23 @@ const Evenment  = () => {
     <div className='container'>
         <div className='row'>
             <div className='col-lg-12'>
-                <div className='text-center mission-text mb-5'>
-                    <h1 className="ps-5 pb-3" style={{ fontWeight: '400', fontSize: '200px',letterSpacing:"0",color:"#393738"}}>Notre</h1>
-                    <h1 className=""style={{ fontWeight: '400', fontSize: '200px',letterSpacing:"0",lineHeight:'0.2',color:"#393738"}}>Mission</h1>
-                </div>
-                          <div className="lines-container4 text-center">
-                       <div className="blue-line4 mt-3 pt-2 " style={{width:"240px"}}></div>
-    <hr className='text-center  hr-4' style={{width:"460px"}}></hr> 
-    </div> 
-                <div className='text-center work-position mt-5'>
-                    <img src={imgWork} alt='' className='img-work img-fluid'/>
-                                    </div>
-                                    <div className='position-relative'>
-                                      <hr className='hr-2'></hr> 
-                                    </div>
+                <div className="text-center mission-text pt-5 mt-5">
+  <h1 className="mission-title">Notre</h1>
+  <h1 className="mission-title mission-line">Mission</h1>
+</div>
+          <div className="lines-container4 text-center position-relative">
+  <div className="blue-line4 mt-3 pt-2" style={{ width: "240px" }}></div>
+  <hr className="text-center hr-4" style={{ width: "460px" }} />
+</div>
+<div style={{ position: "relative" }}>
+  <hr className="hr-2" />
+</div>
+     <div className="text-center work-position position-relative">
+  <div className="second-overlay"></div>
+   <img src={imgWork} alt="" className="img-work img-fluid" />
+</div>
+
+                                    
                                    
                  <div className='text-paragraph3 mt-5 pt-5 mx-auto ps-3'style={{ marginTop:'50px'}}>
        Since 1990, Al-Hamoudi established an integrated media system for providing integrated advertising services 

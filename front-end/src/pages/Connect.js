@@ -34,7 +34,7 @@ const Connect  = () => {
         
       <form className="p-4 h-100 w-100 text-justify"style={{lineHeight:"2"}} >
         <div className='text-start'>
-         <h1 className=' text-justify' style={{color:"#393738",fontWeight:"700", fontSize:"45px",left:"1"}}>CONTACTEZ<span className='ps-3' style={{color:"#5b99d3",fontWeight:"700", fontSize:"45px"}}>NOUS</span></h1>
+         <h1 className='pe-2 text-justify justify-contact'>CONTACTEZ<span className='ps-2 span-justify'>NOUS</span></h1>
                 <p className='' style={{lineHeight:"1.5",fontWeight:"400",fontFamily:"Poppins",fontSize:"16px",color:"#393738"}}>Alignons nos constellations ! Contactez-nous et laissez la magie de la collaboration illuminer nos cieux.</p>
                  </div>
                  <div className="form-outline mb-4">
@@ -88,12 +88,13 @@ const Connect  = () => {
     </div>
   </div>
       </div>
-     <div className='position-relative pt-5 mt-5' >
-  <p className="text-service mt-5 pt-5" style={{fontSize:"27px",fontWeight:"500",color:"#393738",opacity:"70%"}}>nous sommes là pour répondre à vos besoins !</p>
-    <div className='image-service text-center mx-auto pb-5 mb-5'>
+    <div className='col-lg-12 col-sm-12 position-relative pt-5 mt-5'>
+  <p className="text-service mt-5 pt-5">nous sommes là pour répondre à vos besoins !</p>
+  <div className='image-service text-center mx-auto pb-5 mb-5'>
     <img src={imgMega} alt='' className='img-mega text-center img-fluid'/>
-    </div>
+  </div>
 </div>
+
          </div>
 </div>
 

@@ -6,7 +6,11 @@
     opacity: 0;
     animation: slideTop 1.2s ease-in-out forwards alternate;
     overflow: hidden;
+    position: relative;
+    }
 }
+.caroussel-1 {
+  position: relative;
 }
 @media (min-width: 768px) {
 .caroussel-1
@@ -99,29 +103,39 @@ right: 0;
 .img-home1 {
   margin-top: -2rem;
 }
+@media (min-width: 768px) {
 .img-home2 {
-position: absolute;
-top: 20%;
-right: 60%;
+top: 170px;
+right: 290px;
 z-index: 0;
 
 }
+}
+@media (min-width: 768px) {
 .img-tampon {
-  top:1%;
-right: 45%;
+ top: -120px;
+
+  left: 100px;
 z-index: 1;
 }
-
+}
+@media (min-width: 768px) {
 .img-homes {
   margin-left: -4%;
 }
-.img-home3 {
-  top: 15%;
-  left: 43%;
 }
+@media (min-width: 768px) {
+.img-home3 {
+  left: 260px;
+ top: -350px;
+}
+}
+@media (min-width: 768px) {
 .img-home4 {
-  top: 60%;
-  left: 43%;
+  top: -100px;
+  left: -20px;
+  
+}
 }
 .img-radius {
    background-image: url('../images/rectangle-radius.png');
@@ -273,7 +287,7 @@ z-index: 1;
 }
 .img-test {
  position: absolute;
- left: 150px;
+ left: 140px;
 top: -20px;
 }
 /*bg-number*/
@@ -290,16 +304,13 @@ top: -20px;
   background-color: #262525;
 }
 }
+
 .student-container {
     background-color: #cccccc;
-  width: 1510px;
-  height: 811px;
-  max-width: 1510px;
-  min-height: 1000px;
-margin-left: -100px;
-  box-sizing: border-box;
+  }
   
-}
+
+
 /*hover button*/
 .web-development {
   
@@ -331,14 +342,29 @@ margin-left: -100px;
 /*hover button*/
 .back-video {
   background-image: url('../images//bg6.jpg');
+  overflow-x: hidden;
+   
   }
+  @media (min-width: 768px) {
 .card-video {
-  background-color: #ffff;
+  
   width: 400px;
   height: 340px;
   text-align: center;
   border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+ }
 }
+.student-container-wrapper {
+  background-color: #cccccc;
+  width: 100vw;
+  overflow-x: hidden;
+  margin-left: calc(-1 * (100vw - 100%) / 2); /* Centre proprement */
+}
+
 .btn-video {
   width:100%;
 }
@@ -346,3 +372,19 @@ margin-left: -100px;
 .border-video:hover {
 color: #000 !important
 }
+ @media (min-width: 768px) {
+.image-video {
+  width: 120px;
+  height: 120px;
+}
+ }
+ @media (min-width: 768px) {
+.my-video {
+  z-index: 1;
+ top: -220px;
+ 
+}
+ }
+
+
+

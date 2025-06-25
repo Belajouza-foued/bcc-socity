@@ -1,10 +1,74 @@
-.back-img6 {
-  background-image: url('../images/mask-2.png');
-  height:500px;
-  width: 550px;
-  background-color: white;
-  border-radius: 20px;
-   }
+
+   
+   .titre-evenment {
+  color: #393738;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 66px;
+}
+@media (max-width: 768px) {
+  .titre-evenment {
+    font-size: 45px;
+  }
+}
+
+/* Adaptation mobile */
+@media (max-width: 480px) {
+  .titre-evenment {
+    font-size: 32px;
+  }
+}
+.card-nos {
+  width: 490px;
+  height: 410px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #fff; /* facultatif, pour la structure */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* optionnel pour style */
+ }
+
+/* Tablette */
+@media (max-width: 768px) {
+  .card-nos {
+    width: 90%;
+    height: auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .card-nos {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+}
+.card-first {
+  width: 490px;
+  height: 410px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #fff; 
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+/* Tablettes (écrans ≤ 768px) */
+@media (max-width: 768px) {
+  .card-first {
+    width: 90%;
+    height: auto; /* s'adapte au contenu */
+  }
+}
+
+/* Mobiles (écrans ≤ 480px) */
+@media (max-width: 480px) {
+  .card-first {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+}
+
    .content-overlay1 {
     padding: 6px;
     height: 120px;
@@ -62,3 +126,6 @@ color: #AD2E43 !important;
 .nosEvenment-container {
   padding-bottom: 200px;
 }
+ .img-design {
+     border-radius: 0px 0px 0px 0px;
+    }

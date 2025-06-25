@@ -59,3 +59,41 @@ bottom: 100%;
     margin-left: 50px;
   }
 }
+.bienvenue {
+  color: #393738;
+  font-weight: 600;
+  font-size: 88px;
+  font-family: "Poppins", sans-serif;
+  line-height: 0.5;
+}
+
+.a-tous {
+  color: #393738;
+  font-weight: 700;
+  font-size: 130px;
+  font-family: "Poppins", sans-serif;
+  text-transform: lowercase;
+  line-height: 0.5;
+}
+
+.a-tous span {
+  color: #A22E43;
+  font-weight: 600;
+  font-size: 130px;
+  font-family: "Poppins";
+}
+
+/* ✅ Responsive — réduit les tailles sur petits écrans */
+@media (max-width: 768px) {
+  .bienvenue {
+    font-size: 48px;
+  }
+
+  .a-tous {
+    font-size: 70px;
+  }
+
+  .a-tous span {
+    font-size: 70px;
+  }
+}

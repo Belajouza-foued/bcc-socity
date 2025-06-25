@@ -21,34 +21,34 @@ const MarkEvenment  = () => {
     <button type='submit' className='btn btn-danger btn-markEvenmnt pt-1 pb-1 pe-3 ps-3'>EVENT 01</button>
     <h1 style={{fontWeight:"700", fontFamily:"Poppins",fontSize:"80px",color:"3A3838"}}>Marketing Digital</h1>
     <p style={{fontWeight:"400", fontFamily:"Roboto",fontSize:"21px",lineHeight:"1",color:"#393738"}}>Boostez votre présence en ligne et maîtrisez les stratégies</p>
-    <p style={{fontWeight:"400", fontFamily:"Roboto",fontSize:"21px",lineHeight:"0.1",color:"#393738"}}>numériques pour propulser votre entreprise !</p>
+    <p style={{fontWeight:"400", fontFamily:"Roboto",fontSize:"21px",lineHeight:"0.7",color:"#393738"}}>numériques pour propulser votre entreprise !</p>
 </div>
     </div>
     <div className='image-mask text-center pt-5 '>
         <img src={maskMark} alt='' className='mask-mark img-fluid' />
         </div>      
   </div>
-<div className='col-12'>
+<div className='col-lg-12 col-sm-12'>
     <div className='row'>
-                 <div className='col-lg-9 col-sm-12 mb-5'>
-  <div className='text-start pt-5 d-flex justify-content-start align-items-start gap-5 ps-5 ms-5'>
+                 <div className='col-lg-9 col-sm-12 mb-5 ps-5'>
+  <div className='text-start pt-5 d-flex justify-content-start align-items-start gap-4 ps-5'>
     
     {/* Bloc 1 */}
-    <div className='ps-3'>
+    <div className=''>
       <img src={imgClock} alt='text-start' className='clock mb-2 me-2' />
-      <span style={{color:'#393738', fontWeight:"400", fontSize:"23px"}}>Marketing digital</span>
+      <span style={{color:'#393738', fontWeight:"400", fontSize:"20px"}}>Marketing digital</span>
     </div>
 
     {/* Bloc 2 */}
-    <div className='ps-3'>
+    <div className=''>
       <img src={imgCalendar} alt='' className='clock mb-2 me-2' />
-      <span style={{color:'#393738', fontWeight:"400", fontSize:"23px"}}>15 janvier 2022</span>
+      <span style={{color:'#393738', fontWeight:"400", fontSize:"20px"}}>15 janvier 2022</span>
     </div>
 
     {/* Bloc 3 */}
-    <div className='ps-3'>
+    <div className=''>
       <img src={imgLocal} alt='' className='clock mb-2 me-2' />
-      <span style={{color:'#393738', fontWeight:"400", fontSize:"23px"}}>Sousse</span>
+      <span style={{color:'#393738', fontWeight:"400", fontSize:"20px"}}>Sousse</span>
     </div>
 
   </div>
@@ -59,12 +59,18 @@ const MarkEvenment  = () => {
         <button type='button' className='btn btn-danger button-mark ps-4 pe-4 pt-3 pb-3'>Contactez Nous</button>
       </div>
       </div>
-      <div className='col-lg-5 col-sm-12 pt-3 mt-3 ps-4'>
-        <div className='text-center pt-5'>
-        <h1 style={{color:"#393738", fontWeight:"700",fontSize:"87px", fontFamily:"Poppins",lineHeight:"0.5"}}>Bienvenue</h1>
-        <h1 style={{color:"#393738", fontWeight:"700",fontSize:"130px", fontFamily:"Poppins",textTransform:"lowercase"}}>à tous<span className='ps-3' style={{color:"#A22E43", fontWeight:"700",fontSize:"130px", fontFamily:"Poppins",lineHeight:"0.5"}}>!</span></h1>
-        </div>
+      <div className='col-lg-5 col-sm-12 pt-3 mt-3'>
+          {/*atous*/}
+      <div className='text-center pt-5'>
+  <h1 className="bienvenue">Bienvenue</h1>
+  <h1 className="a-tous pt-5">
+    à tous
+    <span className='ps-3'>!</span>
+  </h1>
+</div>
+      {/*atous*/}
       </div>
+  
       <div className='col-7 mb-3 pt-3 mt-4'>
         <p style={{color:"#6C6B6B", fontWeight:"500",fontSize:"18px", fontFamily:"Poppins",letterSpacing:"3px"}}>Best Challenge Center est un cabinet de conseil et de formation continue . Il a pour mission d’accompagner les entreprises en leur apportant une réponse efficace 
             à leurs besoins en matière de formation et de développement des compétences.</p>
@@ -122,50 +128,51 @@ nous vous invitons a assisster à nos formations, participer à des workshops, �
             <h1 style={{color:"#393738", fontWeight:"700",fontSize:"40px", fontFamily:"Poppins"}}>Autres Evènements Qui Pourraient Vous</h1>
             <h1 style={{color:"#393738", fontWeight:"700",fontSize:"40px", fontFamily:"Poppins"}}>Plaire</h1>
         </div>
-          <div className='row card-position1 text-center mt-5 ps-5 pt-5'>
-      <div className="col-lg-4 col-md-6 ps-5">
-      <div className="card h-100" style={{ width:"370px", height:"", borderRadius:"15px 15px"}}>
+        <div className='card-position1 text-center mx-auto'>
+    <div className='row text-center mt-5 pt-5'>
+      <div className="col-lg-4 col-md-6 mb-4">
+      <div className="card" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
         <div className='card-img-top1'></div>
         
         <div className="card-body text-center">
           <div className='row'>
-            <div className='col-3' style={{lineHeight:"0.9"}}>
+            <div className='col-lg-3 col-sm-12' style={{lineHeight:"0.9"}}>
           <span className="pt-2 ps-1"style={{color:'#c32942', fontWeight:"700",fontSize:"15px"}}>Janvier</span>
           <p style={{color:"#5b99d3",fontSize:"40px",fontWeight:"700"}} className="">19</p>
           </div>
-     <div className='col-9'>
- <p className="card-text"style={{lineHeight:"0.8"}}>
-   <h5>Design graphique</h5>
-   <p>2025 16 au 19 janvier 2025</p>
-   <span>PARNASSE CIBLES 1 À 32</span>
+     <div className='col-lg-9 col-sm-12'>
+ <p className="card-text"style={{lineHeight:"0.8",position:"relative",left:'-30px'}}>
+   <h5 className='pe-5 me-3' style={{fontWeight:"600",fontSize:"17px"}}>Design graphique</h5>
+   <p  style={{fontWeight:"400",fontSize:"17px"}}>2025 16 au 19 janvier 2025</p>
+   <span className='pe-4 me-1' style={{fontWeight:"400",fontSize:"15.20px",color:"#6A6A6A"}}>PARNASSE CIBLES 1 À 32</span>
           </p>
           </div>
                    </div>
         </div>
       </div>
     </div>
-     <div className="col-lg-4 col-md-6 ps-5">
-      <div className="card h-100 " style={{ width:"370px", height:"", borderRadius:"15px 15px"}}>
+     <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div className="card " style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
        <div className='card-img-top1'></div>
         <div className="card-body text-center">
           <div className='row'>
-            <div className='col-3' style={{lineHeight:"0.9"}}>
+            <div className='col-lg-3 col-sm-12' style={{lineHeight:"0.9"}}>
           <span className="pt-2 ps-1"style={{color:'#c32942', fontWeight:"700",fontSize:"15px"}}>Janvier</span>
           <p style={{color:"#5b99d3",fontSize:"40px",fontWeight:"700"}} className="">20</p>
           </div>
-     <div className='col-9'>
- <p className="card-text"style={{lineHeight:"0.8"}}>
-   <h5>Design graphique</h5>
-   <p>2025 16 au 19 janvier 2025</p>
-   <span>PARNASSE CIBLES 1 À 32</span>
+    <div className='col-lg-9 col-sm-12'>
+ <p className="card-text"style={{lineHeight:"0.8",position:"relative",left:'-30px'}}>
+   <h5 className='pe-5 me-3' style={{fontWeight:"600",fontSize:"17px"}}>Design graphique</h5>
+   <p  style={{fontWeight:"400",fontSize:"17px"}}>2025 16 au 19 janvier 2025</p>
+   <span className='pe-4 me-1' style={{fontWeight:"400",fontSize:"15.20px",color:"#6A6A6A"}}>PARNASSE CIBLES 1 À 32</span>
           </p>
           </div>
                    </div>
         </div>
       </div>
     </div>
-     <div className="col-lg-4 col-md-6 ps-5">
-      <div className="card h-100" style={{ width:"370px", height:"", borderRadius:"15px 15px"}}>
+     <div className="col-lg-4 col-md-6 mb-4 col-sm-12">
+      <div className="card" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
                 <div className='card-img-top1'></div>
         <div className="card-body text-center">
           <div className='row'>
@@ -173,11 +180,11 @@ nous vous invitons a assisster à nos formations, participer à des workshops, �
           <span className="pt-2 ps-1"style={{color:'#c32942', fontWeight:"700",fontSize:"15px"}}>Janvier</span>
           <p style={{color:"#5b99d3",fontSize:"40px",fontWeight:"700"}} className="">21</p>
           </div>
-     <div className='col-9'>
- <p className="card-text"style={{lineHeight:"0.8"}}>
-   <h5>Design graphique</h5>
-   <p>2025 16 au 19 janvier 2025</p>
-   <span>PARNASSE CIBLES 1 À 32</span>
+     <div className='col-lg-9 col-sm-12'>
+ <p className="card-text"style={{lineHeight:"0.8",position:"relative",left:'-30px'}}>
+   <h5 className='pe-5 me-3' style={{fontWeight:"600",fontSize:"17px"}}>Design graphique</h5>
+   <p  style={{fontWeight:"400",fontSize:"17px"}}>2025 16 au 19 janvier 2025</p>
+   <span className='pe-4 me-1' style={{fontWeight:"400",fontSize:"15.20px",color:"#6A6A6A"}}>PARNASSE CIBLES 1 À 32</span>
           </p>
           </div>
                    </div>
@@ -185,7 +192,12 @@ nous vous invitons a assisster à nos formations, participer à des workshops, �
       </div>
     </div>
     
+    
+   
+  
+ 
  </div>
+</div>
  <div className='row pt-5 mt-5 position-relative'>
  <div className='col-2 ps-3'>
 <div className='image-baffle'>

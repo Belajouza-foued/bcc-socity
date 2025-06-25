@@ -68,15 +68,15 @@ color: #6c6b6b;
   /* Alignement des lignes verticalement */
     position: absolute;
     left: 0;
+    }
     
-    
-}
 .blue-about {
     position: absolute;
   height: 10px; /* Hauteur de la ligne bleue */
   padding: 3px;
   background-color: #5B99D3; /* Couleur bleue */
   width: 260px;
+  z-index: 1;
   
 }
 
@@ -263,7 +263,7 @@ height: 200px;
 .back-img3 {
   background-image: url('../images/second-back.png');
   height: 480px;
-  width: 460px;
+  width: 450px;
   background-color: white;
   border-radius: 20px;
    
@@ -282,10 +282,11 @@ height: 200px;
   background-size: cover;
   background-position: center;
   transition: background-image 0.3s ease;
-}
+ }
 
 .card-img-top1:hover {
   background-image: url("../images/back-img.png");
+  aspect-ratio: 16 / 9;
 }
 /*card form*/
 .about-container {

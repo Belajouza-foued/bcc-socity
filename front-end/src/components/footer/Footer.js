@@ -22,13 +22,13 @@ function Footer () {
      return (
       <>
     <section className=''>
-<div className='container-fluid img-back1 footer-container mt-0'> 
+<div className='container-fluid img-back1 footer-container'> 
   <div className='row pt-1'>
-    <div className='col-lg-12' style={{lineHeight:"1.5"}}>
-        <div className='position-footer text-center pt-4'>
+    <div className='col-lg-12 col-sm-12' style={{lineHeight:"1.5"}}>
+        <div className='position-footer text-center pt-3'>
             <img className='logo-footer mt-3' src={logoFooter} alt=''/>
         </div>
-        <div className='text-center pt-3 mt-3'  style={{color:"#ffff",fontSize:"15px"}}>
+        <div className='text-center pt-2'  style={{color:"#ffff",fontSize:"15px"}}>
             <h1>Get start to up your business</h1>
             <h1>With personal AI manager</h1>
         </div>
@@ -51,17 +51,17 @@ function Footer () {
         Try Now
       </button>
     </div>
-  <div className='d-flex'>
-    <ul className='d-flex list-unstyled gap-5 mx-auto mt-4'>
-        <li>Features</li>
-        <li>A Propos</li>
-        <li>New & Blog</li>
-        <li>Careers</li>
-        <li>About Us</li>
-        <li>Terms</li>
-        <li>Privacy</li>
-        <li>Cookies</li>
-    </ul>
+  <div className='col-lg-12 col-sm-12 d-flex col-sm-12'>
+   <ul className='d-flex list-unstyled mx-auto mt-4 flex-wrap justify-content-center'>
+  <li>Features</li>
+  <li>A Propos</li>
+  <li>New & Blog</li>
+  <li>Careers</li>
+  <li>About Us</li>
+  <li>Terms</li>
+  <li>Privacy</li>
+  <li>Cookies</li>
+</ul>
   </div>
 </div>
 

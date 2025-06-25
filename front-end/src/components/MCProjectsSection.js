@@ -4,9 +4,9 @@ import '../pages/styles/MCProjectsSection.css'; // si tu veux styliser séparém
 const MCProjectsSection = () => {
   return (
     <div className='container-fluid'>
-    <div className='row text-center mt-5 pt-5 me-3'>
-     <div className='col-lg-4 col-md-6'>
-              <div className="position-relative text-white back-img" style={{ marginLeft: "-10px" }}>
+    <div className='row text-center mt-5 pt-5'>
+     <div className='col-lg-4 col-sm-12 col-md-6'>
+              <div className="position-relative text-white back-img">
   {/* Contenu positionné en bas */}
   <div className="content-overlay position-absolute bottom-0 start-0 p-3">
     <h5 style={{color:"#393738",}} className='borderhome2'><b>MC PROJECT</b></h5>
@@ -19,8 +19,8 @@ const MCProjectsSection = () => {
   </div>
 </div>
  </div>
-       <div className='col-lg-4 col-md-6'>
-              <div className="position-relative text-white back-img2 ps-5 pe-5" style={{ marginLeft: "2px" }}>
+       <div className='col-lg-4 col-sm-12 col-md-6'>
+              <div className="position-relative text-white back-img2">
   {/* Contenu positionné en bas */}
   <div className="content-overlay position-absolute bottom-0 start-0 p-3">
     <h5 style={{color:"#393738",}} className='borderhome2'><b>FIBRE OPTIQUE</b></h5>
@@ -33,8 +33,8 @@ const MCProjectsSection = () => {
   </div>
 </div>
  </div>
-       <div class='col-lg-4 col-md-6'>
-              <div className="position-relative text-white back-img" style={{ marginLeft: "15px" }}>
+       <div class='col-lg-4 col-sm-12 col-md-6'>
+              <div className="position-relative text-white back-img">
   {/* Contenu positionné en bas */}
   <div className="content-overlay position-absolute bottom-0 start-0 p-3 ps-3">
     <h5 style={{color:"#393738",}} className='borderhome2'><b>MARKETING DIGITAL</b></h5>

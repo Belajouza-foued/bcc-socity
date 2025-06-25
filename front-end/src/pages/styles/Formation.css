@@ -5,7 +5,9 @@
 font-weight:500;
 font-size:18px;
 color:#393738;
-font-family:Poppins
+font-family:Poppins;
+line-height: 0.5;
+
   }
 }
   @media (min-width: 768px) {
@@ -14,7 +16,16 @@ font-family:Poppins
   line-height: 0.5;
 }
   }
-
+  @media (min-width: 768px) {
+  .accordion-collapse{
+                      width:450px;
+                top: 260px;
+               z-index: 999;
+             background-color: #fff;
+            border-radius: 50px;
+                box-shadow:  0 4px 20px rgba(0,0,0,0.1);
+                }
+              }
 .accordion-button::after {
   color: white !important; /* Définir la couleur de la flèche en blanc */
   font-size: 1.25rem; /* Vous pouvez ajuster la taille de l'icône de la flèche */
@@ -30,22 +41,40 @@ font-family:Poppins
   
 }
 .accordion {
-    width: 25%;
+      text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+       
    }
+   
 
 .accordion-button {
   background: #5B99D3 !important;
   color: black !important; /* Texte noir */
+  width: 350px;
+   
  
 }
 
 .back-img2 {
   background-image: url('../images/second-back.png');
-  height: 450px;
-  width: 420px;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
   background-color: white;
   border-radius: 20px;
-   
+ 
+}
+
+/* Pour les écrans moyens et plus larges */
+@media (min-width: 768px) {
+  .back-img2 {
+    height: 450px;
+    width: 400px;
+  }
 }
 
 .content-overlay {
@@ -78,6 +107,24 @@ background-color: black;
 
 .formation-container {
   padding-bottom: 200px;
+}
+.back-img {
+  background-image: url('../images/back-img.png');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+/* Pour les écrans moyens et plus grands (ex: tablette, desktop) */
+@media (min-width: 768px) {
+  .back-img {
+    height: 450px;
+    width: 420px;
+  }
 }
 
  
