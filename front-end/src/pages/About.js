@@ -20,8 +20,8 @@ const About  = () => {
             <div className='title-about ps-5 pt-5 mt-5'>
                            <h1 className="title2-about">Marketing </h1>
                   <h1 className="title2-about">Digital</h1>
-                           <div className="lines-container text-center mt-3">
-                       <div className="blue-about mt-2"></div>
+                           <div className="lines-container text-center mt-3 lines-about">
+                       <div className="blue-about lines-about mt-2"></div>
     <hr className='text-center mb-5' style={{width:"375px"}}></hr> <span className='mt-2 pt-3 ps-3' style={{
         position: "absolute",
     top: "",
@@ -33,15 +33,17 @@ const About  = () => {
     zIndex:"0"
   }}></span> 
     </div>
-                  <p className='text-justify text-about ms-3' >Une formation intensive pour maîtriser les techniques de marketing digital et lancer votre nouvelle carrière.</p>
+    <div className='text-justify text-about ms-3'>
+                  <p  >Une formation intensive pour maîtriser les techniques de marketing digital et lancer votre nouvelle carrière.</p>
              </div>
-             <div className='text1-about'style={{lineHeight:'1',fontFamily:'Poppins',fontSize:'20px',color:"#393738"}}>
+             </div>
+             <div className='text1-about'>
                 <p>20 semaines</p>
                 <p>4 heures par semaine</p>
                 <p>Heures flexibles</p>
                 <p>Soutien Professionel</p>
                 <p>Certifications internationales</p>
-                <div className='position-relative'>
+                <div className='line-hr position-relative'>
                 <img className='red-rect' src={recRect} alt='' />
                 <img className='line-red' src={lineRed} alt=''/>
               </div>
@@ -62,8 +64,8 @@ const About  = () => {
                     <div className='title-about3 text-center pt-5' style={{ lineHeight:'1.0'}}>
                         <p>DECOUVREZ UNE NOUVELLE MANIERE  </p>
                        <p>D’APPRENDRE.</p> 
-                       <p className='pt-3' style={{fontSize:"15px",lineHeight:'0.1',fontWeight:"500",fontFamily:"Poppins"}}>Découvrez et maîtrisez les outils et les méthodes qui vous permettront de briller </p>
-                       <p className='pt-1' style={{fontSize:"15px", letterSpacing:'1.1', lineHeight:'0.1',fontWeight:"500",fontFamily:"Poppins"}}>dans l'univers du marketing digital. Les plateformes publicitaires Meta</p>
+                       <p className='pt-3 title-about4'>Découvrez et maîtrisez les outils et les méthodes qui vous permettront de briller </p>
+                       <p className='pt-1 title-about4'>dans l'univers du marketing digital. Les plateformes publicitaires Meta</p>
                     </div>
                 </div>
                 <div className="container pt-5 mt-5 ">
@@ -86,7 +88,7 @@ const About  = () => {
             </div>
         </section>
    <div
-  className="container my-5 pb-2"
+  className="container my-5 pb-2 about-form"
   style={{
     backgroundColor: '#fff',
     padding: '30px',
@@ -101,7 +103,7 @@ const About  = () => {
            
        
       <form className="w-100 p-4">
-         <h1 className='text-center pb-3' style={{color:"#393738",fontWeight:"700", fontSize:"30px"}}>CONTACTEZ<span className='nous ps-2'>NOUS</span></h1>
+         <h1 className='text-center pb-3' style={{color:"#393738",fontWeight:"700", fontSize:"30px"}}>CONTACTEZ<span className='nous ps-2 span-justify '>NOUS</span></h1>
                  <div className="form-outline mb-4">
           <input type="text" id="form2Example1" placeholder='Nom' className="form-control custom-textarea" style={{border:"2px solid #d9d9d9",color:"#d9d9d9"}}/>
                   </div>
@@ -142,14 +144,14 @@ const About  = () => {
 
   </div>
 </div>
-  <div className='tite-about4 text-center pt-5 mt-5' >
-    <h1 style={{fontFamily:"Poppins" ,fontWeight:"700", fontSize:"40px"}}>AUTTRES FORMATIONS QUI POURRAIT VOUS </h1>
-    <h1 style={{fontFamily:"Poppins" ,fontWeight:"700", fontSize:"40px"}}>PLAIRE</h1>
+  <div className=' text-center pt-5 mt-5' >
+    <h1 className='titre-about4'>AUTTRES FORMATIONS QUI POURRAIT VOUS </h1>
+    <h1 className='titre-about4'>PLAIRE</h1>
   </div>
   <div className='card-position1 text-center mx-auto'>
     <div className='row text-center mt-5 pt-5'>
       <div className="col-lg-4 col-md-6 mb-4">
-      <div className="card" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
+      <div className="card card-top" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
         <div className='card-img-top1'></div>
         
         <div className="card-body text-center">
@@ -170,7 +172,7 @@ const About  = () => {
       </div>
     </div>
      <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
-      <div className="card " style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
+      <div className="card card-top" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
        <div className='card-img-top1'></div>
         <div className="card-body text-center">
           <div className='row'>
@@ -190,7 +192,7 @@ const About  = () => {
       </div>
     </div>
      <div className="col-lg-4 col-md-6 mb-4 col-sm-12">
-      <div className="card" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
+      <div className="card card-top" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
                 <div className='card-img-top1'></div>
         <div className="card-body text-center">
           <div className='row'>

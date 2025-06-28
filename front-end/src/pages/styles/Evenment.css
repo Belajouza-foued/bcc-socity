@@ -194,7 +194,20 @@ margin-top: 170px;
        position: relative;
        object-fit: contain;
        z-index: 1;
+}
+@media (max-width: 576px) {
+  .img-reg {
+    max-width: 80%;     /* occupe 90% de la largeur de l’écran */
+    margin-top: 50px;   /* moins d’espace en haut */
+  }
+}
 
+/* Sur tablettes (écrans ≤ 768px), on ajuste plus finement */
+@media (max-width: 768px) {
+  .img-reg {
+    max-width: 70%;
+    margin-top: 100px;
+  }
 }
 .hr-img {
   width: 130px;
@@ -207,6 +220,122 @@ opacity: 70%;
 
   
 }
+/*button back resp */ 
+/* Container background (si tu as une image de fond) */
+.background-image {
+
+}
+
+/* Texte principal */
+.text-always {
+  margin-top: -40px;
+  line-height: 1.9;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Heading */
+.heading-always {
+  font-size: 65px;
+  margin-top: 0.5rem; /* remplace mt-4 et pt-3 */
+}
+
+/* Bouton */
+.btn-connect {
+  font-size: 18px;
+  padding: 0.5rem 1rem; /* pt-2 pb-2 ps-4 pe-4 */
+  margin-bottom: 1.5rem;
+}
+
+/* Image */
+.img-whrite {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+  z-index: 1;
+  margin-top: 0; /* Ajuste si besoin */
+}
+
+/* ==== Responsive ==== */
+
+/* Tablettes et plus petits laptops */
+@media (max-width: 992px) {
+  .text-always {
+    margin-top: -20px;
+    line-height: 1.8;
+  }
+
+  .heading-always {
+    font-size: 48px;
+  }
+
+  .btn-connect {
+    font-size: 8px;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .img-whrite {
+    max-width: 500px;
+  }
+}
+
+/* Mobiles (smaller than 768px) */
+@media (max-width: 768px) {
+  .text-always {
+ 
+    line-height: 1.6;
+    text-align: center;
+    padding: 0 1rem;
+  
+  }
+
+  .heading-always {
+    font-size: 20px !important;
+      }
+
+  .btn-connect {
+    display: block;
+    margin: 1rem auto;
+    font-size: 14px;
+    padding: 0.3rem 0.6rem;
+    left: 220px;
+  }
+
+  .img-whrite {
+    width: 250px !important;
+    height: 120px !important;
+    object-fit: contain;
+    top: 250px;
+     display: block;
+     left: -20px;
+   
+    
+  }
+}
+
+/* Tout petits mobiles */
+@media (max-width: 576px) {
+  .heading-always {
+    font-size: 28px;
+  }
+
+  .btn-connect {
+    font-size: 12px;
+    padding: 0.25rem 0.5rem;
+    background-color: #A6354D;  /* couleur contrastée */
+    z-index: 2;
+  }
+}
+.btn-connect {
+  background-color: #A6354D;  /* couleur contrastée */
+  color: #fff;
+  border: none;
+}
+
+/*button back res*/
 
 .hr-2 {
   position: absolute;
@@ -239,10 +368,10 @@ margin-right: 20px;
 
 @media (max-width: 768px) {
   .blue-overlay {
-    top: 46%;
-    left: 15%;
-    width: 250px;
-    height: 300px;
+    top: 50%;
+    left: 19%;
+    width: 200px;
+    height: 200px;
   }
 }
 

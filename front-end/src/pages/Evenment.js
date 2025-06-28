@@ -93,37 +93,29 @@ const Evenment  = () => {
   </div>
 </div>
 <section className='mt-5'>
-<div className='container-fluid background-image'> 
-  <div className='row'>
-    <div className='col-lg-6 col-sm-12 ps-5'>
-    <div className='text-always' style={{
-  marginTop: "-40px", 
-  lineHeight: "1.9",
-  fontFamily:"Inter",
-  fontWeight:"700",
-  fontSize: '65px',
-  letterSpacing: "1px",
- 
-}}>
-  <h1 className='mt-4 pt-3' style={{ fontSize: '60px' }}>
-    We are always <br />Happy to assist you
-  </h1>
-  <button type='submit' className='btn btn-white text-center mx-auto ps-4 pt-2 pb-2 pe-4 mb-4' style={{ fontSize: '18px' }}>
-    Connectez-nous
-  </button>
-</div>
-
-    </div>
-     
-    <div className='col-lg-6 col-sm-12 mx-auto'>
-      <div className='whrite position-relative '>
-               <img src={imgWright} className='img-whrite img-fluid' alt='' />
+  <div className='container-fluid background-image'>
+    <div className='row'>
+      <div className='col-lg-6 col-sm-12 ps-5'>
+        <div className='text-always'>
+          <h1 className='heading-always'>
+            We are always <br />Happy to assist you
+          </h1>
+          <Link to="/connect">
+          <button type='submit' className='btn btn-white btn-connect'>
+            Connectez-nous
+          </button>
+          </Link>
+        </div>
+      </div>
+      <div className='col-lg-6 col-sm-12 mx-auto'>
+        <div className='whrite position-relative'>
+          <img src={imgWright} className='img-whrite' alt='' />
+        </div>
       </div>
     </div>
   </div>
-</div>
-
 </section>
+
 <section className='mt-5'>
     <div className='container'>
         <div className='row'>
