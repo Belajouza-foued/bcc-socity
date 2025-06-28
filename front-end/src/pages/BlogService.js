@@ -5,6 +5,7 @@ import heroBlog from './images/blog-service.png'
 import imgSwim from './images/rectangle-swiming.png'
 import textSwim from './images/text-swim.png'
 import whrihteSwim from './images/whrite-swim.png'
+import { Link } from 'react-router-dom';
 
 
 
@@ -42,12 +43,13 @@ const titleStyle = {
        <div className='col-lg-12 col-sm-12 pt-2'>
     <div className='mark-para mt-5'>
 <div className=' text-center pt-5'>
-    <button type='submit' className='btn btn-danger btn-blogService pt-1 pb-1 pe-3 ps-3 mb-2'>BLOG 1</button>
+  <Link className='' to="/blog">
+    <button type='submit' className='btn btn-danger btn-blogService pt-1 pb-1 pe-3 ps-3 mb-2'>BLOG 1</button></Link>
     <h2 className='' style={{fontWeight:"600", fontFamily:"Poppins",fontSize:"40px",color:"#638EC4",lineHeight:"1.0"}}>Bienvenue sur </h2>
     <h1 className='' style={{fontWeight:"700", fontFamily:"Poppins",fontSize:"80px",color:"#393738",lineHeight:"1.1"}}>Scrum in Action</h1>
-    <p style={{fontWeight:"400", fontFamily:"Poppins",fontSize:"21px",lineHeight:"0.7",color:"#393738"}}>Un blog dédié aux Scrum Masters, offrant conseils pratiques, outils</p>
-    <p className=""style={{fontWeight:"400", fontFamily:"Poppins",fontSize:"21px",lineHeight:"0.7",color:"#393738"}}>et astuces pour faciliter les équipes agiles. Explorez des sujets clés </p>
-<p style={{fontWeight:"400", fontFamily:"Poppins",fontSize:"21px",lineHeight:"0.7",color:"#393738"}}>comme la gestion des sprints et l’amélioration continue.</p>
+    <p style={{fontWeight:"400", fontFamily:"Poppins",fontSize:"21px",lineHeight:"0.8",color:"#393738"}}>Un blog dédié aux Scrum Masters, offrant conseils pratiques, outils</p>
+    <p className=""style={{fontWeight:"400", fontFamily:"Poppins",fontSize:"21px",lineHeight:"0.8",color:"#393738"}}>et astuces pour faciliter les équipes agiles. Explorez des sujets clés </p>
+<p style={{fontWeight:"400", fontFamily:"Poppins",fontSize:"21px",lineHeight:"0.8",color:"#393738"}}>comme la gestion des sprints et l’amélioration continue.</p>
 </div>
     </div>
     <div className='hero-blog text-center pt-5 mt-4 '>
@@ -123,7 +125,7 @@ L’Agilité, ce n’est pas seulement une méthodologie, c’est une façon de 
         <div className='container mt-5 pt-5'>
   <p className="text-center mt-5 pt-5" style={{fontSize:"27px",fontWeight:"500",color:"#393738",opacity:"70%",fontFamily:'Inter'}}>nous sommes là pour répondre à vos besoins !</p>
        <div className=' text-center mx-auto position-relative'>
-    <img src={textSwim} alt='' className='text-swim text-center'/>
+    <img src={textSwim} alt='' className='text-swim text-center img-fluid'/>
     <img src={whrihteSwim} alt='' className='whrihte-swim text-center img-fluid'/>
     </div>
         </div>

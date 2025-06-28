@@ -3,8 +3,7 @@ import './Navbar.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import logoBbc from '../../pages/images/Logo.png'
 import { Link, Outlet } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+
 
 function Navbar() {
 
@@ -46,10 +45,10 @@ function Navbar() {
       <ul className="navbar-nav mx-auto d-flex align-items-center gap-3">
 
         <li className="nav-item">
-          <Link to="/home" className="nav-link">Accueil</Link>
+          <Link to="/" className="nav-link">Accueil</Link>
         </li>
         <li className="nav-item">
-          <Link to="/" className="nav-link">À Propos</Link>
+          <Link to="evenment" className="nav-link">À Propos</Link>
         </li>
         <li className="nav-item">
           <Link to="/formation" className="nav-link">Formation</Link>
@@ -72,7 +71,7 @@ function Navbar() {
           <ul className="dropdown-menu dropdown-content">
             <li><Link className="dropdown-item" to="/nosEvenment">Evenements 1</Link></li>
             <li><Link className="dropdown-item" to="/markEvenment">Evenements 2</Link></li>
-            <li><Link className="dropdown-item" to="/connect">Connect</Link></li>
+            <li><Link className="dropdown-item" to="/blogService">Evenements 3</Link></li>
           </ul>
         </li>
       </ul>

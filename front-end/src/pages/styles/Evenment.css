@@ -39,16 +39,13 @@ right: 50px;
 z-index: 4;
 
 }
-
 .lines-container3 {
   margin-top: 250px;
-  /* Alignement des lignes verticalement */
       
 }
 .lines-container {
   display: flex;
-  /* Alignement des lignes verticalement */
-    position: absolute;
+     position: absolute;
     left: 0;
     }
     .hr-event {
@@ -64,9 +61,9 @@ z-index: 4;
 
 .blue-line {
     position: absolute;
-  height: 9px; /* Hauteur de la ligne bleue */
+  height: 9px; 
   
-  background-color: #5B99D3; /* Couleur bleue */
+  background-color: #5B99D3;
 }
 
 .title-position1 {
@@ -112,8 +109,7 @@ margin-top: 170px;
     display: flex;
     position: absolute;
     right: 0;
-  /* Alignement des lignes verticalement */
-}
+  }
 }
 .circle {
   margin-top: 11px;
@@ -129,9 +125,9 @@ margin-top: 170px;
 .red-line {
     position: absolute;
     left: 130px;
-  height: 9px; /* Hauteur de la ligne bleue */
+  height: 9px; 
  
-  background-color: #990500; /* Couleur bleue */
+  background-color: #990500; 
 }
 
 
@@ -142,7 +138,7 @@ margin-top: 170px;
     text-align: justify;
     font-weight: 500;
     font-size: 18px;
-      letter-spacing: 1.2px; /* Espacement des lettres */
+      letter-spacing: 1.2px;
       color: #6C6B6B;
           margin-top: 100px;
        padding-left:50px;
@@ -153,7 +149,7 @@ margin-top: 170px;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   color: #393738;
-  font-size: clamp(50px, 12vw, 183px); /* ✅ fluide et max 183px */
+  font-size: clamp(50px, 12vw, 183px); 
   padding-left: 3rem;
   
   padding-top: 1rem;
@@ -170,7 +166,7 @@ margin-top: 170px;
 .text-paragraph2 {
   font-family: 'Inter', sans-serif;
   font-weight: 300;
-  font-size: clamp(16px, 2.2vw, 20px); /* ✅ fluide et lisible */
+  font-size: clamp(16px, 2.2vw, 20px); 
   max-width: 520px;
   letter-spacing: 2px;
   margin-top: 350px;
@@ -216,24 +212,17 @@ opacity: 70%;
   position: absolute;
   top: 220px;
   right: 0;
-  transform: translateX(40%); /* pousse la ligne au-delà du bord du conteneur */
+  transform: translateX(40%); 
   width: clamp(300px, 60vw, 800px);
   border: 2px solid #9b9b9b;
   opacity: 100%;
   z-index: 4;
   width: 550px;
 }
-
-
-
-
 .img-rectangle {
 padding-right: 50px;
 margin-right: 20px;
     z-index: 1;
-   
-  
- /* Pour positionner l'overlay par rapport à ce conteneur */
 }
 
 .blue-overlay {
@@ -244,7 +233,7 @@ margin-right: 20px;
   height: clamp(200px, 40vw, 500px);
   background-color: #0030AB;
   border-radius: 18px;
-  z-index: 1; /* très important pour être visible */
+  z-index: 1;
     border-radius: 18px;
  }
 
@@ -280,7 +269,7 @@ margin-right: 20px;
 }
 @media (max-width: 768px) {
   .img-reg2 {
-    max-width: 75vw;     /* ✅ plus petit sur mobile */
+    max-width: 75vw;
     height: auto;
   }
 }
@@ -294,14 +283,12 @@ margin-right: 20px;
   left: 70px;
   width: clamp(200px, 40vw, 500px);
   height: clamp(200px, 40vw, 500px);
-  width: 480px; /* Couvre toute la largeur de l'image */
-  height: 520px; /* Couvre toute la hauteur de l'image */
+  width: 480px; 
+  height: 520px; 
   background-color: #990500;
  z-index: 0;
  border-radius: 18px;
- 
-  /* Faible opacité pour qu'il soit subtil */
- /* Met l'overlay derrière l'image */
+
 }
 @media (max-width: 768px) {
   .red-overlay {
@@ -335,7 +322,7 @@ padding: 100px;
 
 
 .btn-white:hover {
-  background-color: #5B99D3;;
+  background-color: #5B99D3;
   color: white;
 }
 .background-image {
@@ -365,7 +352,7 @@ padding: 100px;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   color: #393738;
-  font-size: clamp(50px, 15vw, 200px); /* ✅ fluide */
+  font-size: clamp(50px, 15vw, 200px); 
   letter-spacing: 0;
   padding-left: 1.5rem;
   padding-bottom: 1rem;
@@ -391,10 +378,10 @@ padding: 100px;
 .img-whrite {
  transform: translateY(-250px);
   width: 100%;
-  max-width: none;           /* ✅ enlève la limite */
-  height: clamp(500px, 60vh, 700px); /* ✅ hauteur responsive */
+  max-width: none;
+  height: clamp(500px, 60vh, 700px); 
   object-fit: cover;
-  position: relative;        /* ✅ relative, sauf si tu superposes */
+  position: relative;
   z-index: 2;
   display: block;
 }
@@ -423,7 +410,7 @@ padding: 100px;
     }
     @media (max-width: 768px) {
   .img-work {
-    max-width: 75vw;     /* ✅ plus petit sur mobile */
+    max-width: 75vw;
     height: auto;
     top: 50px;
   }
@@ -433,10 +420,10 @@ padding: 100px;
     }
 .second-overlay {
   position: absolute;
-  top: clamp(270px, 5vw, 800px); /* ✅ hauteur fluide */
-  right: clamp(20px, 10vw, 180px); /* ✅ position fluide à droite */
-  width: clamp(300px, 80vw, 815px); /* ✅ largeur adaptable */
-  height: clamp(500px, 50vw, 494px); /* ✅ hauteur adaptable */
+  top: clamp(270px, 5vw, 800px); 
+  right: clamp(20px, 10vw, 180px); 
+  width: clamp(300px, 80vw, 815px); 
+  height: clamp(500px, 50vw, 494px);
   background-color: #5B99D3;
   z-index: 1;
   border-radius: 18px;
@@ -452,8 +439,8 @@ padding: 100px;
 .input-text {
     width: 30%;
     height: 50;
-    background-color: transparent; /* ✅ au lieu de "none" */
-  border: 1px solid #ccc; /* facultatif pour voir les bordures */
+    background-color: transparent;
+  border: 1px solid #ccc; 
 border-radius: 25px;
     
 }
@@ -479,7 +466,7 @@ border-radius: 25px;
     text-align: justify;
     font-weight: 300;
     font-size: 23px;
-      letter-spacing: 0px; /* Espacement des lettres */
+      letter-spacing: 0px; 
       color: #8E8E8E;
           margin-top: 80px;
           font-family: Inter;
@@ -491,25 +478,14 @@ border-radius: 25px;
     font-size: 14px;
     padding: 6px 12px;
    }
-/*responsibe*/
-/* Container principal */
+
 .evenmet-container {
   overflow-x: hidden;
 }
-
-/* Paragraphes */
-
-
-/* Ajuster lines-container3 avec rotation */
 .lines-container3 {
-  margin-left: 45vw !important; /* remplace 43% */
-  padding-top: 500px !important; /* remplace 560px */
+  margin-left: 45vw !important; 
+  padding-top: 500px !important;
 }
-
-
-
-
-/* Exemple de media query */
 @media (max-width: 768px) {
   .text-paragraph, .text-paragraph2, .text-paragraph3 {
     max-width: 95vw;

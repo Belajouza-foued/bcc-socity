@@ -26,7 +26,7 @@ import imgBip from './assets/Bib.png'
 import imgHr from './assets/icon-hr.png'
 import YouTube from 'react-youtube';
 import { Link } from 'react-router-dom';
-import image5 from './images/clock.png'
+import image5 from './images/Logo.png'
 import logoVideo from '../pages/images/Logo.png'
 const Home  = () => {
   const [open,setOpen] = useState(false)
@@ -42,7 +42,7 @@ const Home  = () => {
 
   const opts = {
     height: '400',
-    width: '600',
+    width: '580',
      playerVars: {
       autoplay: 1,
       mute: 1,
@@ -55,79 +55,71 @@ const Home  = () => {
   
    <div className='container-fluid pt-5'style={{ backgroundColor: '#D6D6D6' }}>
 <div className="row">
-  <div className='col-12'>
-   
-<div id="carouselExampleCaptions" className="carousel slide">
-  <div className="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <div className="col-12">
+  <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+    <div className="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-label="Slide 1" aria-current="true"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div className="carousel-inner">
+      <div className="carousel-item active">
+        <img src={image8} className="d-block w-100" alt="..." />
+        <div className="carousel-caption d-md-block">
+          <h1 className="caroussel-1">Best Challenge Center</h1>
+          <p className="caroussel-second">Formations & Consulting</p>
+          <p className="caroussel-3">Cabinet de formation professionnelle, de consulting, et de<br />développements informatiques Etudes, Conseil, Formation<br />et Audit</p>
+          <div className="caroussel-button">
+            <button className="btn btn-danger caroussel-button1">À propos de nous</button>
+          </div>
+        </div>
+      </div>
+
+      <div className="carousel-item">
+        <img src={image9} className="d-block w-100" alt="..." />
+        <div className="carousel-caption d-md-block">
+          <h1 className="caroussel-1">Best Challenge Center</h1>
+          <p className="caroussel-second">Formations & Consulting</p>
+          <p className="caroussel-3">Cabinet de formation professionnelle, de consulting, et de<br />développements informatiques Etudes, Conseil, Formation<br />et Audit</p>
+          <div className="caroussel-button">
+            <button className="btn btn-danger caroussel-button1">À propos de nous</button>
+          </div>
+        </div>
+      </div>
+
+      <div className="carousel-item">
+        <img src={image10} className="d-block w-100" alt="..." />
+        <div className="carousel-caption d-md-block">
+          <h1 className="caroussel-1">Best Challenge Center</h1>
+          <p className="caroussel-second">Formations & Consulting</p>
+          <p className="caroussel-3">Cabinet de formation professionnelle, de consulting, et de<br />développements informatiques Etudes, Conseil, Formation<br />et Audit</p>
+          <div className="caroussel-button">
+            <button className="btn btn-danger caroussel-button1">À propos de nous</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span className="visually-hidden">Previous</span>
+    </button>
+    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span className="carousel-control-next-icon" aria-hidden="true"></span>
+      <span className="visually-hidden">Next</span>
+    </button>
   </div>
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src={image8} className="d-block w-100" alt=""/>
-      <div className="text-start h-75 carousel-caption d-md-block">
-        <div className='carousel-title text-start'>
-        <h1 className='caroussel-1' style={{fontSize:"40px",fontWeight:"600",fontFamily:"Poppins"}}>Best Challenge Center</h1>
-        <p className='caroussel-1' style={{fontWeight:'500',fontSize:'20px',fontFamily:"Poppins"}}>Formations & Consulting</p>
-        </div>
-        <div className='caroussel-2'>
-              <p className='caroussel-3' style={{fontWeight:'200',fontSize:'17px',fontFamily:"Poppins"}}>Cabinet de formation professionnelle,de consulting, et de<br/>développements informatiques Etudes,Conseil,Formation<br></br>et Audit </p>
-        </div>
-        <div className='caroussel-button'>
-        <button type='submit' className='btn btn-danger caroussel-button1'>A propos de nous</button>
-        </div>
-      </div>
-    </div>
-  <div className="carousel-item active">
-      <img src={image9} className="d-block w-100" alt=""/>
-      <div className="text-start h-75 carousel-caption d-md-block">
-        <div className='carousel-title text-start'>
-        <h1 className='caroussel-1' style={{fontSize:"55px",fontWeight:"600",fontFamily:"Poppins"}}>Best Challenge Center</h1>
-        <p className='caroussel-1' style={{fontWeight:'500',fontSize:'30px',fontFamily:"Poppins"}}>Formations & Consulting</p>
-        </div>
-        <div className='caroussel-2'>
-              <p className='caroussel-3' style={{fontWeight:'200',fontSize:'17px',fontFamily:"Poppins"}}>Cabinet de formation professionnelle,de consulting, et de<br/>développements informatiques Etudes,Conseil,Formation<br></br>et Audit </p>
-        </div>
-        <div className='caroussel-button'>
-        <button type='submit' className='btn btn-danger caroussel-button1'>A propos de nous</button>
-        </div>
-      </div>
-    </div>
-    <div className="carousel-item active">
-      <img src={image10} className="d-block w-100" alt=""/>
-      <div className="text-start h-75 carousel-caption d-md-block">
-        <div className='carousel-title text-start'>
-        <h1 className='caroussel-1' style={{fontSize:"55px",fontWeight:"600",fontFamily:"Poppins"}}>Best Challenge Center</h1>
-        <p className='caroussel-1' style={{fontWeight:'500',fontSize:'30px',fontFamily:"Poppins"}}>Formations & Consulting</p>
-        </div>
-        <div className='caroussel-2'>
-              <p className='caroussel-3' style={{fontWeight:'200',fontSize:'17px',fontFamily:"Poppins"}}>Cabinet de formation professionnelle,de consulting, et de<br/>développements informatiques Etudes,Conseil,Formation<br></br>et Audit </p>
-        </div>
-        <div className='caroussel-button'>
-        <button type='submit' className='btn btn-danger caroussel-button1'>A propos de nous</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
 </div>
-  </div>
+
   
     {/*image button hover*/}
-    <div className='col-lg-6 col-sm-12'style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}} >
-    <div className='container position-home ps-5 me-2'style={{lineHeight:"1.4",maxWidth:"600px",letterSpacing:"1.5px"}}>
-    <h1 className='pt-2' style={{color:"#A6354D",fontSize:"20px",fontWeight:"500"}}>Why chose</h1>
-    <h2 className='pt-2' style={{fontFamily:'Poppins',color:"#2B2B2B",fontSize:"38px",fontWeight:"600"}}>Assisting individuals in locating the appropriate real estate.</h2>
-      <p className='' style={{fontFamily:'Poppins',color:"#808080",fontSize:"16px",fontWeight:"400",letterSpacing:"0.4px",lineHeight:"1.6",maxWidth:"500px"}}>Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. Nulla convallis ipsum molestie nibh malesuada, ac malesuada leo volutpat.</p>
-     <div className='img-homes img-fluid'style={{lineHeight:""}}>
+    <div className='col-lg-6 col-sm-12 pt-5 mt-5' >
+    <div className='container position-home ps-5 me-2'>
+    <h1 className='pt-2'>Why chose</h1>
+    <h2 className='pt-2'>Assisting individuals in locating the appropriate real estate.</h2>
+      <p className=''>Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. Nulla convallis ipsum molestie nibh malesuada, ac malesuada leo volutpat.</p>
+     <div className='img-homes img-fluid'>
       <img className='img-home img-fluid pt-0 pb-0' src={imgHome} alt=''/>
        <img className='img-home1 img-fluid' src={imgHome1} alt=''/>
        </div>
@@ -146,37 +138,44 @@ const Home  = () => {
                 <div className='container-fluid back-video'>
     <div className='row'>
 <div className='col-lg-6 col-sm-12 rounded-5'>
-      <div className='card-video pb-5 mx-auto' style={{ textAlign: 'center', padding: '50px',alignItems:'center'}}>
+      <div className='card-video mx-auto pt-5 mt-5'>
          <img src={logoVideo} alt="" className="image-video mx-auto"/>
-      <p className='' style={{ fontSize: '20px',color:'#fff',fontWeight:"400",fontFamily:"Poppins" }}>Lire la vidéo au dessus</p>
+      <p className='sentence-video'>Lire la vidéo au dessus</p>
       
       {!showVideo ? (
         <button className='btn-video form-control' onClick={handleClick} style={{
           padding: '10px 20px',
           fontSize: '20px',
-          backgroundColor: '#007bff',
+          backgroundColor: '#AD2E43',
           color: '#fff',
           border: 'none',
-          borderRadius: '5px',
+          borderRadius: '10px',
           cursor: 'pointer'
         }}>
           Lire la vidéo
         </button>
       ) : (
-       <YouTube videoId="Maqe7xTQmRs" opts={opts} onEnd={onVideoEnd} className='my-video'/>
+       <div className="video-container">
+  <YouTube
+    videoId="Maqe7xTQmRs"
+    opts={opts}
+    onEnd={onVideoEnd}
+    className="my-video"
+  />
+</div>
       )}
     </div>
     </div>
    
     {/*image button hover*/}
-  <div className='col-lg-6 col-sm-12 rounded-5  web-development mt-5 mx-auto'>
-                    <div className='card-text text-center mx-auto mt-5'>
-              <img src={image5} alt="" style={{height:"80px", width:"80px"}} className="image-web mx-auto pb-3"/>
+  <div className='col-lg-6 col-sm-12 rounded-5  web-development mx-auto'>
+                    <div className='card-text text-center mx-auto'style={{padding:"20px"}}>
+              <img src={image5} alt="" style={{height:"70px", width:"70px"}} className="image-web mx-auto"/>
               <div className='border-video'>
-              <h3 className='borderhome2 ps-2'><b className='hover'>Bienvenue à notre cabinet</b></h3>
-                     <p className='mx-auto' style={{ fontFamily: "Poppins",fontWeight:'200',fontSize:'13px',textAlign:'justify',maxWidth:"270px" }}>Best Challenge Center est un cabinet de conseil et de formation continue . Il a pour mission d’accompagner les entreprises en leur apportant une réponse efficace à leurs besoins en matière de formation et de développement des compétences.</p>
+              <h4 className='borderhome2 ps-3'><b className='hover'>Bienvenue à notre cabinet</b></h4>
+                     <p className='mx-auto border-text pt-3'>Best Challenge Center est un cabinet de conseil et de formation continue . Il a pour mission d’accompagner les entreprises en leur apportant une réponse efficace à leurs besoins en matière de formation et de développement des compétences.</p>
                      </div>
-              <Link to="service-web-development.html"><button className="btn btn-dark rounded-pill px-4 mt-3 shadow pe-4 ">Discover</button></Link>
+              <Link to="/evenment"><button className="btn btn-dark rounded-pill px-4 mt-3 shadow pe-4 ">Discover</button></Link>
           </div>
           </div>
            </div>

@@ -7,11 +7,31 @@
     background-color: #AD2E43;
     font-weight: 500;
 }
-.whrihte-swim {
-    position: absolute;
-    right: 320px;
-    top: 210px;
-}
+
 .container-swim {
     margin-top: 50px;
 }
+ .whrihte-swim {
+        width: 100%;
+    height: auto;
+    max-width: 850px;
+    object-fit: cover;
+    text-align: center;
+    display: flex;
+   left: 130px;
+      position: absolute;
+   transform: translateY(-170px); 
+  
+    }
+   
+     @media (max-width: 768px) {
+    .whrihte-swim {
+        width: 300px;
+    height: 200px;
+    left: 0;
+    position: absolute;
+    margin: 0 auto;
+    top: 220px;
+    }
+     }
+  

@@ -30,8 +30,9 @@ import Contact from "./pages/Contact"
 <Layout>
   <Routes>
     
-     <Route path="/" element={<Evenment/>}/>
-     <Route path="home" element={<Home />} />
+    
+     <Route path="/" element={<Home />} />
+     <Route path="evenment" element={<Evenment/>}/>
              <Route path="formation" element={<Formation/>}/>
          <Route path="about" element={<About/>}/>
              <Route path="register" element={<Register/>}/>

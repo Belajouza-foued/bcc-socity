@@ -7,8 +7,7 @@ const MCProjectsSection = () => {
     <div className='row text-center mt-5 pt-5'>
      <div className='col-lg-4 col-sm-12 col-md-6'>
               <div className="position-relative text-white back-img">
-  {/* Contenu positionné en bas */}
-  <div className="content-overlay position-absolute bottom-0 start-0 p-3">
+    <div className="content-overlay position-absolute bottom-0 start-0 p-3">
     <h5 style={{color:"#393738",}} className='borderhome2'><b>MC PROJECT</b></h5>
     <h6 style={{color:"#393738",}} className='borderhome2' >
       Trouvez la solution de formation adaptée à votre besoin
@@ -19,10 +18,9 @@ const MCProjectsSection = () => {
   </div>
 </div>
  </div>
-       <div className='col-lg-4 col-sm-12 col-md-6'>
+       <div className='col-lg-4 col-sm-12 col-md-6 ps-4'>
               <div className="position-relative text-white back-img2">
-  {/* Contenu positionné en bas */}
-  <div className="content-overlay position-absolute bottom-0 start-0 p-3">
+    <div className="content-overlay position-absolute bottom-0 start-0 p-3">
     <h5 style={{color:"#393738",}} className='borderhome2'><b>FIBRE OPTIQUE</b></h5>
     <h6 style={{color:"#393738",}} className='borderhome2' >
       Trouvez la solution de formation adaptée à votre besoin
@@ -33,7 +31,7 @@ const MCProjectsSection = () => {
   </div>
 </div>
  </div>
-       <div class='col-lg-4 col-sm-12 col-md-6'>
+       <div class='col-lg-4 col-sm-12 col-md-6 ps-3'>
               <div className="position-relative text-white back-img">
   {/* Contenu positionné en bas */}
   <div className="content-overlay position-absolute bottom-0 start-0 p-3 ps-3">

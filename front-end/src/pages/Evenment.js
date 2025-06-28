@@ -97,7 +97,7 @@ const Evenment  = () => {
   <div className='row'>
     <div className='col-lg-6 col-sm-12 ps-5'>
     <div className='text-always' style={{
-  marginTop: "-40px",  /* remonte l’élément */
+  marginTop: "-40px", 
   lineHeight: "1.9",
   fontFamily:"Inter",
   fontWeight:"700",
@@ -158,10 +158,7 @@ const Evenment  = () => {
     </div>
 </section>
 <section className="projects-list">
-  {/* Liste des projets ici */}
-
-  {/* Pagination ici */}
- <nav className="pagination-container fixed-bottom bg-white py-2 shadow">
+  <nav className="pagination-container fixed-bottom bg-white py-2 shadow">
   <ul className="pagination justify-content-center m-0">
     <li className="page-item">
       <Link className="page-link" to="#" aria-label="Previous">

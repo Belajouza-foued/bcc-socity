@@ -27,8 +27,8 @@ line-height: 0.5;
                 }
               }
 .accordion-button::after {
-  color: white !important; /* Définir la couleur de la flèche en blanc */
-  font-size: 1.25rem; /* Vous pouvez ajuster la taille de l'icône de la flèche */
+  color: white !important; 
+  font-size: 1.25rem;
 }
 .accordion-button::after {
   filter: invert(1);
@@ -52,7 +52,7 @@ line-height: 0.5;
 
 .accordion-button {
   background: #5B99D3 !important;
-  color: black !important; /* Texte noir */
+  color: black !important;
   width: 350px;
    
  
@@ -69,7 +69,6 @@ line-height: 0.5;
  
 }
 
-/* Pour les écrans moyens et plus larges */
 @media (min-width: 768px) {
   .back-img2 {
     height: 450px;
@@ -119,7 +118,7 @@ background-color: black;
   margin-bottom: 20px;
 }
 
-/* Pour les écrans moyens et plus grands (ex: tablette, desktop) */
+
 @media (min-width: 768px) {
   .back-img {
     height: 450px;

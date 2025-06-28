@@ -39,12 +39,13 @@ const  Blog = () => {
     <div className='row'>
         <div className='col-lg-12'>
     <div className='text-center pt-3 mt-5'>
-        <h2 style={{fontWeight:"600",color:"#393738",fontSize:'80px'}}>BLOG</h2>
-        <div className='text-center mt-3' style={{lineHeight:'0.7'}}>
-        <p style={{fontWeight:"400",fontSize:'21px',color:'#393738',fontFamily:"Poppins"}}>Welcome to Cooks Delight, where culinary dreams come</p>
-        <p style={{fontWeight:"400",fontSize:'21px',color:'#393738',fontFamily:"Poppins"}}>alive! Today</p>
-      </div>
-    </div>
+  <h2 className="blog-one">BLOG</h2> 
+  <div className='text-center mt-3' style={{ lineHeight: '0.8' }}>
+    <p className="blog-two">Welcome to Cooks Delight, where culinary dreams come</p>
+    <p className="blog-two">alive! Today</p>
+  </div>
+</div>
+
     </div>
       <div className="col-lg-6 mb-4 mt-5 d-flex justify-content-end align-items-center text-center mx-auto ps-5">
       <div className="card h-100" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>

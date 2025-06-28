@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import "bootstrap/dist/css/bootstrap.css";
 import "../pages/styles/Register.css";
-import { useNavigate } from 'react-router-dom';  // Import useNavigate
+import { useNavigate } from 'react-router-dom';  
 
 
 function Register() {
@@ -11,7 +11,7 @@ function Register() {
        const [number, setNumber] = useState('');
        const [password, setPassword] = useState('');
         
-    const navigate = useNavigate();  // Initialize navigate
+    const navigate = useNavigate();  
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -30,11 +30,7 @@ function Register() {
                 }
             })  
             console.log(response.data);
-
-            // Navigate to profile page on success
-            navigate('/login');
-            
-            // Optionally reload the page
+                    navigate('/login');           
             window.location.reload();
         } catch (error) {
             console.error('Registration failed', error);

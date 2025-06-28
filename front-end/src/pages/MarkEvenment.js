@@ -19,7 +19,7 @@ const MarkEvenment  = () => {
     <div className='mark-para mt-5'>
 <div className=' text-center pt-5'>
     <button type='submit' className='btn btn-danger btn-markEvenmnt pt-1 pb-1 pe-3 ps-3'>EVENT 01</button>
-    <h1 style={{fontWeight:"700", fontFamily:"Poppins",fontSize:"80px",color:"3A3838"}}>Marketing Digital</h1>
+    <h1 className='marketing-res'>Marketing Digital</h1>
     <p style={{fontWeight:"400", fontFamily:"Roboto",fontSize:"21px",lineHeight:"1",color:"#393738"}}>Boostez votre présence en ligne et maîtrisez les stratégies</p>
     <p style={{fontWeight:"400", fontFamily:"Roboto",fontSize:"21px",lineHeight:"0.7",color:"#393738"}}>numériques pour propulser votre entreprise !</p>
 </div>
@@ -192,9 +192,6 @@ nous vous invitons a assisster à nos formations, participer à des workshops, �
       </div>
     </div>
     
-    
-   
-  
  
  </div>
 </div>
@@ -206,7 +203,7 @@ nous vous invitons a assisster à nos formations, participer à des workshops, �
  </div>
  <div className='col-10 pt-3 mt-3'>
  <div className='baffle-container mt-5 pt-5 ps-5 ms-5'>
-    <h1 className=' title-baffle ps-3 pt-5' style={{color:"#393738", fontWeight:"500",fontSize:"30px", fontFamily:"Poppins",opacity:"70%",letterSpacing:'1px'}}>Vivez l’expérience, saisissez l’opportunité !</h1>
+    <h1 className='title-baffle' style={{color:"#393738", fontWeight:"500",fontSize:"30px", fontFamily:"Poppins",opacity:"70%",letterSpacing:'1px'}}>Vivez l’expérience, saisissez l’opportunité !</h1>
  </div>
  </div>
  </div>

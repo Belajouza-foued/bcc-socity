@@ -9,7 +9,7 @@
   margin-bottom: 20px;
 }
 
-/* Pour les écrans moyens et plus grands (ex: tablette, desktop) */
+
 @media (min-width: 768px) {
   .back-img {
     height: 450px;
@@ -27,8 +27,6 @@
   border-radius: 20px;
   margin-bottom: 20px;
 }
-
-/* Pour les écrans moyens et plus larges */
 @media (min-width: 768px) {
   .back-img2 {
     height: 450px;

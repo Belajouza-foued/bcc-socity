@@ -2,25 +2,19 @@
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0px;
-  line-height: 1.2; /* Important pour le "g" */
+  line-height: 1.2;
   margin: 0;
 }
-
-/* Écran desktop */
 @media (min-width: 992px) {
   .title2-about {
     font-size: 115px;
   }
 }
-
-/* Écran tablette */
 @media (min-width: 768px) and (max-width: 991px) {
   .title2-about {
     font-size: 80px;
   }
 }
-
-/* Écran mobile */
 @media (max-width: 767px) {
   .title2-about {
     font-size: 45px;
@@ -57,7 +51,7 @@ color: #6c6b6b;
 
 .lines-container3 {
   display: flex;
-  /* Alignement des lignes verticalement */
+ 
     position: absolute;
     left: 0;
     
@@ -65,16 +59,15 @@ color: #6c6b6b;
 }
 .lines-container {
   display: flex;
-  /* Alignement des lignes verticalement */
-    position: absolute;
+     position: absolute;
     left: 0;
     }
     
 .blue-about {
     position: absolute;
-  height: 10px; /* Hauteur de la ligne bleue */
+  height: 10px; 
   padding: 3px;
-  background-color: #5B99D3; /* Couleur bleue */
+  background-color: #5B99D3;
   width: 260px;
   z-index: 1;
   
@@ -82,9 +75,9 @@ color: #6c6b6b;
 
 .blue-line3 {
     position: absolute;
-  height: 9px; /* Hauteur de la ligne bleue */
+  height: 9px; 
   width: 200px;
-  background-color: #990500; /* Couleur bleue */
+  background-color: #990500; 
 }
 .parent-img {
     position: relative;
@@ -121,7 +114,7 @@ margin-top: 100px;
       transform: translateX(0);
     }
     100% {
-      opacity: 1; /* L'élément disparaît pour recommencer */
+      opacity: 1; 
       transform: translatex(-30px);
     }
   }
@@ -152,7 +145,7 @@ margin-top: 100px;
       transform: translateX(0);
     }
     100% {
-      opacity: 1; /* L'élément disparaît pour recommencer */
+      opacity: 1; 
       transform: translatex(0px);
     }
   }
@@ -187,12 +180,12 @@ max-width: 150px;
 @media (max-width: 768px) {
   .red-rect,
   .line-red {
-    left: 10%; /* Repositionne à gauche sur mobile */
+    left: 10%; 
     max-width: 70px;
   }
 
   .line-red {
-    bottom: -80px; /* Remonte la ligne pour l’adapter */
+    bottom: -80px; 
   }
 }
 .title-about3 {
@@ -237,7 +230,7 @@ height: 200px;
   width: 100%;
   max-width: 500px;
   height: auto;
-  aspect-ratio: 5 / 4; /* ou ajuste selon le design */
+  aspect-ratio: 5 / 4; 
   background-color: black;
   border-radius: 8px;
   overflow: hidden;
@@ -250,30 +243,23 @@ height: 200px;
   border-radius: 8px;
 }
 
-/* Responsive (mobile) */
+
 @media (max-width: 767px) {
   .astro-container {
     max-width: 90%;
     aspect-ratio: 4 / 3;
   }
 }
-
-
-/*form style*/
 .back-img3 {
   background-image: url('../images/second-back.png');
   height: 480px;
   width: 450px;
   background-color: white;
-  border-radius: 20px;
-   
+  border-radius: 20px;   
 }
-
 .card-position1 {
   max-width: 1500px;
- 
-}
-
+ }
 .card-img-top1 {
   width: 100%;
   height: 230px;

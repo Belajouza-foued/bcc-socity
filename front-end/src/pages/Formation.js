@@ -69,11 +69,11 @@ const Formation  = () => {
             </div>
 
           </div>
-        </div> {/* .accordion */}
+        </div> 
 
-      </div> {/* .col */}
-    </div> {/* .row */}
-  </div> {/* .container-fluid */}
+      </div>
+    </div>
+  </div> 
 </section>
 
 

@@ -96,8 +96,7 @@ const About  = () => {
   }}
 >
   <div className="row">
-    {/* Formulaire à gauche */}
-    <div className="col-lg-6 col-sm-12 d-flex align-items-center">
+        <div className="col-lg-6 col-sm-12 d-flex align-items-center">
        
            
        
@@ -117,7 +116,7 @@ const About  = () => {
   <textarea
     className="form-control custom-textarea"
     placeholder="Message"
-    rows="5" // ou le nombre de lignes que tu veux
+    rows="5" 
   ></textarea>
 </div>
 
