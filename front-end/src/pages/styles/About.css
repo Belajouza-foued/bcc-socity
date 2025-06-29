@@ -305,6 +305,7 @@ max-width: 150px;
      @media (max-width: 768px) {
     .about-form  {
 width: 300px;
+
 height: auto;
 
     } 
@@ -316,7 +317,30 @@ height: auto;
   transition: transform 0.3s ease-in-out;
    
 }
-.logo-about3 {
+.justify-contact {
+  font-size: 40px;
+  font-weight: 700;
+  color:#393738;
+}
+.justify-contact {
+  color: #393738;
+  font-weight: 700;
+  font-size: 45px;
+  position: relative; /* Nécessaire pour que 'left' fonctionne */
+  left: 1px; /* Attention : "1" tout seul n'est pas valide, on suppose ici 1px */
+}
+@media (max-width: 768px) { 
+.justify-contact {
+  color: #393738;
+  font-weight: 700;
+  font-size: 25px;
+/* Nécessaire pour que 'left' fonctionne */
+  /* Attention : "1" tout seul n'est pas valide, on suppose ici 1px */
+}
+
+}
+
+  .logo-about3 {
 height: 200px;
    
 }

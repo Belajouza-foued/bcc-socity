@@ -65,7 +65,7 @@ const Home  = () => {
 
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src={image8} className="d-block w-100" alt="..." />
+        <img src={image8} className="d-block w-100 img-responsive" alt="..." />
         <div className="carousel-caption d-md-block">
           <h1 className="caroussel-1">Best Challenge Center</h1>
           <p className="caroussel-second">Formations & Consulting</p>
@@ -77,7 +77,7 @@ const Home  = () => {
       </div>
 
       <div className="carousel-item">
-        <img src={image9} className="d-block w-100" alt="..." />
+        <img src={image9} className="d-block w-100 img-responsive" alt="..." />
         <div className="carousel-caption d-md-block">
           <h1 className="caroussel-1">Best Challenge Center</h1>
           <p className="caroussel-second">Formations & Consulting</p>
@@ -89,7 +89,7 @@ const Home  = () => {
       </div>
 
       <div className="carousel-item">
-        <img src={image10} className="d-block w-100" alt="..." />
+        <img src={image10} className="d-block w-100 img-responsive" alt="..." />
         <div className="carousel-caption d-md-block">
           <h1 className="caroussel-1">Best Challenge Center</h1>
           <p className="caroussel-second">Formations & Consulting</p>

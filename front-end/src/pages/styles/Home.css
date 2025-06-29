@@ -143,7 +143,7 @@
 
 @media (max-width: 768px) {
   .caroussel-button1 {
-  font-size: 5px;
+  font-size: 8px;
 
 }
 }
@@ -165,6 +165,9 @@
     text-align: center;
    top: 0;
   }
+ .img-responsive{
+  height: 200px;
+ }
 
   .caroussel-1 {
     font-size: 10px;
@@ -183,8 +186,7 @@
   .caroussel-button {
     display: flex;
     justify-content: center;
-        margin-top: -10px;
-        padding: 0px;
+                padding: 0px;
        
         }
 }
@@ -212,6 +214,7 @@
 .img-tampon {
   animation: rotateTampon 8s linear infinite; /* 8s = durée d’un tour */
   transform-origin: center center;
+  top: -30px;
 }
 
 /* Animation de rotation */
@@ -247,6 +250,7 @@ right: 0;
 .img-home1 {
   margin-top: -2rem;
 }
+
 @media (min-width: 768px) {
 .img-home2 {
 top: 170px;
@@ -257,8 +261,7 @@ z-index: 0;
 }
 @media (min-width: 768px) {
 .img-tampon {
- top: -120px;
-
+ top: -110px;
   left: 100px;
 z-index: 1;
 }
@@ -370,10 +373,16 @@ z-index: 1;
 .slide-panel {
   display: none;
  position: relative;
- transform: translateY(-50%);
+ transform: translateY(-10px);
+ font-size: 15px;
+ color: #000;
+ background-color: #fff;
+ border-radius: 20px;
 }
 .slide-panel2 {
   display: none;
+  background-color: #fff;
+  border-radius: 20px;
 }
 .slide-panel.open {
   display: block;
@@ -385,7 +394,7 @@ z-index: 1;
 .slide-panel {
   position: absolute;
     left: -300px;
-  width: 300px;
+  width: 250px;
   font-size: 15px;
   background-color: #fff;
   color: #000;
@@ -465,6 +474,7 @@ top: -20px;
   max-width: 400px;
   color: #fff;
   overflow: hidden;
+ margin-top: 20px;
  
 }
 
@@ -488,14 +498,13 @@ top: -20px;
   transition: transform 250ms;
   transform: translateY(-10px);
 }
-/*hover button*/
+
 .back-video {
   background-image: url('../images//bg6.jpg');
   overflow-x: hidden;
   padding: 50px;
-   
-  }
-  @media (min-width: 768px) {
+     }
+      @media (min-width: 768px) {
 .card-video {
   padding: 30px;
   align-items: center;

@@ -28,9 +28,9 @@ function Footer () {
         <div className='position-footer text-center pt-3'>
             <img className='logo-footer mt-3' src={logoFooter} alt=''/>
         </div>
-        <div className='text-center pt-2'  style={{color:"#ffff",fontSize:"15px"}}>
-            <h1>Get start to up your business</h1>
-            <h1>With personal AI manager</h1>
+        <div className='text-center pt-2'>
+            <h1 className="title-footer">Get start to up your business</h1>
+            <h1 className="title-footer">With personal AI manager</h1>
         </div>
       <div className='text-center  pt-3 mt-3'>
      <div className='d-flex justify-content-center align-items-center position-relative gap-2'>
@@ -52,7 +52,7 @@ function Footer () {
       </button>
     </div>
   <div className='col-lg-12 col-sm-12 d-flex col-sm-12'>
-   <ul className='d-flex list-unstyled mx-auto mt-4 flex-wrap justify-content-center'>
+   <ul className='d-flex list-unstyled mx-auto pt-3 flex-wrap justify-content-center'>
   <li>Features</li>
   <li>A Propos</li>
   <li>New & Blog</li>

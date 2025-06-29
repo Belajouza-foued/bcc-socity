@@ -17,6 +17,16 @@
   position: relative; /* Nécessaire pour que 'left' fonctionne */
   left: 1px; /* Attention : "1" tout seul n'est pas valide, on suppose ici 1px */
 }
+@media (max-width: 768px) { 
+.justify-contact {
+  color: #393738;
+  font-weight: 700;
+  font-size: 25px;
+/* Nécessaire pour que 'left' fonctionne */
+  /* Attention : "1" tout seul n'est pas valide, on suppose ici 1px */
+}
+
+}
 /*resp*/
 .span-justify {
   color: #5b99d3;

@@ -103,7 +103,7 @@ const About  = () => {
            
        
       <form className="w-100 p-4">
-         <h1 className='text-center pb-3' style={{color:"#393738",fontWeight:"700", fontSize:"30px"}}>CONTACTEZ<span className='nous ps-2 span-justify '>NOUS</span></h1>
+         <h1 className='text-center pb-3 justify-contact'>CONTACTEZ<span className='nous ps-2 span-justify '>NOUS</span></h1>
                  <div className="form-outline mb-4">
           <input type="text" id="form2Example1" placeholder='Nom' className="form-control custom-textarea" style={{border:"2px solid #d9d9d9",color:"#d9d9d9"}}/>
                   </div>

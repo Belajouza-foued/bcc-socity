@@ -16,6 +16,14 @@
     border-radius: 25px;
        background-color: #5b99d3;
 }
+@media (max-width: 768px) {
+.btn-class {
+    font-size: 10px;
+  padding: 3px;
+    border-radius: 25px;
+       background-color: #5b99d3;
+}
+}
 .blog-container {
   padding-bottom: 200px;
 

@@ -89,7 +89,7 @@ const  Blog = () => {
         id="read-more-btn"
         onClick={toggleText}
       >
-        {isExpanded ? 'Read less' : 'Read more'}
+        {isExpanded ? 'Lire moins' : 'Lire la suite'}
       </button>
     </div>
 
@@ -142,7 +142,7 @@ const  Blog = () => {
         id="read-more-btn1"
         onClick={toggleText1}
       >
-        {isExpanded1 ? 'Read less' : 'Read more'}
+        {isExpanded1 ? 'Lire moins' : 'Lire la suite'}
       </button>
     </div>
 
@@ -194,7 +194,7 @@ const  Blog = () => {
         id="read-more-btn2"
         onClick={toggleText2}
       >
-        {isExpanded2 ? 'Read less' : 'Read more'}
+        {isExpanded2 ? 'Lire moins' : 'Lire la suite'}
       </button>
     </div>
 
@@ -246,7 +246,7 @@ const  Blog = () => {
         id="read-more-btn3"
         onClick={toggleText3}
       >
-        {isExpanded3 ? 'Read less' : 'Read more'}
+        {isExpanded3 ? 'Lire moins' : 'Lire la suite'}
       </button>
     </div>
 
@@ -298,7 +298,7 @@ const  Blog = () => {
         id="read-more-btn4"
         onClick={toggleText4}
       >
-        {isExpanded4 ? 'Read less' : 'Read more'}
+        {isExpanded4 ? 'Lire moins' : 'Lire la suite'}
       </button>
     </div>
 
@@ -351,7 +351,7 @@ const  Blog = () => {
         id="read-more-btn5"
         onClick={toggleText5}
       >
-        {isExpanded5 ? 'Read less' : 'Read more'}
+        {isExpanded5 ? 'Lire moins' : 'Lire la suite'}
       </button>
     </div>
 
