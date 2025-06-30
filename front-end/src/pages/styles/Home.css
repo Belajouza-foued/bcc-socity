@@ -94,7 +94,7 @@
 
 /* Conteneur des images */
 .img-homes {
-  line-height: normal; /* Ou 1 si nécessaire */
+  line-height: normal;
 }
 
 /* Première image */
@@ -212,7 +212,7 @@
 }
 /*rotate*/
 .img-tampon {
-  animation: rotateTampon 8s linear infinite; /* 8s = durée d’un tour */
+  animation: rotateTampon 8s linear infinite; 
   transform-origin: center center;
   top: -30px;
 }

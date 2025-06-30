@@ -1,12 +1,10 @@
 
 .lines-container4 {
    position: relative;
-  padding-top: clamp(100px, 10vw, 600px); /* ✅ padding fluide */
-
+  padding-top: clamp(100px, 10vw, 600px);
 }
 
 .evenmet-container {
-
 padding-bottom: 100px;
 }
 
@@ -15,7 +13,7 @@ padding-bottom: 100px;
 right: 110px;
   top: 660px;
   height: 7px;
-  width: clamp(150px, 60vw, 800px); /* ✅ largeur responsive */
+  width: clamp(150px, 60vw, 800px); 
   background-color: #5B99D3;
   z-index: 5;
   opacity: 100%;
@@ -68,8 +66,7 @@ z-index: 4;
 
 .title-position1 {
     text-align: justify;
-    
-padding-right: 30px;
+    padding-right: 30px;
 }
 .title-sommes {
   font-family: "Poppins", sans-serif;
@@ -113,9 +110,7 @@ margin-top: 170px;
 }
 .circle {
   margin-top: 11px;
-  
-  
-  
+   
 }
 .hr-red {
  margin-right: 45px;
@@ -129,7 +124,6 @@ margin-top: 170px;
  
   background-color: #990500; 
 }
-
 
 .text-paragraph {
   font-family: Poppins;
@@ -150,18 +144,13 @@ margin-top: 170px;
   color: #393738;
   font-size: clamp(50px, 12vw, 183px); 
   padding-left: 3rem;
-  
-  padding-top: 1rem;
- 
-  line-height: 1;
+    padding-top: 1rem;
+   line-height: 1;
 }
-
 .vision-word {
   padding-top: 0;
   line-height: 0.6;
 }
-
-
 .text-paragraph2 {
   font-family: 'Inter', sans-serif;
   font-weight: 300;
@@ -172,10 +161,6 @@ margin-top: 170px;
   color: #8e8e8e;
   text-align: justify;  
   margin-right: 70px;
- 
-
-
- 
 
 }
 @media (max-width: 768px) {
@@ -196,12 +181,10 @@ margin-top: 170px;
 }
 @media (max-width: 576px) {
   .img-reg {
-    max-width: 80%;     /* occupe 90% de la largeur de l’écran */
-    margin-top: 50px;   /* moins d’espace en haut */
+    max-width: 80%;     
+    margin-top: 50px; 
   }
 }
-
-/* Sur tablettes (écrans ≤ 768px), on ajuste plus finement */
 @media (max-width: 768px) {
   .img-reg {
     max-width: 70%;
@@ -216,16 +199,8 @@ margin-top: 170px;
   margin-top: 280px;
 margin-left: 619px;
 opacity: 70%;
-
   
 }
-/*button back resp */ 
-/* Container background (si tu as une image de fond) */
-.background-image {
-
-}
-
-/* Texte principal */
 .text-always {
   margin-top: -40px;
   line-height: 1.9;
@@ -626,9 +601,7 @@ border-radius: 25px;
     font-size: 12px;
            color: #6C6B6B;
           margin-top: 120px;
-          
-         
-        
+                 
       }
   .lines-container3 {
     margin-left: 10vw !important;

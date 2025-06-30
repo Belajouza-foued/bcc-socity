@@ -7,9 +7,6 @@
   font-size: 100px;
   text-align: left;
 }
-
-
-/* Mobiles grands (≤ 767px) */
 @media (max-width: 767px) {
   .title2-about {
     font-size: 40px;
@@ -51,8 +48,6 @@
   font-size: 18px;
   color: #6c6b6b;
 }
-
-/* Tablettes et plus petits laptops */
 @media (max-width: 992px) {
   .text-about {
     max-width: 350px;
@@ -326,16 +321,14 @@ height: auto;
   color: #393738;
   font-weight: 700;
   font-size: 45px;
-  position: relative; /* Nécessaire pour que 'left' fonctionne */
-  left: 1px; /* Attention : "1" tout seul n'est pas valide, on suppose ici 1px */
+  position: relative;
+  left: 1px; 
 }
 @media (max-width: 768px) { 
 .justify-contact {
   color: #393738;
   font-weight: 700;
   font-size: 25px;
-/* Nécessaire pour que 'left' fonctionne */
-  /* Attention : "1" tout seul n'est pas valide, on suppose ici 1px */
 }
 
 }

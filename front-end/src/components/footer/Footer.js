@@ -51,18 +51,19 @@ function Footer () {
         Try Now
       </button>
     </div>
-  <div className='col-lg-12 col-sm-12 d-flex col-sm-12'>
-   <ul className='d-flex list-unstyled mx-auto pt-3 flex-wrap justify-content-center'>
-  <li>Features</li>
-  <li>A Propos</li>
-  <li>New & Blog</li>
-  <li>Careers</li>
-  <li>About Us</li>
-  <li>Terms</li>
-  <li>Privacy</li>
-  <li>Cookies</li>
-</ul>
-  </div>
+  <div className="footer-container">
+  <ul className="mx-auto pt-3">
+    <li>Features</li>
+    <li>A Propos</li>
+    <li>New & Blog</li>
+    <li>Careers</li>
+    <li>About Us</li>
+    <li>Terms</li>
+    <li>Privacy</li>
+    <li>Cookies</li>
+  </ul>
+</div>
+
 </div>
 
     </div>
