@@ -1,5 +1,6 @@
 import React from 'react';
 import '../pages/styles/MCProjectsSection.css'; // si tu veux styliser séparément
+import { Link } from 'react-router-dom';
 
 const MCProjectsSection = () => {
   return (
@@ -13,7 +14,8 @@ const MCProjectsSection = () => {
       Trouvez la solution de formation adaptée à votre besoin
     </h6>
       <div className="text-end">
-        <button type='button' className='btn btn-danger button-250'>250dt</button>
+        <Link to="/nosEvenment">
+        <button type='button' className='btn btn-danger button-250'>250dt</button></Link>
       </div>
   </div>
 </div>
@@ -26,7 +28,8 @@ const MCProjectsSection = () => {
       Trouvez la solution de formation adaptée à votre besoin
     </h6>
       <div className="text-end">
-        <button type='button' className='btn btn-danger button-250'>250dt</button>
+        <Link to="/markEvenment">
+        <button type='button' className='btn btn-danger button-250'>250dt</button></Link>
       </div>
   </div>
 </div>
@@ -40,7 +43,8 @@ const MCProjectsSection = () => {
       Trouvez la solution de formation adaptée à votre besoin
     </h6>
       <div className="text-end">
-        <button type='button' className='btn btn-danger button-250'>250dt</button>
+        <Link to='/blogService'>
+        <button type='button' className='btn btn-danger button-250'>250dt</button></Link>
       </div>
   </div>
 </div>
