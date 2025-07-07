@@ -71,7 +71,8 @@ const Home  = () => {
           <p className="caroussel-second">Formations & Consulting</p>
           <p className="caroussel-3">Cabinet de formation professionnelle, de consulting, et de<br />développements informatiques Etudes, Conseil, Formation<br />et Audit</p>
           <div className="caroussel-button">
-            <button className="btn btn-danger caroussel-button1">À propos de nous</button>
+            <Link className='' to="/about">
+            <button className="btn btn-danger caroussel-button1">À propos de nous</button></Link>
           </div>
         </div>
       </div>
@@ -83,7 +84,8 @@ const Home  = () => {
           <p className="caroussel-second">Formations & Consulting</p>
           <p className="caroussel-3">Cabinet de formation professionnelle, de consulting, et de<br />développements informatiques Etudes, Conseil, Formation<br />et Audit</p>
           <div className="caroussel-button">
-            <button className="btn btn-danger caroussel-button1">À propos de nous</button>
+            <Link to='/evenment'>
+            <button className="btn btn-danger caroussel-button1">À propos de nous</button></Link>
           </div>
         </div>
       </div>
@@ -95,7 +97,8 @@ const Home  = () => {
           <p className="caroussel-second">Formations & Consulting</p>
           <p className="caroussel-3">Cabinet de formation professionnelle, de consulting, et de<br />développements informatiques Etudes, Conseil, Formation<br />et Audit</p>
           <div className="caroussel-button">
-            <button className="btn btn-danger caroussel-button1">À propos de nous</button>
+            <Link to='/blog'>
+            <button className="btn btn-danger caroussel-button1">À propos de nous</button></Link>
           </div>
         </div>
       </div>
@@ -196,6 +199,7 @@ const Home  = () => {
                       <p className='position-absolute text-center' style={{color:"#808080",fontSize:"16px",fontWeight:"400",fontFamily:"Poppins",left:"40px",top:"200px",maxWidth:"220px"}}>Donec porttitor euismod dignissim.
                          Nullam a lacinia ipsum, nec dignissim purus. </p>
                             </div>
+                            {/*add comment*/}
                   </div>
                     <div className='col-lg-4 col-sm-12 mt-5 pt-3'>
                     <div className='container img-radius position-relative'>
