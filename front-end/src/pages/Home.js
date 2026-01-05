@@ -4,8 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import image8 from './images/slider-3.jpg'
 import image9 from './images/slider-2.jpg'
 import image10 from './images/slider-1.jpg'
-import imgHome from './images/group-home.png'
-import imgHome1 from './images/groupe-home1.png'
+import { ImBooks } from "react-icons/im";
 import imgHome2 from './images/groupe-home2.png'
 import imgHome3 from './images/groupe-home3.png'
 import imgHome4 from './images/groupe-home4.png'
@@ -28,6 +27,8 @@ import YouTube from 'react-youtube';
 import { Link } from 'react-router-dom';
 import image5 from './images/Logo.png'
 import logoVideo from '../pages/images/Logo.png'
+import { LuCircleUserRound } from "react-icons/lu"
+
 const Home  = () => {
   const [open,setOpen] = useState(false)
    const [open2,setOpen2] = useState(false)
@@ -121,16 +122,30 @@ const Home  = () => {
     <div className='container position-home ps-5 me-2'>
     <h1 className='pt-2'>Why chose</h1>
     <h2 className='pt-2'>Assisting individuals in locating the appropriate real estate.</h2>
-      <p className=''>Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. Nulla convallis ipsum molestie nibh malesuada, ac malesuada leo volutpat.</p>
-     <div className='img-homes img-fluid'>
-      <img className='img-home img-fluid pt-0 pb-0' src={imgHome} alt=''/>
-       <img className='img-home1 img-fluid' src={imgHome1} alt=''/>
-       </div>
+      <p className=''>accompagne les individus et les entreprises dans le développement de leurs compétences à travers des formations pratiques, modernes et orientées résultats.</p>
+     
+      <div className='container-test'>
+<LuCircleUserRound className='' style={{width:"70px", height:"70px", borderRadius:"100%", color:"#5b99d3", opacity:"70%"}} />
+<div className='test-block ps-3 pt-2'>
+<h4 className='' style={{fontFamily:'Poppins',color:"#5bb9d3",fontSize:"16px",fontWeight:"700", fontStyle:"regular", lineHeight:""}}>Coaching personnalisé</h4>
+<p className=''style={{fontFamily:'Poppins',color:"#808080",fontSize:"13px",fontWeight:"400",fontStyle:"regular",lineHeight:"1.5"}}> Accompagnement sur mesure pour booster vos compétences professionnelles rapidement..</p>
+</div>
+     </div>
+     
+      <div className='container-test mt-4'>
+<ImBooks className='ms-2' style={{width:"65px", height:"65px", borderRadius:"100%",color:"#5b99d3", opacity:"70%"}} />
+<div className='test-block ps-3 pt-2'>
+<h4 className='' style={{fontFamily:'Poppins',color:"#5bb9d3",fontSize:"16px",fontWeight:"700", fontStyle:"regular", lineHeight:""}}>Une version plus marketing</h4>
+<p className=''style={{fontFamily:'Poppins',color:"#808080",fontSize:"13px",fontWeight:"400",fontStyle:"regular",lineHeight:"1.5"}}>Une équipe passionnée qui transmet son savoir avec pédagogie et expertise.</p>
+</div>
+     </div>
+      
+    
       </div>
       </div>
       <div className='col-lg-6 col-sm-12'>
         <div className='position-image pt-5'>
-        <div className='image-tampon text-center position-relative'style={{zIndex:""}}>
+                  <div className='image-tampon text-center position-relative'style={{zIndex:""}}>
           <img className='img-tampon img-fluid position-relative'  src={imgTampon} alt=''/>
           <img className='img-home2 img-fluid position-relative' src={imgHome2} alt=''/>
          <img className='img-home3 img-fluid position-relative' src={imgHome3} alt=''/>
@@ -189,15 +204,14 @@ const Home  = () => {
                   <div className='row'>
                   <div className='text-center'>
                      <h1 className='pt-2' style={{color:"#A6354D",fontSize:"20px",fontWeight:"500",letterSpacing:"2px"}}>NOS SERVICES</h1>
-                   <h2 className='pt-2' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Donec porttitor euismod dignissim</h2>
+                   <h2 className='pt-2' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Formations pratiques en technologies digitales</h2>
                   </div>
                   <div className='col-lg-4 col-sm-12 mt-5 pt-3'>
                     <div className='container img-radius position-relative'>
                                               <img src={imgElipsse} className='img-elipsse img-fluid' alt=''/>
 <span className='position-absolute' style={{fontSize:"51px",fontFamily:'Poppins',fontWeight:"400",color:"#fff",left:"30px",top:"15px"}}>01</span>
-                      <h4 className='position-absolute' style={{color:"#2B2B2B",fontSize:"20px",fontWeight:"500",fontFamily:"Poppins",left:"65px",top:"160px"}}>Buy a New Home</h4>
-                      <p className='position-absolute text-center' style={{color:"#808080",fontSize:"16px",fontWeight:"400",fontFamily:"Poppins",left:"40px",top:"200px",maxWidth:"220px"}}>Donec porttitor euismod dignissim.
-                         Nullam a lacinia ipsum, nec dignissim purus. </p>
+                      <h4 className='position-absolute' style={{color:"#2B2B2B",fontSize:"15px",fontWeight:"500",fontFamily:"Poppins",left:"75px",top:"160px"}}>Formations certifiantes</h4>
+                      <p className='position-absolute text-center' style={{color:"#808080",fontSize:"16px",fontWeight:"400",fontFamily:"Poppins",left:"50px",top:"210px",maxWidth:"220px"}}>Des formations et orientées pratique pour développer des compétences solide.</p>
                             </div>
                             {/*add comment*/}
                   </div>
@@ -205,8 +219,8 @@ const Home  = () => {
                     <div className='container img-radius position-relative'>
                     <img src={imgElipsse} className='img-elipsse img-fluid' alt=''/>
 <span className='position-absolute' style={{fontSize:"51px",fontFamily:'Poppins',fontWeight:"400",color:"#fff",left:"25px",top:"15px"}}>02</span>
-                       <h4 className='position-absolute' style={{color:"#2B2B2B",fontSize:"20px",fontWeight:"500",fontFamily:"Poppins",left:"65px",top:"160px"}}>Buy a New Home</h4>
-                      <p className='position-absolute text-center' style={{color:"#808080",fontSize:"16px",fontWeight:"400",fontFamily:"Poppins",left:"40px",top:"200px",maxWidth:"220px"}}>Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. </p>
+                       <h4 className='position-absolute' style={{color:"#2B2B2B",fontSize:"15px",fontWeight:"500",fontFamily:"Poppins",left:"80px",top:"160px"}}>Coaching personnalisé</h4>
+                      <p className='position-absolute text-center' style={{color:"#808080",fontSize:"16px",fontWeight:"400",fontFamily:"Poppins",left:"50px",top:"200px",maxWidth:"240px"}}>Un accompagnement pour développer vos compétences et atteindre vos objectifs.</p>
                                         </div>
                   </div>
                      <div className='col-lg-4 col-sm-12 mt-5 pt-3'>
@@ -214,14 +228,14 @@ const Home  = () => {
                     
                         <img src={imgElipsse} className='img-elipsse' alt=''/>
 <span className='position-absolute' style={{fontSize:"51px",fontFamily:'Poppins',fontWeight:"400",color:"#fff",left:"24px",top:"15px"}}>03</span>
-                       <h4 className='position-absolute' style={{color:"#2B2B2B",fontSize:"20px",fontWeight:"500",fontFamily:"Poppins",left:"65px",top:"160px"}}>Buy a New Home</h4>
-                      <p className='position-absolute text-center' style={{color:"#808080",fontSize:"16px",fontWeight:"400",fontFamily:"Poppins",left:"40px",top:"200px",maxWidth:"220px"}}>Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. </p>
+                       <h4 className='position-absolute' style={{color:"#2B2B2B",fontSize:"15px",fontWeight:"500",fontFamily:"Poppins",left:"60px",top:"160px"}}>Orientation professionnelle</h4>
+                      <p className='position-absolute text-center' style={{color:"#808080",fontSize:"16px",fontWeight:"400",fontFamily:"Poppins",left:"50px",top:"200px",maxWidth:"220px"}}>Nous vous aidons à choisir le parcours adapté à votre profil et à vos ambitions.</p>
                          </div>
                   </div>
                   <div className='col-12 container-fluid'>
                       <div className='text-center pt-5'>
                      <h1 className='pt-2' style={{color:"#A6354D",fontSize:"20px",fontWeight:"500",letterSpacing:"2px"}}>NOS FORMATIONS</h1>
-                   <h2 className='pt-2' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Donec porttitor euismod dignissim</h2>
+                   <h2 className='pt-2' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Événements inspirants pour votre avenir.</h2>
                   </div>
                 
          <MCProjectsSection />
@@ -267,7 +281,7 @@ const Home  = () => {
   <div className='col-12'>
           <div className='text-center mt-5 pt-4'>
                      <h1 className='pt-2' style={{color:"#A6354D",fontSize:"20px",fontWeight:"500",letterSpacing:"1.5px"}}>NOS ÉVENEMENTS</h1>
-                   <h2 className='pt-2' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Donec porttitor euismod dignissim</h2>
+                   <h2 className='pt-2' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Ateliers interactifs et rencontres inspirantes.</h2>
                   </div>
                   <div className='pt-5 mt-3'>
                   <CardDesign/>
