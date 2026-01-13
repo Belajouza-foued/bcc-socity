@@ -29,14 +29,14 @@ padding: 10px !important;
   width: 80px !important;  
 }
 .card-blog {
- transform: translateY(-70px);
+ transform: translateY(-80px);
 }
 
 .title-span-blog  {
-  font-size: 16px !important;
+  font-size: 14px !important;
 }
 .text-blog {
-  font-size: 13px;
+  font-size: 12px;
   padding-right: 8px;
 }
 .accordion-space  {
