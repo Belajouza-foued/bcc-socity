@@ -17,13 +17,31 @@
        background-color: #5b99d3;
 }
 @media (max-width: 768px) {
+  .card-height {
+    max-height: 400px;
+  }
+  
 .btn-class {
-    font-size: 10px;
-  padding: 3px;
-    border-radius: 25px;
-       background-color: #5b99d3;
+    font-size: 10px !important;
+padding: 10px !important;
+  width: 80px !important;  
+}
+.card-blog {
+ transform: translateY(-70px);
+}
+
+.title-span-blog  {
+  font-size: 16px !important;
+}
+.text-blog {
+  font-size: 13px;
+}
+.accordion-space  {
+transform: translateY(-140px);
+width: 280px !important;
 }
 }
+
 .blog-container {
   padding-bottom: 200px;
 

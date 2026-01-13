@@ -1,5 +1,5 @@
 
-    @media (min-width: 768px) {
+    @media (max-width: 768px) {
 .logo-footer {
     
      opacity: 90%;
@@ -7,15 +7,16 @@
    height: 60px;
    background-color: none
 }
+
+.footer-container-2 {
+  max-width: 280px !important;
+}
     }
  
 .footer-container {
     color: #fff;
  margin-top: 0px;
  padding-bottom: 100px;
- 
- 
-
 }
 
 .footer-container input::placeholder {

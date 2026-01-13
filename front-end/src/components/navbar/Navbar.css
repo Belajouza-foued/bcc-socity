@@ -7,7 +7,10 @@
   width: 1350px;
 height: 60px;
 max-width: 100%;
-
+  }
+  .navbar-nav {
+    line-height: 25px;
+    gap: 10px;
   }
 }
 .nav-link {
@@ -38,7 +41,7 @@ color: #007bff;
 
 .coach-title {
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 400;
   padding: 10px;
   font-size: 15px;
   color: #1D1D1D;

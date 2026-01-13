@@ -48,7 +48,7 @@ const  Blog = () => {
 
     </div>
       <div className="col-lg-6 mb-4 mt-5 d-flex justify-content-end align-items-center text-center mx-auto ps-5">
-      <div className="card h-100" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
+      <div className="card h-100 card-height" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
         <div className='card-dev'>
 <img src={imgBlog} alt='design' className='img-design'   style={{
           width: "100%",
@@ -58,10 +58,10 @@ const  Blog = () => {
         }}/>
         </div>
         
-        <div className="card-body text-center" style={{  borderTopLeftRadius: "15px",
+        <div className="card-body text-center card-blog" style={{  borderTopLeftRadius: "15px",
       borderTopRightRadius: "15px"}}>
          <div className='col-12 d-flex align-items-center mb-2 ps-2' style={{borderRadius:"15px 15px 15px",}}>
-          <span className="ps-3"style={{color:'#393738', fontWeight:"700",fontSize:"20px"}}>Professional Scrum Master</span>
+          <span className="title-span-blog ps-3"style={{color:'#393738', fontWeight:"700",fontSize:"20px"}}>Professional Scrum Master</span>
                   </div>
                     <p className="text-blog" style={{fontFamily:"Poppins"}}>Un blog pour Scrum Masters, avec des conseils pratiques et outils pour optimiser les équipes agiles.</p>
           <div className='row px-3'>
@@ -101,7 +101,7 @@ const  Blog = () => {
     </div>
      
  <div className="col-lg-6 mb-4 pe-5 mt-5 d-flex justify-content-start align-items-center text-center mx-auto">
-      <div className="card h-100" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
+      <div className="card h-100 card-height" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
         <div className='card-dev'>
 <img src={imgBlog} alt='design' className='img-design'   style={{
           width: "100%",
@@ -111,10 +111,10 @@ const  Blog = () => {
         }}/>
         </div>
         
-        <div className="card-body text-center" style={{  borderTopLeftRadius: "15px",
+        <div className="card-body text-center card-blog" style={{  borderTopLeftRadius: "15px",
       borderTopRightRadius: "15px"}}>
          <div className='col-12 d-flex align-items-center mb-2 ps-2' style={{borderRadius:"15px 15px 15px",}}>
-          <span className="ps-3"style={{color:'#393738', fontWeight:"700",fontSize:"20px"}}>Professional Scrum Master</span>
+          <span className="ps-3 title-span-blog"style={{color:'#393738', fontWeight:"700",fontSize:"20px"}}>Professional Scrum Master</span>
                   </div>
                     <p className="text-blog" style={{fontFamily:"Poppins"}}>Un blog pour Scrum Masters, avec des conseils pratiques et outils pour optimiser les équipes agiles.</p>
           <div className='row px-3'>
@@ -153,7 +153,7 @@ const  Blog = () => {
       </div>
     </div>
      <div className="col-lg-6 mb-4 mt-5 d-flex justify-content-end align-items-center text-center mx-auto ps-5">
-      <div className="card h-100" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
+      <div className="card h-100 card-height" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
         <div className='card-dev'>
 <img src={imgBlog} alt='design' className='img-design'   style={{
           width: "100%",
@@ -163,10 +163,10 @@ const  Blog = () => {
         }}/>
         </div>
         
-        <div className="card-body text-center" style={{  borderTopLeftRadius: "15px",
+        <div className="card-body text-center card-blog" style={{  borderTopLeftRadius: "15px",
       borderTopRightRadius: "15px"}}>
          <div className='col-12 d-flex align-items-center mb-2 ps-2' style={{borderRadius:"15px 15px 15px",}}>
-          <span className="ps-3"style={{color:'#393738', fontWeight:"700",fontSize:"20px"}}>Professional Scrum Master</span>
+          <span className="ps-3 title-span-blog"style={{color:'#393738', fontWeight:"700",fontSize:"20px"}}>Professional Scrum Master</span>
                   </div>
                     <p className="text-blog" style={{fontFamily:"Poppins"}}>Un blog pour Scrum Masters, avec des conseils pratiques et outils pour optimiser les équipes agiles.</p>
           <div className='row px-3'>
@@ -205,7 +205,7 @@ const  Blog = () => {
       </div>
     </div>
     <div className="col-lg-6 mb-4 pe-5 mt-5 d-flex justify-content-start align-items-center text-center mx-auto">
-      <div className="card h-100" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
+      <div className="card h-100 card-height" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
         <div className='card-dev'>
 <img src={imgBlog} alt='design' className='img-design'   style={{
           width: "100%",
@@ -215,10 +215,10 @@ const  Blog = () => {
         }}/>
         </div>
         
-        <div className="card-body text-center" style={{  borderTopLeftRadius: "15px",
+        <div className="card-body text-center card-blog" style={{  borderTopLeftRadius: "15px",
       borderTopRightRadius: "15px"}}>
          <div className='col-12 d-flex align-items-center mb-2 ps-2' style={{borderRadius:"15px 15px 15px",}}>
-          <span className="ps-3"style={{color:'#393738', fontWeight:"700",fontSize:"20px"}}>Professional Scrum Master</span>
+          <span className="ps-3 title-span-blog"style={{color:'#393738', fontWeight:"700",fontSize:"20px"}}>Professional Scrum Master</span>
                   </div>
                     <p className="text-blog" style={{fontFamily:"Poppins"}}>Un blog pour Scrum Masters, avec des conseils pratiques et outils pour optimiser les équipes agiles.</p>
           <div className='row px-3'>
@@ -257,7 +257,7 @@ const  Blog = () => {
       </div>
     </div>
   <div className="col-lg-6 mb-4 mt-5 d-flex justify-content-end align-items-center text-center mx-auto ps-5">
-      <div className="card h-100" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
+      <div className="card h-100 card-height" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
         <div className='card-dev'>
 <img src={imgBlog} alt='design' className='img-design'   style={{
           width: "100%",
@@ -267,10 +267,10 @@ const  Blog = () => {
         }}/>
         </div>
         
-        <div className="card-body text-center" style={{  borderTopLeftRadius: "15px",
+        <div className="card-body text-center card-blog" style={{  borderTopLeftRadius: "15px",
       borderTopRightRadius: "15px"}}>
          <div className='col-12 d-flex align-items-center mb-2 ps-2' style={{borderRadius:"15px 15px 15px",}}>
-          <span className="ps-3"style={{color:'#393738', fontWeight:"700",fontSize:"20px"}}>Professional Scrum Master</span>
+          <span className="title-span-blog ps-3"style={{color:'#393738', fontWeight:"700",fontSize:"20px"}}>Professional Scrum Master</span>
                   </div>
                     <p className="text-blog" style={{fontFamily:"Poppins"}}>Un blog pour Scrum Masters, avec des conseils pratiques et outils pour optimiser les équipes agiles.</p>
           <div className='row px-3'>
@@ -309,7 +309,7 @@ const  Blog = () => {
       </div>
     </div>
  <div className="col-lg-6 mb-4 pe-5 mt-5 d-flex justify-content-start align-items-center text-center mx-auto ">
-      <div className="card h-100" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
+      <div className="card h-100 card-height" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
         <div className='card-dev'>
 <img src={imgBlog} alt='design' className='img-design'   style={{
           width: "100%",
@@ -319,10 +319,10 @@ const  Blog = () => {
         }}/>
         </div>
         
-        <div className="card-body text-center" style={{  borderTopLeftRadius: "15px",
+        <div className="card-body text-cente card-blog" style={{  borderTopLeftRadius: "15px",
       borderTopRightRadius: "15px"}}>
          <div className='col-12 d-flex align-items-center mb-2 ps-2' style={{borderRadius:"15px 15px 15px",}}>
-          <span className="ps-3"style={{color:'#393738', fontWeight:"700",fontSize:"20px"}}>Professional Scrum Master</span>
+          <span className="title-span-blog ps-3"style={{color:'#393738', fontWeight:"700",fontSize:"20px"}}>Professional Scrum Master</span>
                   </div>
                     <p className="text-blog" style={{fontFamily:"Poppins"}}>Un blog pour Scrum Masters, avec des conseils pratiques et outils pour optimiser les équipes agiles.</p>
           <div className='row px-3'>
@@ -370,7 +370,7 @@ const  Blog = () => {
           <div className="accordion-item text-center position-relative" style={{ borderRadius: "20px" }}>
   <div
     id="flush-collapseOne"
-    className="accordion-collapse collapse position-absolute w-100  pb-0"
+    className="accordion-collapse collapse position-absolute w-100  pb-0 accordion-space"
     style={{
       top: "70%",
       minHeight:"100px",

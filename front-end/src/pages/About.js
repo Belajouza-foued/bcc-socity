@@ -22,7 +22,7 @@ const About  = () => {
                   <h1 className="title2-about">Digital</h1>
                            <div className="lines-container text-center mt-3 lines-about">
                        <div className="blue-about lines-about mt-2"></div>
-    <hr className='text-center mb-5' style={{width:"375px"}}></hr> <span className='mt-2 pt-3 ps-3' style={{
+    <hr className='text-center mb-5 hr-about-1' style={{width:"375px"}}></hr> <span className='mt-2 pt-3 ps-3 span-about' style={{
         position: "absolute",
     top: "",
     right: "0",

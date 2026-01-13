@@ -16,15 +16,21 @@ line-height: 0.5;
   line-height: 0.5;
 }
   }
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
   .accordion-collapse{
-                      width:450px;
-                top: 260px;
-               z-index: 999;
+                      width:250px !important;
+               z-index: 0;
+                 margin-top: 150px;
              background-color: #fff;
             border-radius: 50px;
                 box-shadow:  0 4px 20px rgba(0,0,0,0.1);
                 }
+                .accordion {
+                  max-width: 50% !important;
+                }
+                .accordion-button { 
+             width: 280px !important;
+} 
               }
 .accordion-button::after {
   color: white !important; 
@@ -45,6 +51,7 @@ line-height: 0.5;
     display: flex;
     justify-content: center;
     align-items: center;
+    
    
        
    }
@@ -53,8 +60,7 @@ line-height: 0.5;
 .accordion-button {
   background: #5B99D3 !important;
   color: black !important;
-  width: 350px;
-   
+  width: 350px;  
  
 }
 

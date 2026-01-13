@@ -98,6 +98,15 @@
 
 left: -50px;
 }
+.lines-about {
+  max-width: 170px;
+}
+.hr-about-1 {
+  
+}
+.blue-about {
+  max-width: 100px;
+}
 }
 /*text-about1*/
 @media (min-width: 768px) {

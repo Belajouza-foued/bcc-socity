@@ -15,6 +15,9 @@
   .titre-evenment {
     font-size: 32px;
   }
+  .card-nos {
+ height: 350px;
+  }
 }
 .card-nos {
   width: 490px;
@@ -26,19 +29,24 @@
  }
 @media (max-width: 768px) {
   .card-nos {
-    width: 90%;
-    height: auto;
+   width: 250px; 
+   height: 450px !important;  
   }
+  .card-body-9 {
+     transform: translateY(-150px);
+  }
+  .text-marketing-1 {
+    transform: translateY(-130px);
+    font-size: 11px !important;
+      }
+      .date-container {
+        transform: translateX(-50px);
+      }
+ 
 }
 
 
-@media (max-width: 480px) {
-  .card-nos {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-}
+
 .card-first {
   width: 490px;
   height: 410px;
@@ -48,16 +56,30 @@
  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
 }
 @media (max-width: 768px) {
+   .card-dev {
+    max-width: 300px;
+    transform: translateY(-90px);
+  }
+
   .card-first {
-    width: 90%;
-    height: auto; 
+    max-width: 260px;
+    
+  }
+  .card-body-10 {
+    transform: translateY(-150px);
   }
 }
-@media (max-width: 480px) {
-  .card-first {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+@media (max-width: 768px) {
+ 
+  .card-dev-1 {
+  height: 450px;
+  }
+  .text-marketing {
+    margin-top: 10px;
+    font-size: 11px !important;
+  }
+  .img-design1 {
+    height: 370px !important;
   }
 }
 
@@ -75,6 +97,14 @@
 }
 
 .text-marketing {
+    text-align: justify;
+   font-family: Poppins;
+   letter-spacing: 1.5px;
+   max-width: 580px;
+   font-size: 13px;
+   font-weight: 500;
+}
+.text-marketing-1 {
     text-align: justify;
    font-family: Poppins;
    letter-spacing: 1.5px;

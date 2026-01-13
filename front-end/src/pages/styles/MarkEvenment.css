@@ -4,11 +4,76 @@
   font-size: 80px;
   color: #3A3838;
 }
+.text-roboto {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1;
+  color: #393738;
+}
+.text-roboto-1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1;
+  color: #393738;
+}
+.text-poppin {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #6C6B6B;
+  letter-spacing: 3px;
+}
+.text-poppins {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #6C6B6B;
+  letter-spacing: 3px;
+}
+
  @media (max-width: 768px) {
  .marketing-res {
- 
-  font-size: 40px;
-  
+  font-size: 30px  
+}
+.text-roboto{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1;
+  color: #393738;
+}
+.text-roboto-1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 0.7;
+  color: #393738;
+}
+.marketing-clock {
+transform: translateX(-50px);
+}
+.button-mark {
+    font-size: 12px !important;   
+      padding: 8px !important;  
+      transform: translateX(150px);
+} 
+.text-poppin {
+  max-width: 300px !important;
+  font-size: 13px !important;
+  transform: translateX(80px);
+}
+.text-poppins {
+    transform: translateX(80px);
+max-width: 300px !important;
+  font-size: 13px !important;
+  color: #6C6B6B;
+  margin: 0 auto;
+  letter-spacing: 1px;
+}
+.event-text {
+  transform: translateX(-30px);
 }
  }
 .digital-container {
@@ -93,18 +158,22 @@ padding-bottom: 350px;
     display: block;
 position: absolute;
 bottom: 100%;
-
   }
   .logo-map {
     position: absolute;
-   top: 270px;
-   left: 300px;
-   
+   top: 240px;
+   left: 250px;   
   }
   @media (min-width: 768px) {
   .card-position1 {
     max-width: 1250px;
     margin-left: 50px;
+  }
+  .logo-map {
+  max-width: 80px;   
+  }
+  .card-top  {
+    max-width: 300px;
   }
 }
 .bienvenue {

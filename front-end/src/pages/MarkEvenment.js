@@ -20,8 +20,8 @@ const MarkEvenment  = () => {
 <div className=' text-center pt-5'>
     <button type='submit' className='btn btn-danger btn-markEvenmnt pt-1 pb-1 pe-3 ps-3'>EVENT 01</button>
     <h1 className='marketing-res'>Marketing Digital</h1>
-    <p style={{fontWeight:"400", fontFamily:"Roboto",fontSize:"21px",lineHeight:"1",color:"#393738"}}>Boostez votre présence en ligne et maîtrisez les stratégies</p>
-    <p style={{fontWeight:"400", fontFamily:"Roboto",fontSize:"21px",lineHeight:"0.7",color:"#393738"}}>numériques pour propulser votre entreprise !</p>
+    <p className='text-roboto'>Boostez votre présence en ligne et maîtrisez les stratégies</p>
+    <p className='text-roboto-1'>numériques pour propulser votre entreprise !</p>
 </div>
     </div>
     <div className='image-mask text-center pt-5 '>
@@ -31,7 +31,7 @@ const MarkEvenment  = () => {
 <div className='col-lg-12 col-sm-12'>
     <div className='row'>
                  <div className='col-lg-9 col-sm-12 mb-5 ps-5'>
-  <div className='text-start pt-5 d-flex justify-content-start align-items-start gap-4 ps-5'>
+  <div className='text-start pt-5 d-flex justify-content-start align-items-start gap-4 ps-5 marketing-clock'>
     
     {/* Bloc 1 */}
     <div className=''>
@@ -72,16 +72,16 @@ const MarkEvenment  = () => {
       </div>
   
       <div className='col-7 mb-3 pt-3 mt-4'>
-        <p style={{color:"#6C6B6B", fontWeight:"500",fontSize:"18px", fontFamily:"Poppins",letterSpacing:"3px"}}>Best Challenge Center est un cabinet de conseil et de formation continue . Il a pour mission d’accompagner les entreprises en leur apportant une réponse efficace 
+        <p className='text-poppin'>Best Challenge Center est un cabinet de conseil et de formation continue . Il a pour mission d’accompagner les entreprises en leur apportant une réponse efficace 
             à leurs besoins en matière de formation et de développement des compétences.</p>
-        <p className='pt-2' style={{color:"#6C6B6B", fontWeight:"500",fontSize:"18px", fontFamily:"Poppins",letterSpacing:"3px"}}>
+        <p className='text-poppins' style={{color:"#6C6B6B", fontWeight:"500",fontSize:"18px", fontFamily:"Poppins",letterSpacing:"3px"}}>
 nous vous invitons a assisster à nos formations, participer à des workshops, à des évenements, consulter nos séminaires , quelque soit votre domaine d'étude,
  nous sommes à votre disposition pour vous diriger vers les meilleurs choix</p>
       </div>
       <div className='container'></div>
       <div className='col-lg-6 col-sm-12'>
         
-        <div className='text-justify ms-5 ps-5 mt-5 pt-5'>
+        <div className='text-justify ms-5 ps-5 mt-5 pt-5 event-text'>
     <h2 style={{color:"#393738", fontWeight:"600",fontSize:"40px", fontFamily:"Poppins"}}>Event info :</h2>
 <p className="text-justify" style={{fontFamily:'Poppins',color:"#808080",fontSize:"16px",maxWidth:"550px"}}>Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. 
     Nulla convallis ipsum molestie nibh malesuada, ac malesuada leo volutpat.</p>
@@ -131,7 +131,7 @@ nous vous invitons a assisster à nos formations, participer à des workshops, �
         <div className='card-position1 text-center mx-auto'>
     <div className='row text-center mt-5 pt-5'>
       <div className="col-lg-4 col-md-6 mb-4">
-      <div className="card" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
+      <div className="card card-top" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
         <div className='card-img-top1'></div>
         
         <div className="card-body text-center">
@@ -152,7 +152,7 @@ nous vous invitons a assisster à nos formations, participer à des workshops, �
       </div>
     </div>
      <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
-      <div className="card " style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
+      <div className="card card-top" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
        <div className='card-img-top1'></div>
         <div className="card-body text-center">
           <div className='row'>
@@ -172,7 +172,7 @@ nous vous invitons a assisster à nos formations, participer à des workshops, �
       </div>
     </div>
      <div className="col-lg-4 col-md-6 mb-4 col-sm-12">
-      <div className="card" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
+      <div className="card card-top" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
                 <div className='card-img-top1'></div>
         <div className="card-body text-center">
           <div className='row'>

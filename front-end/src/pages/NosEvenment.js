@@ -16,7 +16,7 @@ const NosEvenment  = () => {
             </div>
                  </div>
      
-    <div className="col-lg-6 col-sm-12 mb-4 mt-5 d-flex justify-content-end mx-auto align-items-center text-center">
+    <div className="col-lg-6 col-sm-12 mb-4 mt-5 d-flex justify-content-end mx-auto align-items-center text-center card-dev-1">
       <div className="card h-100 card-first ">
         <div className='card-dev'>
 <img src={imgDesign} alt='design' className='img-design img-fluid'   style={{
@@ -27,13 +27,13 @@ const NosEvenment  = () => {
         }}/>
         </div>
         
-        <div className="card-body text-center" style={{  borderTopLeftRadius: "15px",
+        <div className="card-body card-body-10 text-center" style={{  borderTopLeftRadius: "15px",
       borderTopRightRadius: "15px"}}>
           <div className='row px-3'>
             <div className='col-lg-6 col-sm-12 d-flex align-items-center mb-2 ps-2' style={{borderRadius:"15px 15px 15px",}}>
           <span className="ps-3"style={{color:'#c32942', fontWeight:"700",fontSize:"18px"}}>Marketing digital</span>
                   </div>
-     <div className='col-lg-6 col-sm-12 ps-5'>
+                       <div className='col-lg-6 col-sm-12 ps-5'>
    <div className='date-container  d-flex justify-content-end align-items-center ms-5'>
    <h5 className='ps-2 pt-2 pe-2'style={{color:"#ffff",fontSize:"16px"}} >10:00 - 16:00</h5>
   </div>
@@ -56,7 +56,7 @@ const NosEvenment  = () => {
         
         <div className="card-body text-center" style={{  borderTopLeftRadius: "15px",
       borderTopRightRadius: "15px"}}>
-          <div className='row px-3'>
+          <div className='row px-3 card-body-9'>
             <div className='col-lg-6 col-sm-12 d-flex align-items-center mb-2 ps-2' style={{borderRadius:"15px 15px 15px",}}>
           <span className="ps-3"style={{color:'#c32942', fontWeight:"700",fontSize:"18px"}}>Marketing digital</span>
                   </div>
@@ -66,13 +66,12 @@ const NosEvenment  = () => {
   </div>
       </div>
           </div>
-         <p className="text-marketing">Venez assister à notre journée portes ouvertes qui aura lieu le 15 Janvier 2022 à partir de 10H. C’est gratuit ! N’hésitez pas à nous rendre visite . Soyez les bienvenus !</p>
+         <p className="text-marketing-1">Venez assister à notre journée portes ouvertes qui aura lieu le 15 Janvier 2022 à partir de 10H. C’est gratuit ! N’hésitez pas à nous rendre visite . Soyez les bienvenus !</p>
         </div>
       </div>
     </div>
-      
-    <div className="col-lg-6 col-sm-12 mb-4 pt-5 ps-5 d-flex justify-content-end align-items-center text-center mx-auto">
-      <div className="card h-100 card-first">
+      <div className="col-lg-6 col-sm-12 mb-4 mt-5 d-flex justify-content-end mx-auto align-items-center text-center card-dev-1">
+      <div className="card h-100 card-first ">
         <div className='card-dev'>
 <img src={imgDesign} alt='design' className='img-design img-fluid'   style={{
           width: "100%",
@@ -82,13 +81,13 @@ const NosEvenment  = () => {
         }}/>
         </div>
         
-        <div className="card-body text-center" style={{  borderTopLeftRadius: "15px",
+        <div className="card-body card-body-10 text-center" style={{  borderTopLeftRadius: "15px",
       borderTopRightRadius: "15px"}}>
           <div className='row px-3'>
             <div className='col-lg-6 col-sm-12 d-flex align-items-center mb-2 ps-2' style={{borderRadius:"15px 15px 15px",}}>
           <span className="ps-3"style={{color:'#c32942', fontWeight:"700",fontSize:"18px"}}>Marketing digital</span>
                   </div>
-     <div className='col-lg-6 col-sm-12'>
+                       <div className='col-lg-6 col-sm-12 ps-5'>
    <div className='date-container  d-flex justify-content-end align-items-center ms-5'>
    <h5 className='ps-2 pt-2 pe-2'style={{color:"#ffff",fontSize:"16px"}} >10:00 - 16:00</h5>
   </div>
@@ -98,7 +97,7 @@ const NosEvenment  = () => {
         </div>
       </div>
     </div>
-    <div className="col-lg-6 col-sm-12 mb-4 pt-5">
+     <div className="col-lg-6 col-sm-12 mb-4 mt-5 d-flex justify-content-start mx-auto align-items-center text-center">
       <div className="card h-100 card-nos">
         <div className='card-dev'>
 <img src={imgDesign1} alt='design' className='img-design1 img-fluid'   style={{
@@ -111,7 +110,7 @@ const NosEvenment  = () => {
         
         <div className="card-body text-center" style={{  borderTopLeftRadius: "15px",
       borderTopRightRadius: "15px"}}>
-          <div className='row px-3'>
+          <div className='row px-3 card-body-9'>
             <div className='col-lg-6 col-sm-12 d-flex align-items-center mb-2 ps-2' style={{borderRadius:"15px 15px 15px",}}>
           <span className="ps-3"style={{color:'#c32942', fontWeight:"700",fontSize:"18px"}}>Marketing digital</span>
                   </div>
@@ -121,10 +120,12 @@ const NosEvenment  = () => {
   </div>
       </div>
           </div>
-         <p className="text-marketing">Venez assister à notre journée portes ouvertes qui aura lieu le 15 Janvier 2022 à partir de 10H. C’est gratuit ! N’hésitez pas à nous rendre visite . Soyez les bienvenus !</p>
+         <p className="text-marketing-1">Venez assister à notre journée portes ouvertes qui aura lieu le 15 Janvier 2022 à partir de 10H. C’est gratuit ! N’hésitez pas à nous rendre visite . Soyez les bienvenus !</p>
         </div>
       </div>
     </div>
+      
+   
   {/*add butto*/}
   <section>
   <div className="container-fluid accordion-style pb-5 mb-5">

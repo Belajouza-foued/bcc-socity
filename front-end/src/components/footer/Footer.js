@@ -51,7 +51,7 @@ function Footer () {
         Try Now
       </button>
     </div>
-  <div className="footer-container">
+  <div className="footer-container-2">
   <ul className="mx-auto pt-3">
     <li>Features</li>
     <li>A Propos</li>

@@ -31,7 +31,7 @@ import Contact from "./pages/Contact"
   <Routes>
     
     
-     <Route path="/" element={<Home />} />
+     <Route path="/" element={<NosEvenment/>} />
      <Route path="evenment" element={<Evenment/>}/>
              <Route path="formation" element={<Formation/>}/>
          <Route path="about" element={<About/>}/>
@@ -41,7 +41,7 @@ import Contact from "./pages/Contact"
                <Route path="dashboard" element={<Dashboard/>}/>
                 <Route path="addProduit" element={<AddProduit/>}/>
                 <Route path="/produit/:id" element={<EditProduit/>} />
-                  <Route path="nosEvenment" element={<NosEvenment/>}/>
+                  <Route path="home" element={<Home/>}/>
                     <Route path="blog" element={<Blog/>}/>
                     <Route path="markEvenment" element={<MarkEvenment/>}/>
                 <Route path="connect" element={<Connect/>}/>

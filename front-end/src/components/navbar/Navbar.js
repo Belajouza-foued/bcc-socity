@@ -42,10 +42,20 @@ function Navbar() {
     <div className="collapse navbar-collapse" id="navbarNav">
 
       {/* Liens centre */}
-      <ul className="navbar-nav mx-auto d-flex align-items-center gap-3">
+      <ul className="navbar-nav mx-auto d-flex align-items-center">
 
-        <li className="nav-item">
-          <Link to="/" className="nav-link">Accueil</Link>
+        <li className="nav-item dropdown coach-dropdown">
+          <span className="nav-link  coach-title" role="button" data-bs-toggle="dropdown">
+            Services
+          </span>
+          <ul className="dropdown-menu dropdown-content">
+            <li><Link className="dropdown-item" to="/">Evenements 1</Link></li>
+            <li><Link className="dropdown-item" to="/markEvenment">Evenements 2</Link></li>
+            <li><Link className="dropdown-item" to="/blogService">Evenements 3</Link></li>
+          </ul>
+        </li>
+         <li className="nav-item">
+          <Link to="/home" className="nav-link">Home</Link>
         </li>
         <li className="nav-item">
           <Link to="evenment" className="nav-link">À Propos</Link>
@@ -64,15 +74,9 @@ function Navbar() {
         </li>
 
         {/* Dropdown Services */}
-        <li className="nav-item dropdown coach-dropdown">
-          <span className="nav-link  coach-title" role="button" data-bs-toggle="dropdown">
-            Services
-          </span>
-          <ul className="dropdown-menu dropdown-content">
-            <li><Link className="dropdown-item" to="/nosEvenment">Evenements 1</Link></li>
-            <li><Link className="dropdown-item" to="/markEvenment">Evenements 2</Link></li>
-            <li><Link className="dropdown-item" to="/blogService">Evenements 3</Link></li>
-          </ul>
+       
+          <li className="nav-item">
+          <Link to="/" className="nav-link">Accueil</Link>
         </li>
       </ul>
    

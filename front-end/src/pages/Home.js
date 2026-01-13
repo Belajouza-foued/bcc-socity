@@ -54,7 +54,7 @@ const Home  = () => {
 
     return(  <>
   
-   <div className='container-fluid pt-5'style={{ backgroundColor: '#D6D6D6' }}>
+   <div className='container-fluid pt-5 container-home'style={{ backgroundColor: '#D6D6D6' }}>
 <div className="row">
   <div className="col-12">
   <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
@@ -121,7 +121,7 @@ const Home  = () => {
     <div className='col-lg-6 col-sm-12 pt-5 mt-5' >
     <div className='container position-home ps-5 me-2'>
     <h1 className='pt-2'>Why chose</h1>
-    <h2 className='pt-2'>Assisting individuals in locating the appropriate real estate.</h2>
+    <h2 className='pt-2 text-choose'>Assisting individuals in locating the appropriate real estate.</h2>
       <p className=''>accompagne les individus et les entreprises dans le développement de leurs compétences à travers des formations pratiques, modernes et orientées résultats.</p>
      
       <div className='container-test'>
@@ -193,7 +193,7 @@ const Home  = () => {
               <h4 className='borderhome2 ps-3'><b className='hover'>Bienvenue à notre cabinet</b></h4>
                      <p className='mx-auto border-text pt-3'>Best Challenge Center est un cabinet de conseil et de formation continue . Il a pour mission d’accompagner les entreprises en leur apportant une réponse efficace à leurs besoins en matière de formation et de développement des compétences.</p>
                      </div>
-              <Link to="/evenment"><button className="btn btn-dark rounded-pill px-4 mt-3 shadow pe-4 ">Discover</button></Link>
+              <Link to="/evenment"><button className="btn btn-dark rounded-pill px-4  shadow pe-4 ">Discover</button></Link>
           </div>
           </div>
            </div>
@@ -204,10 +204,10 @@ const Home  = () => {
                   <div className='row'>
                   <div className='text-center'>
                      <h1 className='pt-2' style={{color:"#A6354D",fontSize:"20px",fontWeight:"500",letterSpacing:"2px"}}>NOS SERVICES</h1>
-                   <h2 className='pt-2' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Formations pratiques en technologies digitales</h2>
+                   <h2 className='pt-2 text-service-1' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Formations pratiques en technologies digitales</h2>
                   </div>
-                  <div className='col-lg-4 col-sm-12 mt-5 pt-3'>
-                    <div className='container img-radius position-relative'>
+                                   <div className='col-lg-4 col-sm-12 mt-5 pt-3 '>
+                    <div className='container img-radius position-relative card-formation'>
                                               <img src={imgElipsse} className='img-elipsse img-fluid' alt=''/>
 <span className='position-absolute' style={{fontSize:"51px",fontFamily:'Poppins',fontWeight:"400",color:"#fff",left:"30px",top:"15px"}}>01</span>
                       <h4 className='position-absolute' style={{color:"#2B2B2B",fontSize:"15px",fontWeight:"500",fontFamily:"Poppins",left:"75px",top:"160px"}}>Formations certifiantes</h4>
@@ -216,7 +216,7 @@ const Home  = () => {
                             {/*add comment*/}
                   </div>
                     <div className='col-lg-4 col-sm-12 mt-5 pt-3'>
-                    <div className='container img-radius position-relative'>
+                    <div className='container img-radius position-relative card-formation'>
                     <img src={imgElipsse} className='img-elipsse img-fluid' alt=''/>
 <span className='position-absolute' style={{fontSize:"51px",fontFamily:'Poppins',fontWeight:"400",color:"#fff",left:"25px",top:"15px"}}>02</span>
                        <h4 className='position-absolute' style={{color:"#2B2B2B",fontSize:"15px",fontWeight:"500",fontFamily:"Poppins",left:"80px",top:"160px"}}>Coaching personnalisé</h4>
@@ -224,7 +224,7 @@ const Home  = () => {
                                         </div>
                   </div>
                      <div className='col-lg-4 col-sm-12 mt-5 pt-3'>
-                    <div className='container img-radius position-relative'>
+                    <div className='container img-radius position-relative card-formation'>
                     
                         <img src={imgElipsse} className='img-elipsse' alt=''/>
 <span className='position-absolute' style={{fontSize:"51px",fontFamily:'Poppins',fontWeight:"400",color:"#fff",left:"24px",top:"15px"}}>03</span>
@@ -232,6 +232,7 @@ const Home  = () => {
                       <p className='position-absolute text-center' style={{color:"#808080",fontSize:"16px",fontWeight:"400",fontFamily:"Poppins",left:"50px",top:"200px",maxWidth:"220px"}}>Nous vous aidons à choisir le parcours adapté à votre profil et à vos ambitions.</p>
                          </div>
                   </div>
+                
                   <div className='col-12 container-fluid'>
                       <div className='text-center pt-5'>
                      <h1 className='pt-2' style={{color:"#A6354D",fontSize:"20px",fontWeight:"500",letterSpacing:"2px"}}>NOS FORMATIONS</h1>
@@ -310,44 +311,56 @@ const Home  = () => {
 </div>
  <div className='col-lg-12 col-sm-12 text-center mt-5'>
                      <h1 className='pt-2' style={{color:"#A6354D",fontSize:"20px",fontWeight:"500",letterSpacing:"2px"}}>TESTIMONIAL</h1>
-                   <h2 className='pt-2' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Ce que disent nos étudiants</h2>
+                   <h2 className='pt-2 text-dis' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Ce que disent nos étudiants</h2>
                   </div>
                   <div className='row pt-5 mt-5'>
-                   <div className='col-lg-4 col-sm-12 mt-5'>
-                    <div className='container img-testimonial'>
-                      <div className='position-relative'>
-                         <img src={imgTest} className='img-test' alt=''/>
-                        <h4 className='position-absolute' style={{color:"#AD2E43",fontSize:"17px",fontWeight:"700",fontFamily:"Poppins",left:"33px",top:"160px"}}>Ron Smith</h4>
-                           <p className='position-absolute' style={{color:"#7A7A7A",fontSize:"14px",fontWeight:"400",fontFamily:"Poppins",left:"33px",top:"175px"}}>front-end dev</p>
-                      <p className='position-absolute text-justify' style={{color:"#353535",fontSize:"17px",fontWeight:"400",fontFamily:"",left:"30px",top:"200px",maxWidth:"260px"}}>Cras a magna ut lectus vestibulum ullamcorper.
-                         Etiam laoreet semper velit, vel fringilla tortor pharetra nec. </p>
-                      </div>
+               <div className="col-lg-4 col-sm-12 mt-5">
+  <div className="testimonial-card">
+    <div className='text-center'>
+    <img src={imgTest} alt="testimonial" className="testimonial-img" /></div>
 
-                                          </div>
-                  </div>
-                    <div className='col-lg-4 col-sm-12 mt-5'>
-                    <div className='container img-testimonial'>
-                      <div className='position-relative'>
-                         <img src={imgTest} className='img-test' alt=''/>
-                        <h4 className='position-absolute' style={{color:"#AD2E43",fontSize:"17px",fontWeight:"700",fontFamily:"Poppins",left:"33px",top:"160px"}}>Ron Smith</h4>
-                           <p className='position-absolute' style={{color:"#7A7A7A",fontSize:"14px",fontWeight:"400",fontFamily:"Poppins",left:"33px",top:"175px"}}>front-end dev</p>
-                      <p className='position-absolute text-justify' style={{color:"#353535",fontSize:"17px",fontWeight:"400",fontFamily:"",left:"30px",top:"200px",maxWidth:"260px"}}>Cras a magna ut lectus vestibulum ullamcorper.
-                         Etiam laoreet semper velit, vel fringilla tortor pharetra nec. </p>
-                      </div>
-                      
-                                          </div>
-                  </div>
-                    <div className='col-lg-4 col-sm-12 mt-5'>
-                    <div className='container img-testimonial'>
-                      <div className='position-relative'>
-                         <img src={imgTest} className='img-test' alt=''/>
-                        <h4 className='position-absolute' style={{color:"#AD2E43",fontSize:"17px",fontWeight:"700",fontFamily:"Poppins",left:"33px",top:"160px"}}>Ron Smith</h4>
-                           <p className='position-absolute' style={{color:"#7A7A7A",fontSize:"14px",fontWeight:"400",fontFamily:"Poppins",left:"33px",top:"175px"}}>front-end dev</p>
-                      <p className='position-absolute text-justify' style={{color:"#353535",fontSize:"17px",fontWeight:"400",fontFamily:"",left:"30px",top:"200px",maxWidth:"260px"}}>Cras a magna ut lectus vestibulum ullamcorper.
-                         Etiam laoreet semper velit, vel fringilla tortor pharetra nec. </p>
-      </div>
-     </div>
-   </div>
+    <div className="testimonial-content">
+      <h4 className="testimonial-name">Ron Smith</h4>
+      <p className="testimonial-job">Front-end Dev</p>
+      <p className="testimonial-text">
+        Cras a magna ut lectus vestibulum ullamcorper.
+        Etiam laoreet semper velit, vel fringilla tortor pharetra nec.
+      </p>
+    </div>
+  </div>
+</div>
+          <div className="col-lg-4 col-sm-12 mt-5">
+  <div className="testimonial-card">
+    <div className='text-center'>
+    <img src={imgTest} alt="testimonial" className="testimonial-img" /></div>
+
+    <div className="testimonial-content">
+      <h4 className="testimonial-name">Ron Smith</h4>
+      <p className="testimonial-job">Front-end Dev</p>
+      <p className="testimonial-text">
+        Cras a magna ut lectus vestibulum ullamcorper.
+        Etiam laoreet semper velit, vel fringilla tortor pharetra nec.
+      </p>
+    </div>
+  </div>
+</div>
+          <div className="col-lg-4 col-sm-12 mt-5">
+  <div className="testimonial-card">
+    <div className='text-center'>
+    <img src={imgTest} alt="testimonial" className="testimonial-img" /></div>
+
+    <div className="testimonial-content">
+      <h4 className="testimonial-name">Ron Smith</h4>
+      <p className="testimonial-job">Front-end Dev</p>
+      <p className="testimonial-text">
+        Cras a magna ut lectus vestibulum ullamcorper.
+        Etiam laoreet semper velit, vel fringilla tortor pharetra nec.
+      </p>
+    </div>
+  </div>
+</div>
+
+        
 </div>
 <div className='d-flex justify-content-center align-items-center gap-2 mt-5 pt-5'>
   <span className='dot bg-red'></span>
@@ -415,41 +428,33 @@ const Home  = () => {
                   </div>
                     <div className='col-lg-2 col-sm-12'>
                      <div className=''>
-                      <img className='' src={imgAbc} alt=''/>
-                    <span className='' style={{fontFamily:"Jua",fontSize:'23.50px',fontWeight:"400",color:"#666666",position:'relative',top:"-10px",left:"8px",letterSpacing:"3px" }}>KINDER</span>
-                       <p style={{fontFamily:"Jua",fontSize:'23px',fontWeight:"400",color:"#666666",position:'relative',left:"75px",top:"-38px",letterSpacing:"2px" }}>GARTEN</p>
+                      <img className='number-res-2' src={imgAbc} alt=''/>
+                    <span className='number-res-2' style={{fontFamily:"Jua",fontSize:'23.50px',fontWeight:"400",color:"#666666",position:'relative',top:"-10px",left:"8px",letterSpacing:"3px" }}>KINDER</span>
+                       <p className='number-res-2' style={{fontFamily:"Jua",fontSize:'23px',fontWeight:"400",color:"#666666",position:'relative',left:"75px",top:"-38px",letterSpacing:"2px" }}>GARTEN</p>
                     </div>
                   </div>
                    <div className='col-lg-3 col-sm-12'>
-                    <div className='text-center ps-5'>
+                    <div className='text-center ps-5 number-res'>
                       <img className='' style={{position:"relative", left:"20px"}} src={imgBip} alt=''/>
-                    <span className='ps-3' style={{fontFamily:"Krona one",fontSize:'22.96px',fontWeight:"500",color:"#666666", position: 'relative',top:"12px" }}>BABYLOV</span>
+                    <span className='ps-3 number-res-1' style={{fontFamily:"Krona one",fontSize:'22.96px',fontWeight:"500",color:"#666666", position: 'relative',top:"12px" }}>BABYLOV</span>
                     </div>
                   </div>
                   
 </div>
 </div>
-<div className='student-container-wrapper vw-100'>
+<div className='student-container-wrapper'>
 <div className='container-fluid student-container px-0 pt-3 pb-3 '>
   <div className='row gx-0'>
-  <div className='col-lg-12 col-sm-12 text-center mt-5 pt-4'>
-                     <h1 className='pt-5' style={{color:"#A6354D",fontSize:"20px",fontWeight:"500",letterSpacing:"1.5px"}}>NOS CONTACTES</h1>
- <h2 className='pt-2' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Ce que disent nos étudiants</h2>
+  <div className='col-lg-12 col-sm-12 text-center mt-5 pt-4 card-student-1'>
+                     <h1 className='pt-5 text-choose' style={{color:"#A6354D",fontSize:"20px",fontWeight:"500",letterSpacing:"1.5px"}}>NOS CONTACTES</h1>
+ <h2 className='pt-2 text-choose' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Ce que disent nos étudiants</h2>
                   </div>
-                                      <div className='col-lg-4 col-sm-12 pt-5'>
-                    <div className='text-justify ps-5 ms-5 mt-2 pt-5'>
-                      <h1 style={{fontFamily:'Inter',fontSize:"56px",fontWeight:"700",  background: 'linear-gradient(to right, #a6354d, #4369cb)',
-    WebkitBackgroundClip: 'text',
-    WebkitTextFillColor: 'transparent'}}>WE are</h1>
-                      <h1 style={{fontFamily:'Inter',fontSize:"56px",fontWeight:"700",  background: 'linear-gradient(to top, #a6354d, #4369cb)',
-    WebkitBackgroundClip: 'text',
-    WebkitTextFillColor: 'transparent'}}>always</h1>
-      <h1 style={{fontFamily:'Inter',fontSize:"56px",fontWeight:"700",  background: 'linear-gradient(to left, #a6354d, #4369cb)',
-    WebkitBackgroundClip: 'text',
-    WebkitTextFillColor: 'transparent'}}>happy to</h1>
-     <h1 style={{fontFamily:'Inter',fontSize:"56px",fontWeight:"700",  background: 'linear-gradient(to right, #4369cb, #a6354d)',
-    WebkitBackgroundClip: 'text',
-    WebkitTextFillColor: 'transparent'}}>assist you</h1>
+                                      <div className='col-lg-4 col-sm-12 pt-5 ps-5 '>
+                    <div className='text-justify ps-5 mt-2 pt-5 '>
+                      <h1 className="text-alway">WE are</h1>
+                      <h1 className='text-alway'>always</h1>
+      <h1 className='text-alway'>happy to</h1>
+     <h1 className='text-alway' >assist you</h1>
                     </div>
                     </div>
                     <div className='col-lg-4 col-sm-12 pt-5'>

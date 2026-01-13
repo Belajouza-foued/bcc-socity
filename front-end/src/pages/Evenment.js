@@ -6,7 +6,7 @@ import imgRectangle2 from './images/img-rectangle2.png'
 import imgWright from './images/whrite-1.png'
 import imgWork from './images/work-img.png'
 
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 const Evenment  = () => {
     return(  <>
@@ -55,14 +55,14 @@ const Evenment  = () => {
 
 
 </div>
-<div className='col-lg-6 col-sm-12 pt-3 mt-3'>
+<div className='col-lg-6 col-sm-12 pt-3 mt-3 rec-res'>
   <div className='img-rectangle text-center position-relative mb-5'>
     <div className='blue-overlay'></div>
     <img src={imgRectangle} className='img-reg img-fluid' alt='' />
     <hr className='text-center hr-img'></hr> 
       </div>
 </div>
-         <div className='col-lg-12 col-sm-12 pt-5 mt-5'>
+         <div className='col-lg-12 col-sm-12 pt-5 mt-5 text-vision'>
   <div className="title-1">
   <h1 className="title-word">Notre</h1>
   <h1 className="title-word vision-word">vision</h1>
@@ -82,7 +82,7 @@ const Evenment  = () => {
 
     <div className='col-lg-6'>
                    <div className="lines-container2 pe-3">
-                       <div className=" red-line mt-2" style={{width:'230px'}}></div>
+                       <div className="red-res red-line mt-2" style={{width:'230px'}}></div>
     <hr className='text-center hr-red mb-5'  style={{width:"300px"}}></hr> 
     </div> 
       <div className='text-paragraph2 d-flex justify-content-start'>

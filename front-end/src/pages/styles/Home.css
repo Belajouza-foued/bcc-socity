@@ -1,3 +1,4 @@
+
 .caroussel-1{
       will-change: transform;
     transition: transform 450ms ease-in-out;
@@ -440,12 +441,20 @@ z-index: 1;
   background-repeat: no-repeat;
   position: relative;
   height: 364px;
-  width: 343px;
+  width: 364px;
+ 
 }
 .img-test {
- position: absolute;
- left: 140px;
-top: -20px;
+width: 120px !important;
+position: absolute;
+left: 200px;
+}
+.img-test-1 {
+
+}
+
+.text-dis {
+  font-size: 16px !important;  
 }
 /*bg-number*/
 @media (min-width: 768px) {
@@ -460,6 +469,15 @@ top: -20px;
   margin-left: -120px;
   background-color: #262525;
 }
+.card-test-1 {
+  max-width: 200px !important;
+} 
+.text-alway {
+max-width: 280px;
+}
+ 
+
+
 }
 
 .student-container {
@@ -471,38 +489,26 @@ top: -20px;
 /*hover button*/
 .web-development {
    background-color: #D6D6D6;
-  max-width: 400px;
+  max-width: 300px;
   color: #fff;
-  overflow: hidden;
- margin-top: 20px;
+  max-height: 350px;
+  margin-top: 20px;
+
  
 }
 
-.web-development:hover {
- background-color: #fff;
-  margin-bottom: 50px;
-  transition: all 0.5s;
-  }
-.web-development:hover img {
-  transform: scale(1.2);
-  transition: all 0.5s;
+
+
+.card-video-1 {
+  max-width: 300px;
 }
-.web-development button {
-  visibility: hidden;
-  will-change: transform;
-  transition: transform 450ms;
-  transform: translateY(50px);
-}
-.web-development:hover button {
-  visibility: visible;
-  transition: transform 250ms;
-  transform: translateY(-10px);
+.borderhome2 {
+  font-size: 16px;
 }
 
 .back-video {
   background-image: url('../images//bg6.jpg');
-  overflow-x: hidden;
-  padding: 50px;
+  
      }
       @media (min-width: 768px) {
 .card-video {
@@ -517,6 +523,9 @@ top: -20px;
   flex-direction: column;
   align-items: center;
   gap: 20px;
+   }
+   .border-text {
+    font-size: 12px !important;
    }
 }
 .sentence-video {
@@ -592,6 +601,118 @@ color: #AD2E43 !important
 .test-block {
   max-width: 350px;
 }
+/*responsive*/
+.testimonial-card {
+  position: relative;
+  max-width: 300px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.testimonial-img {
+  text-align: center;
+  width: 50%;
+  height: 260px;
+  object-fit: contain;
+  margin: auto;
+ 
+}
+
+.testimonial-content {
+  padding: 15px;
+}
+
+.testimonial-name {
+  color: #AD2E43;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.testimonial-job {
+  color: #7A7A7A;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  color: #353535;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* 📱 Mobile */
+@media (max-width: 576px) {
+  .testimonial-card {
+    max-width: 100%;
+  }
+
+  .testimonial-img {
+    height: 200px;
+  }
+
+  .testimonial-text {
+    font-size: 14px;
+  }
+  .card-formation {
+    max-width: 270px;
+  }
+
+.text-choose {
+  font-size: 16px !important;
+}
+.text-service-1 {
+  font-size: 15px !important;
+}
+
+
+.student-container-wrapper {
+  max-width: 300px !important;
+margin: auto;
+}
+.number-res {
+transform: translateX(-40px);
+}
+.number-res-2 {
+transform: translateX(15px);
+}
+.number-res-1 {
+font-size: 13px !important;
+}
+
+}
+.text-alway {
+  font-family: 'Inter', sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  background: linear-gradient(to right, #a6354d, #4369cb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .text-alway {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .text-alway {
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.2;
+  }
+}
+
+
+
 
 
 
