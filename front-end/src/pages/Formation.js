@@ -44,7 +44,7 @@ const Formation  = () => {
 
             <div
               id="flush-collapseOne"
-              className="accordion-collapse collapse position-absolute"
+              className="accordion-collapse collapse position-absolute accordion-formation"
               style={{
                 marginLeft:"70px",
                   width:'350px',
@@ -92,8 +92,8 @@ const Formation  = () => {
   </div>
 </div>
  </div>
-       <div className='col-lg-4 col-md-6'>
-              <div className="position-relative text-white back-img2 ms-1">
+       <div className='col-lg-4 col-md-6 pe-5'>
+              <div className="position-relative text-white back-img2">
   {/* Contenu positionné en bas */}
   <div className="content-overlay position-absolute bottom-0 start-0 p-3">
     <h5 style={{color:"#393738",}} className='borderhome2'><b>MC project</b></h5>
@@ -134,7 +134,7 @@ const Formation  = () => {
   </div>
 </div>
  </div>
-  <div class='col-lg-4 col-sm-12  col-md-6 mt-5'>
+  <div class='col-lg-4 col-sm-12  col-md-6 mt-5 pe-5'>
               <div className="position-relative text-white back-img2 ms-1">
   {/* Contenu positionné en bas */}
   <div className="content-overlay position-absolute bottom-0 start-0 p-3">

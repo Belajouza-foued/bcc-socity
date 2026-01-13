@@ -19,6 +19,8 @@
 @media (max-width: 768px) {
   .card-height {
     max-height: 400px;
+    max-width: 280px !important;
+ 
   }
   
 .btn-class {
@@ -35,9 +37,10 @@ padding: 10px !important;
 }
 .text-blog {
   font-size: 13px;
+  padding-right: 8px;
 }
 .accordion-space  {
-transform: translateY(-140px);
+
 width: 280px !important;
 }
 }

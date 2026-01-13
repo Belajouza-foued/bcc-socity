@@ -17,7 +17,7 @@ line-height: 0.5;
 }
   }
   @media (max-width: 768px) {
-  .accordion-collapse{
+  .accordion-formation{
                       width:250px !important;
                z-index: 0;
                  margin-top: 150px;
@@ -50,35 +50,34 @@ line-height: 0.5;
       text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-   
-       
+    align-items: center;       
    }
-   
-
 .accordion-button {
   background: #5B99D3 !important;
   color: black !important;
-  width: 350px;  
- 
+  width: 350px;   
 }
 
 .back-img2 {
   background-image: url('../images/second-back.png');
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 450px;
   width: 100%;
   background-color: white;
   border-radius: 20px;
  
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .back-img2 {
-    height: 450px;
-    width: 400px;
+    height: 350px;
+    width: 280px;
+   transform: translateX(-35px);
+  }
+  .back-img {
+    width: 280px !important;
+     transform: translateX(-35px);
   }
 }
 

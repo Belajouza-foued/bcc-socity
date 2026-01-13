@@ -48,7 +48,7 @@ const  Blog = () => {
 
     </div>
       <div className="col-lg-6 mb-4 mt-5 d-flex justify-content-end align-items-center text-center mx-auto ps-5">
-      <div className="card h-100 card-height" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
+      <div className="card h-100 card-height" style={{ width:"600px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
         <div className='card-dev'>
 <img src={imgBlog} alt='design' className='img-design'   style={{
           width: "100%",
@@ -101,7 +101,7 @@ const  Blog = () => {
     </div>
      
  <div className="col-lg-6 mb-4 pe-5 mt-5 d-flex justify-content-start align-items-center text-center mx-auto">
-      <div className="card h-100 card-height" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
+      <div className="card h-100 card-height" style={{ width:"600px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
         <div className='card-dev'>
 <img src={imgBlog} alt='design' className='img-design'   style={{
           width: "100%",
@@ -153,7 +153,7 @@ const  Blog = () => {
       </div>
     </div>
      <div className="col-lg-6 mb-4 mt-5 d-flex justify-content-end align-items-center text-center mx-auto ps-5">
-      <div className="card h-100 card-height" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
+      <div className="card h-100 card-height" style={{ width:"600px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
         <div className='card-dev'>
 <img src={imgBlog} alt='design' className='img-design'   style={{
           width: "100%",
@@ -205,7 +205,7 @@ const  Blog = () => {
       </div>
     </div>
     <div className="col-lg-6 mb-4 pe-5 mt-5 d-flex justify-content-start align-items-center text-center mx-auto">
-      <div className="card h-100 card-height" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
+      <div className="card h-100 card-height" style={{ width:"600px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
         <div className='card-dev'>
 <img src={imgBlog} alt='design' className='img-design'   style={{
           width: "100%",
@@ -257,7 +257,7 @@ const  Blog = () => {
       </div>
     </div>
   <div className="col-lg-6 mb-4 mt-5 d-flex justify-content-end align-items-center text-center mx-auto ps-5">
-      <div className="card h-100 card-height" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
+      <div className="card h-100 card-height" style={{ width:"600px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
         <div className='card-dev'>
 <img src={imgBlog} alt='design' className='img-design'   style={{
           width: "100%",
@@ -309,7 +309,7 @@ const  Blog = () => {
       </div>
     </div>
  <div className="col-lg-6 mb-4 pe-5 mt-5 d-flex justify-content-start align-items-center text-center mx-auto ">
-      <div className="card h-100 card-height" style={{ width:"632px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
+      <div className="card h-100 card-height" style={{ width:"600px", height:"234pX", borderRadius:"15px", overflow: "hidden"}}>
         <div className='card-dev'>
 <img src={imgBlog} alt='design' className='img-design'   style={{
           width: "100%",
