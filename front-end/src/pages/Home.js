@@ -204,7 +204,7 @@ const Home  = () => {
                   <div className='row'>
                   <div className='text-center'>
                      <h1 className='pt-2' style={{color:"#A6354D",fontSize:"20px",fontWeight:"500",letterSpacing:"2px"}}>NOS SERVICES</h1>
-                   <h2 className='pt-2 text-service-1' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Formations pratiques en technologies digitales</h2>
+                   <h2 className='pt-2 text-service' style={{fontFamily:'Poppins',color:"#393738",fontSize:"40px",fontWeight:"600"}}>Formations pratiques en technologies digitales</h2>
                   </div>
                                    <div className='col-lg-4 col-sm-12 mt-5 pt-3 '>
                     <div className='container img-radius position-relative card-formation'>
