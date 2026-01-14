@@ -32,7 +32,7 @@ const Connect  = () => {
     {/* Formulaire à gauche */}
        <div className="col-lg-6 col-sm-12 d-flex align-items-center mt-3">
         
-      <form className="p-4 h-100 w-100 text-justify"style={{lineHeight:"2"}} >
+      <form className="p-4 text-justify "style={{lineHeight:"2"}} >
         <div className='text-start'>
          <h1 className='pe-2 text-justify justify-contact'>CONTACTEZ<span className='ps-2 span-justify'>NOUS</span></h1>
                 <p className='' style={{lineHeight:"1.5",fontWeight:"400",fontFamily:"Poppins",fontSize:"16px",color:"#393738"}}>Alignons nos constellations ! Contactez-nous et laissez la magie de la collaboration illuminer nos cieux.</p>
@@ -65,7 +65,7 @@ const Connect  = () => {
     </div>
 
     {/* Image à droite */}
-    <div className="col-lg-6 d-flex justify-content-center align-items-center pb-5 pt-4 mb-3">
+    <div className="col-lg-6 d-flex justify-content-center align-items-center pb-5 pt-4 mb-3  form-connect">
       <div className='position-relative mb-5 pb-5'
         style={{
           width: '540px',
@@ -73,7 +73,7 @@ const Connect  = () => {
         }}
       >
         <img src={logoConnect} className="logo-connect " alt=''/>
-        <img  className='mb-5 img-fluid'
+        <img  className='mb-5 img-fluid  form-connect'
           src={imgMap}
           alt=""
           style={{
@@ -89,7 +89,7 @@ const Connect  = () => {
   </div>
       </div>
     <div className='col-lg-12 col-sm-12 position-relative pt-5 mt-5'>
-  <p className="text-service mt-5 pt-5">nous sommes là pour répondre à vos besoins !</p>
+  <p className="text-service-1 mt-5 pt-5">nous sommes là pour répondre à vos besoins !</p>
   <div className='image-service text-center mx-auto pb-5 mb-5'>
     <img src={imgMega} alt='' className='img-mega text-center img-fluid'/>
   </div>

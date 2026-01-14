@@ -45,13 +45,13 @@ function Footer () {
       />
       <button
         type='button'
-        className='btn btn-danger try ps-3 pe-3 pt-2 pb-2'
+        className='btn btn-danger try ps-3 pe-3 pt-2 pb-2 btn-footer-1'
         onClick={handleSubmit}
       >
         Try Now
       </button>
     </div>
-  <div className="footer-container-2">
+  <div className="footer-container-2 d-flex justify-content-center">
   <ul className="mx-auto pt-3">
     <li>Features</li>
     <li>A Propos</li>

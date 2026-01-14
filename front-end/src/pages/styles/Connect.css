@@ -53,7 +53,7 @@
 }
 
 /*resp*/
-.text-service {
+.text-service-1 {
   position: absolute;
   z-index: 2;
   color: #393738;
@@ -91,17 +91,20 @@
   transform: translate(-50%, -50%);
 }
 @media (max-width: 768px) {
-  .text-service {
-    font-size: 20px;
-    top: -50px;
-    z-index: 1;
+  .text-service-1 {
+    font-size: 13px !important;
+    transform: translateY(-90px);
+   
   }
 
   .img-mega {
     width: 90%;
     max-width: 300px;
-    top: 40%;
-  }
+    top: 40%;  }
+    .form-connect {
+   height: 350px !important;
+ transform: translateY(120px);
+    }
 }
 .digital-service {
 

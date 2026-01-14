@@ -145,7 +145,17 @@
 @media (max-width: 768px) {
   .caroussel-button1 {
   font-size: 8px;
-
+}
+.test-block {
+  max-height: 60px;
+} 
+.text-person {
+  font-size: 10px !important;
+  transform: translateY(-10px);
+}
+.text-version {
+  font-size: 9px !important;
+  transform: translateY(-10px);
 }
 }
 
@@ -168,6 +178,9 @@
   }
  .img-responsive{
   height: 200px;
+ }
+ .text-block {
+  height: 40px !important;
  }
 
   .caroussel-1 {

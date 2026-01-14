@@ -11,6 +11,7 @@ import imgAstro from './images/astro-1.png'
 import imgLine from './images/line-grey.png'
 import recRect from './images/red-vert.png'
 import lineRed from './images/line-red.png'
+import CardDATE from '../components/CardDate';
 const About  = () => {
     return(  <>
 
@@ -148,76 +149,9 @@ const About  = () => {
     <h1 className='titre-about4'>AUTTRES FORMATIONS QUI POURRAIT VOUS </h1>
     <h1 className='titre-about4'>PLAIRE</h1>
   </div>
-  <div className='card-position1 text-center mx-auto'>
-    <div className='row text-center mt-5 pt-5'>
-      <div className="col-lg-4 col-md-6 mb-4">
-      <div className="card card-top" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
-        <div className='card-img-top1'></div>
-        
-        <div className="card-body text-center">
-          <div className='row'>
-            <div className='col-lg-3 col-sm-12' style={{lineHeight:"0.9"}}>
-          <span className="pt-2 ps-1"style={{color:'#c32942', fontWeight:"700",fontSize:"15px"}}>Janvier</span>
-          <p style={{color:"#5b99d3",fontSize:"40px",fontWeight:"700"}} className="">19</p>
-          </div>
-     <div className='col-lg-9 col-sm-12'>
- <p className="card-text"style={{lineHeight:"0.8",position:"relative",left:'-30px'}}>
-   <h5 className='pe-5 me-3' style={{fontWeight:"600",fontSize:"17px"}}>Design graphique</h5>
-   <p  style={{fontWeight:"400",fontSize:"17px"}}>2025 16 au 19 janvier 2025</p>
-   <span className='pe-4 me-1' style={{fontWeight:"400",fontSize:"15.20px",color:"#6A6A6A"}}>PARNASSE CIBLES 1 À 32</span>
-          </p>
-          </div>
-                   </div>
-        </div>
-      </div>
-    </div>
-     <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
-      <div className="card card-top" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
-       <div className='card-img-top1'></div>
-        <div className="card-body text-center">
-          <div className='row'>
-            <div className='col-lg-3 col-sm-12' style={{lineHeight:"0.9"}}>
-          <span className="pt-2 ps-1"style={{color:'#c32942', fontWeight:"700",fontSize:"15px"}}>Janvier</span>
-          <p style={{color:"#5b99d3",fontSize:"40px",fontWeight:"700"}} className="">20</p>
-          </div>
-    <div className='col-lg-9 col-sm-12'>
- <p className="card-text"style={{lineHeight:"0.8",position:"relative",left:'-30px'}}>
-   <h5 className='pe-5 me-3' style={{fontWeight:"600",fontSize:"17px"}}>Design graphique</h5>
-   <p  style={{fontWeight:"400",fontSize:"17px"}}>2025 16 au 19 janvier 2025</p>
-   <span className='pe-4 me-1' style={{fontWeight:"400",fontSize:"15.20px",color:"#6A6A6A"}}>PARNASSE CIBLES 1 À 32</span>
-          </p>
-          </div>
-                   </div>
-        </div>
-      </div>
-    </div>
-     <div className="col-lg-4 col-md-6 mb-4 col-sm-12">
-      <div className="card card-top" style={{ width:"360px", height:"370px", borderRadius:"15px 15px"}}>
-                <div className='card-img-top1'></div>
-        <div className="card-body text-center">
-          <div className='row'>
-            <div className='col-3' style={{lineHeight:"0.9"}}>
-          <span className="pt-2 ps-1"style={{color:'#c32942', fontWeight:"700",fontSize:"15px"}}>Janvier</span>
-          <p style={{color:"#5b99d3",fontSize:"40px",fontWeight:"700"}} className="">21</p>
-          </div>
-     <div className='col-lg-9 col-sm-12'>
- <p className="card-text"style={{lineHeight:"0.8",position:"relative",left:'-30px'}}>
-   <h5 className='pe-5 me-3' style={{fontWeight:"600",fontSize:"17px"}}>Design graphique</h5>
-   <p  style={{fontWeight:"400",fontSize:"17px"}}>2025 16 au 19 janvier 2025</p>
-   <span className='pe-4 me-1' style={{fontWeight:"400",fontSize:"15.20px",color:"#6A6A6A"}}>PARNASSE CIBLES 1 À 32</span>
-          </p>
-          </div>
-                   </div>
-        </div>
-      </div>
-    </div>
-    
-    
-   
-  
- 
+  <div>
+ <CardDATE/>
  </div>
-</div>
    
   </div>             
     </div>

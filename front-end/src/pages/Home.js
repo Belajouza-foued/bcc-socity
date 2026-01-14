@@ -127,16 +127,16 @@ const Home  = () => {
       <div className='container-test'>
 <LuCircleUserRound className='' style={{width:"70px", height:"70px", borderRadius:"100%", color:"#5b99d3", opacity:"70%"}} />
 <div className='test-block ps-3 pt-2'>
-<h4 className='' style={{fontFamily:'Poppins',color:"#5bb9d3",fontSize:"16px",fontWeight:"700", fontStyle:"regular", lineHeight:""}}>Coaching personnalisé</h4>
-<p className=''style={{fontFamily:'Poppins',color:"#808080",fontSize:"13px",fontWeight:"400",fontStyle:"regular",lineHeight:"1.5"}}> Accompagnement sur mesure pour booster vos compétences professionnelles rapidement..</p>
+<h4 className='text-person' style={{fontFamily:'Poppins',color:"#5bb9d3",fontSize:"14px",fontWeight:"700", fontStyle:"regular", lineHeight:""}}>Coaching personnalisé</h4>
+<p className='text-version'style={{fontFamily:'Poppins',color:"#808080",fontSize:"12px",fontWeight:"400",fontStyle:"regular",lineHeight:"1.5"}}> Accompagnement sur mesure pour booster vos compétences professionnelles rapidement..</p>
 </div>
      </div>
      
       <div className='container-test mt-4'>
 <ImBooks className='ms-2' style={{width:"65px", height:"65px", borderRadius:"100%",color:"#5b99d3", opacity:"70%"}} />
 <div className='test-block ps-3 pt-2'>
-<h4 className='' style={{fontFamily:'Poppins',color:"#5bb9d3",fontSize:"16px",fontWeight:"700", fontStyle:"regular", lineHeight:""}}>Une version plus marketing</h4>
-<p className=''style={{fontFamily:'Poppins',color:"#808080",fontSize:"13px",fontWeight:"400",fontStyle:"regular",lineHeight:"1.5"}}>Une équipe passionnée qui transmet son savoir avec pédagogie et expertise.</p>
+<h4 className='text-person' style={{fontFamily:'Poppins',color:"#5bb9d3",fontSize:"14px",fontWeight:"700", fontStyle:"regular", lineHeight:""}}>Une version plus marketing</h4>
+<p className='text-version'style={{fontFamily:'Poppins',color:"#808080",fontSize:"12px",fontWeight:"400",fontStyle:"regular",lineHeight:"1.5"}}>Une équipe passionnée qui transmet son savoir avec pédagogie et expertise.</p>
 </div>
      </div>
       
