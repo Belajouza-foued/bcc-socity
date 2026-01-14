@@ -339,6 +339,9 @@ height: auto;
   font-weight: 700;
   font-size: 25px;
 }
+.card-text {
+
+}
 
 }
 
@@ -397,7 +400,8 @@ height: 200px;
   border-radius: 20px;   
 }
 .card-position1 {
-  max-width: 1500px;
+  max-width: 1300px !important;
+  margin: auto;
  }
 .card-img-top1 {
   width: 100%;
@@ -408,11 +412,11 @@ height: 200px;
   background-position: center;
   transition: background-image 0.3s ease;
  }
- @media (max-width: 767px) {
+ @media (max-width: 768px) {
   .card-top  {
-    max-width: 290px;
+    max-width: 230px;
     max-height: 330px;
-    margin: 0 auto;
+    
   
   }
 }

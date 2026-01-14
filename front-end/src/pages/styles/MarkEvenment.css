@@ -148,9 +148,10 @@ padding-bottom: 350px;
     height: 200px;
     position: absolute;
     z-index: 2;
-    left: 25px;
-   
-    
+    left: 25px;    
+  }
+  .baffle-res {
+    max-width: 250px;
   }
     }
   .image-baffle {

@@ -1,5 +1,8 @@
 
     @media (max-width: 768px) {
+      .title-footer {
+        font-size: 16px;
+      }
 .logo-footer {
     
      opacity: 90%;
@@ -10,6 +13,8 @@
 
 .footer-container-2 {
   max-width: 280px !important;
+  margin: auto;
+  
 }
     }
  
@@ -41,12 +46,27 @@
 
 @media (max-width: 768px) {
   .footer-container ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.75rem;
   }
   .footer-container ul li {
     font-size: 8px;
     line-height: 0.5;
+  }
+  .input-text {
+font-size: 8px;
+width: 130px;
+  }
+  .input-text::placeholder {
+     transform: translateX(-20px);
+     font-size: 8px;
+  }
+  .btn-footer-1 {
+    font-size: 8px;
+     }
+  .person {
+    font-size: 10px;
+     transform: translateX(-50px);
   }
 }
 
