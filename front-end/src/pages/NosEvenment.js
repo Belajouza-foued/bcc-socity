@@ -4,11 +4,20 @@ import './styles/NosEvenment.css'
 import imgDesign from './images/mask-2.png'
 import imgDesign1 from './images/img-design1.png'
 import { Link } from 'react-router-dom';
+import CardDesign from '../components/CardDesign';
 
 const NosEvenment  = () => {
+  const cards = [
+  { id: 1, image: imgDesign, title: "Marketing digital" },
+  { id: 2, image: imgDesign1, title: "Marketing digital" },
+  { id: 3, image: imgDesign, title: "Marketing digital" },
+  { id: 4, image: imgDesign1, title: "Marketing digital" },
+  { id: 5, image: imgDesign, title: "Marketing digital" },
+  { id: 6, image: imgDesign1, title: "Marketing digital" },
+];
     return(  <>
 
-    <div className='container-fluid nosEvenment-container' style={{ backgroundColor: '#D6D6D6' }}>
+    <div className='container-fluid nosEvenment-container' style={{ backgroundColor: '#D6D6D6'}}>
     <div className='row'>
         <div className='col-lg-12 pt-5'>
             <div className='title-nos text-center mt-5 pt-5'>
@@ -16,112 +25,13 @@ const NosEvenment  = () => {
             </div>
                  </div>
      
-    <div className="col-lg-6 col-sm-12 mb-4 mt-5 d-flex justify-content-end mx-auto align-items-center text-center card-dev-1">
-      <div className="card h-100 card-first ">
-        <div className='card-dev'>
-<img src={imgDesign} alt='design' className='img-design img-fluid'   style={{
-          width: "100%",
-          height: "380px",
-          objectFit: "contain",
-          display: "block"
-        }}/>
-        </div>
-        
-        <div className="card-body card-body-10 text-center" style={{  borderTopLeftRadius: "15px",
-      borderTopRightRadius: "15px"}}>
-          <div className='row px-3'>
-            <div className='col-lg-6 col-sm-12 d-flex align-items-center mb-2 ps-2' style={{borderRadius:"15px 15px 15px",}}>
-          <span className="ps-3"style={{color:'#c32942', fontWeight:"700",fontSize:"18px"}}>Marketing digital</span>
-                  </div>
-                       <div className='col-lg-6 col-sm-12 ps-5'>
-   <div className='date-container  d-flex justify-content-end align-items-center ms-5'>
-   <h5 className='ps-2 pt-2 pe-2'style={{color:"#ffff",fontSize:"16px"}} >10:00 - 16:00</h5>
-  </div>
-      </div>
+  <div className="container-fluid mt-5 pt-5" style={{maxWidth:"1200px" }}>
+      <div className="row">
+        {cards.map((card) => (
+          <div key={card.id} className="col-lg-6 col-md-6 col-sm-12 mb-4">
+            <CardDesign image={card.image} title={card.title} />
           </div>
-         <p className="text-marketing">Venez assister à notre journée portes ouvertes qui aura lieu le 15 Janvier 2022 à partir de 10H. C’est gratuit ! N’hésitez pas à nous rendre visite . Soyez les bienvenus !</p>
-        </div>
-      </div>
-    </div>
-    <div className="col-lg-6 col-sm-12 mb-4 mt-5 d-flex justify-content-start mx-auto align-items-center text-center">
-      <div className="card h-100 card-nos">
-        <div className='card-dev'>
-<img src={imgDesign1} alt='design' className='img-design1 img-fluid'   style={{
-          width: "100%",
-          height: "380px",
-          objectFit: "contain",
-          display: "block"
-        }}/>
-        </div>
-        
-        <div className="card-body text-center" style={{  borderTopLeftRadius: "15px",
-      borderTopRightRadius: "15px"}}>
-          <div className='row px-3 card-body-9'>
-            <div className='col-lg-6 col-sm-12 d-flex align-items-center mb-2 ps-2' style={{borderRadius:"15px 15px 15px",}}>
-          <span className="ps-3"style={{color:'#c32942', fontWeight:"700",fontSize:"18px"}}>Marketing digital</span>
-                  </div>
-     <div className='col-lg-6 col-sm-12 ps-5'>
-   <div className='date-container  d-flex justify-content-end align-items-center ms-5'>
-   <h5 className='ps-2 pt-2 pe-2'style={{color:"#ffff",fontSize:"16px"}} >10:00 - 16:00</h5>
-  </div>
-      </div>
-          </div>
-         <p className="text-marketing-1">Venez assister à notre journée portes ouvertes qui aura lieu le 15 Janvier 2022 à partir de 10H. C’est gratuit ! N’hésitez pas à nous rendre visite . Soyez les bienvenus !</p>
-        </div>
-      </div>
-    </div>
-      <div className="col-lg-6 col-sm-12 mb-4 mt-5 d-flex justify-content-end mx-auto align-items-center text-center card-dev-1">
-      <div className="card h-100 card-first ">
-        <div className='card-dev'>
-<img src={imgDesign} alt='design' className='img-design img-fluid'   style={{
-          width: "100%",
-          height: "380px",
-          objectFit: "contain",
-          display: "block"
-        }}/>
-        </div>
-        
-        <div className="card-body card-body-10 text-center" style={{  borderTopLeftRadius: "15px",
-      borderTopRightRadius: "15px"}}>
-          <div className='row px-3'>
-            <div className='col-lg-6 col-sm-12 d-flex align-items-center mb-2 ps-2' style={{borderRadius:"15px 15px 15px",}}>
-          <span className="ps-3"style={{color:'#c32942', fontWeight:"700",fontSize:"18px"}}>Marketing digital</span>
-                  </div>
-                       <div className='col-lg-6 col-sm-12 ps-5'>
-   <div className='date-container  d-flex justify-content-end align-items-center ms-5'>
-   <h5 className='ps-2 pt-2 pe-2'style={{color:"#ffff",fontSize:"16px"}} >10:00 - 16:00</h5>
-  </div>
-      </div>
-          </div>
-         <p className="text-marketing">Venez assister à notre journée portes ouvertes qui aura lieu le 15 Janvier 2022 à partir de 10H. C’est gratuit ! N’hésitez pas à nous rendre visite . Soyez les bienvenus !</p>
-        </div>
-      </div>
-    </div>
-     <div className="col-lg-6 col-sm-12 mb-4 mt-5 d-flex justify-content-start mx-auto align-items-center text-center">
-      <div className="card h-100 card-nos">
-        <div className='card-dev'>
-<img src={imgDesign1} alt='design' className='img-design1 img-fluid'   style={{
-          width: "100%",
-          height: "380px",
-          objectFit: "contain",
-          display: "block"
-        }}/>
-        </div>
-        
-        <div className="card-body text-center" style={{  borderTopLeftRadius: "15px",
-      borderTopRightRadius: "15px"}}>
-          <div className='row px-3 card-body-9'>
-            <div className='col-lg-6 col-sm-12 d-flex align-items-center mb-2 ps-2' style={{borderRadius:"15px 15px 15px",}}>
-          <span className="ps-3"style={{color:'#c32942', fontWeight:"700",fontSize:"18px"}}>Marketing digital</span>
-                  </div>
-     <div className='col-lg-6 col-sm-12 ps-5'>
-   <div className='date-container  d-flex justify-content-end align-items-center ms-5'>
-   <h5 className='ps-2 pt-2 pe-2'style={{color:"#ffff",fontSize:"16px"}} >10:00 - 16:00</h5>
-  </div>
-      </div>
-          </div>
-         <p className="text-marketing-1">Venez assister à notre journée portes ouvertes qui aura lieu le 15 Janvier 2022 à partir de 10H. C’est gratuit ! N’hésitez pas à nous rendre visite . Soyez les bienvenus !</p>
-        </div>
+        ))}
       </div>
     </div>
       
@@ -199,7 +109,6 @@ const NosEvenment  = () => {
     </li>
   </ul>
 </nav>
-
 </section>
 
 <footer>

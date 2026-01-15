@@ -6,6 +6,12 @@
   font-weight: 600;
   font-size: 66px;
 }
+.text-marketing-2 {
+  color: #c32942;
+  font-weight: 700;
+  font-size: 18px;
+}
+
 @media (max-width: 768px) {
   .titre-evenment {
     font-size: 45px;
@@ -35,34 +41,36 @@
   .card-body-9 {
      transform: translateY(-150px);
   }
-  .text-marketing-1 {
-    transform: translateY(-130px);
-    font-size: 11px !important;
+  .text-marketing-2 {
+   
+  font-size: 12px !important;
+      }
+      .text-marketing-1 {
+   
+    font-size: 10px !important;
       }
       .date-container {
-        transform: translateX(-50px);
+        
+      }
+      .img-design {
+        max-height: 180px;
       }
  
 }
 
 
 
-.card-first {
-  width: 490px;
-  height: 410px;
-  border-radius: 15px;
-  overflow: hidden;
-  background-color: #fff; 
- box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
-}
+
+
 @media (max-width: 768px) {
    .card-dev {
-    max-width: 300px;
-    transform: translateY(-90px);
+    max-width: 280px;
+   
   }
 
   .card-first {
-    max-width: 260px;
+    max-width: 280px;
+    margin: auto;
     
   }
   .card-body-10 {
@@ -70,19 +78,15 @@
   }
 }
 @media (max-width: 768px) {
- 
-  .card-dev-1 {
-  height: 450px;
-  }
-  .text-marketing {
-    margin-top: 10px;
-    font-size: 11px !important;
-  }
+    .text-marketing-1 {   
+    font-size: 11px !important;  }
+  .text-marketing-2 {
+    font-size: 12px !important;
+    }
   .img-design1 {
-    height: 370px !important;
+   
   }
 }
-
    .content-overlay1 {
     padding: 6px;
     height: 120px;
@@ -147,5 +151,5 @@ color: #AD2E43 !important;
   padding-bottom: 200px;
 }
  .img-design {
-     border-radius: 0px 0px 0px 0px;
+
     }
